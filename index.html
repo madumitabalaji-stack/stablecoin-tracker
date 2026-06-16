@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>State Stablecoin Licensing Tracker</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --teal: hsl(187, 74%, 32%);
+    --teal-light: hsl(187, 40%, 95%);
+    --teal-border: hsl(187, 40%, 85%);
+    --purple: hsl(270, 70%, 45%);
+    --ink: #1a1a2e;
+    --gray: #555;
+    --light-gray: #888;
+    --bg: #fafafa;
+    --card-bg: #ffffff;
+    --border: #e5e5e5;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'DM Sans', sans-serif;
+    background: var(--bg);
+    color: var(--ink);
+    line-height: 1.5;
+  }
+
+  .wrap {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 48px 24px 80px;
+  }
+
+  header h1 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    margin-bottom: 8px;
+  }
+
+  .gradient-bar {
+    height: 3px;
+    width: 64px;
+    background: linear-gradient(to right, var(--teal), var(--purple));
+    border-radius: 2px;
+    margin-bottom: 16px;
+  }
+
+  header p.sub {
+    font-size: 15px;
+    color: var(--gray);
+    max-width: 640px;
+    margin-bottom: 4px;
+  }
+
+  .meta-line {
+    font-size: 12.5px;
+    color: var(--light-gray);
+    margin-top: 12px;
+  }
+
+  .meta-line a { color: var(--teal); text-decoration: none; }
+  .meta-line a:hover { text-decoration: underline; }
+
+  .disclaimer {
+    margin-top: 18px;
+    padding: 12px 16px;
+    background: var(--teal-light);
+    border: 1px solid var(--teal-border);
+    border-radius: 6px;
+    font-size: 12.5px;
+    color: #2f5a5e;
+    line-height: 1.55;
+  }
+
+  section.federal {
+    margin-top: 40px;
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--card-bg);
+    padding: 24px;
+  }
+
+  .federal h2 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: var(--purple);
+    margin-bottom: 10px;
+  }
+
+  .federal p { font-size: 13.5px; color: #333; margin-bottom: 8px; }
+  .federal p:last-child { margin-bottom: 0; }
+  .federal .src { font-size: 11.5px; color: var(--light-gray); }
+  .federal .src a { color: var(--teal); text-decoration: none; }
+
+  .controls {
+    margin-top: 36px;
+    margin-bottom: 18px;
+    display: flex;
+    gap: 8px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .filter-group { display: flex; gap: 8px; flex-wrap: wrap; }
+
+  .filter-btn {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12.5px;
+    font-weight: 500;
+    padding: 6px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--gray);
+    cursor: pointer;
+    transition: all 0.15s ease;
+  }
+
+  .filter-btn:hover { border-color: var(--teal-border); }
+
+  .filter-btn.active {
+    background: var(--teal);
+    color: #fff;
+    border-color: var(--teal);
+  }
+
+  #search {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 13px;
+    padding: 7px 14px;
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    min-width: 200px;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 16px;
+  }
+
+  .card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--card-bg);
+    padding: 20px;
+    transition: box-shadow 0.15s ease;
+  }
+
+  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
+
+  .card-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+  }
+
+  .card h3 {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--purple);
+  }
+
+  .status-tag {
+    font-size: 10px;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    padding: 3px 9px;
+    border-radius: 12px;
+    white-space: nowrap;
+  }
+
+  .status-live { background: hsl(150, 50%, 92%); color: hsl(150, 60%, 28%); }
+  .status-pending { background: hsl(40, 80%, 92%); color: hsl(35, 70%, 32%); }
+  .status-exempt { background: hsl(220, 50%, 93%); color: hsl(220, 50%, 38%); }
+
+  .card .framework {
+    font-size: 12px;
+    font-weight: 600;
+    color: var(--ink);
+    margin-bottom: 8px;
+  }
+
+  .card .detail {
+    font-size: 12.5px;
+    color: #444;
+    margin-bottom: 10px;
+    line-height: 1.55;
+  }
+
+  .card .effective {
+    font-size: 11.5px;
+    color: var(--light-gray);
+    margin-bottom: 4px;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    border-top: 1px solid var(--border);
+    padding-top: 8px;
+    margin-top: 10px;
+    gap: 12px;
+  }
+
+  .card .src {
+    font-size: 11px;
+    color: var(--light-gray);
+  }
+
+  .card .src a { color: var(--teal); text-decoration: none; }
+  .card .src a:hover { text-decoration: underline; }
+
+  .verified {
+    font-size: 10.5px;
+    color: var(--light-gray);
+    white-space: nowrap;
+    flex-shrink: 0;
+  }
+
+  .verified-stale {
+    color: hsl(35, 80%, 45%);
+    font-weight: 500;
+  }
+
+  footer {
+    margin-top: 56px;
+    padding-top: 24px;
+    border-top: 1px solid var(--border);
+    font-size: 12.5px;
+    color: var(--light-gray);
+    text-align: center;
+  }
+
+  footer a { color: var(--teal); text-decoration: none; }
+  footer a:hover { text-decoration: underline; }
+
+  .no-results {
+    text-align: center;
+    padding: 40px;
+    color: var(--light-gray);
+    font-size: 13px;
+    grid-column: 1 / -1;
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <header>
+    <h1>State Stablecoin Licensing Tracker</h1>
+    <div class="gradient-bar"></div>
+    <p class="sub">A working map of how state money-transmission and digital-asset licensing regimes are interacting with the federal GENIUS Act framework, tracked state by state.</p>
+    <div class="meta-line">Built and maintained by Madumita Mira Balaji &middot; <a href="https://substack.com/@theclaritybrief2" target="_blank">The Clarity Brief</a> &middot; <a href="https://linkedin.com/in/madumitabalaji" target="_blank">LinkedIn</a> &middot; Last updated June 2026</div>
+    <div class="disclaimer">This is an independent research project for informational purposes only and does not constitute legal advice. Always verify current requirements with the relevant state regulator or counsel before relying on this information. Sources are linked on each entry.</div>
+  </header>
+
+  <section class="federal">
+    <h2>Federal Baseline: The GENIUS Act</h2>
+    <p>Signed into law on July 18, 2025 (P.L. 119-27, S. 1582), the GENIUS Act created the first comprehensive federal framework for payment stablecoins. Issuers with $10 billion or less in outstanding stablecoins may elect state-level supervision if their state regime is "substantially similar" to the federal framework; issuers above that threshold must transition to federal oversight (OCC, Fed, FDIC, or NCUA depending on issuer type) within 360 days of crossing it. On April 3, 2026, Treasury proposed broad-based principles for evaluating whether a state regime qualifies as substantially similar, with most implementing rulemakings due by July 18, 2026. In December 2025, the OCC granted conditional national trust bank charters to five digital asset firms: Circle (as First National Digital Currency Bank), Paxos, Ripple, BitGo, and Fidelity Digital Assets.</p>
+    <p class="src">Sources: <a href="https://www.federalregister.gov/documents/2026/04/03/2026-06489/genius-act-broad-based-principles-for-determining-whether-a-state-level-regulatory-regime-is" target="_blank">Federal Register, Apr. 3, 2026 NPRM</a> &middot; <a href="https://occ.treas.gov/news-issuances/bulletins/2026/bulletin-2026-3.html" target="_blank">OCC Bulletin 2026-3</a></p>
+  </section>
+
+  <div class="controls">
+    <div class="filter-group" id="filters">
+      <button class="filter-btn active" data-filter="all">All States</button>
+      <button class="filter-btn" data-filter="live">Live Regime</button>
+      <button class="filter-btn" data-filter="pending">Pending / Phasing In</button>
+    </div>
+    <input type="text" id="search" placeholder="Search states...">
+  </div>
+
+  <div class="grid" id="grid"></div>
+
+  <footer>
+    Tracking state-level digital asset and stablecoin licensing regimes as they evolve alongside the GENIUS Act.
+    Spot an error or an update? <a href="https://linkedin.com/in/madumitabalaji" target="_blank">Reach out on LinkedIn</a>.
+  </footer>
+
+</div>
+
+<script>
+const grid        = document.getElementById('grid');
+const searchInput = document.getElementById('search');
+const filterBtns  = document.querySelectorAll('.filter-btn');
+let activeFilter  = 'all';
+let states        = [];
+
+function statusClass(s) {
+  return s === 'live' ? 'status-live' : s === 'pending' ? 'status-pending' : 'status-exempt';
+}
+
+function formatVerified(dateStr) {
+  if (!dateStr) return '';
+  const d    = new Date(dateStr + 'T00:00:00');
+  const now  = new Date();
+  const days = Math.floor((now - d) / 86400000);
+  const label = d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+  const stale = days > 90;
+  return `<span class="verified${stale ? ' verified-stale' : ''}" title="${stale ? 'Over 90 days since last verification' : 'Recently verified'}">Verified ${label}</span>`;
+}
+
+function render() {
+  const query    = searchInput.value.trim().toLowerCase();
+  const filtered = states.filter(s => {
+    const matchesFilter = activeFilter === 'all' || s.status === activeFilter;
+    const matchesQuery  = !query || s.name.toLowerCase().includes(query) || s.framework.toLowerCase().includes(query);
+    return matchesFilter && matchesQuery;
+  });
+
+  grid.innerHTML = '';
+
+  if (filtered.length === 0) {
+    grid.innerHTML = '<div class="no-results">No states match that search or filter.</div>';
+    return;
+  }
+
+  filtered.forEach(s => {
+    const card = document.createElement('div');
+    card.className = 'card';
+    card.innerHTML = `
+      <div class="card-top">
+        <h3>${s.name}</h3>
+        <span class="status-tag ${statusClass(s.status)}">${s.statusLabel}</span>
+      </div>
+      <div class="framework">${s.framework}</div>
+      <div class="detail">${s.detail}</div>
+      <div class="effective">${s.effective}</div>
+      <div class="card-footer">
+        <div class="src">Source: <a href="${s.sourceUrl}" target="_blank">${s.sourceText}</a></div>
+        ${formatVerified(s.lastVerified)}
+      </div>
+    `;
+    grid.appendChild(card);
+  });
+}
+
+filterBtns.forEach(btn => {
+  btn.addEventListener('click', () => {
+    filterBtns.forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    activeFilter = btn.dataset.filter;
+    render();
+  });
+});
+
+searchInput.addEventListener('input', render);
+
+let lastUpdated = null;
+
+async function loadData() {
+  try {
+    const r    = await fetch('data/states.json?v=' + Date.now(), { cache: 'no-cache' });
+    const data = await r.json();
+    if (data.lastUpdated !== lastUpdated) {
+      lastUpdated = data.lastUpdated;
+      states = data.states;
+      render();
+    }
+  } catch {
+    if (!states.length) {
+      grid.innerHTML = '<div class="no-results">Could not load state data. If viewing locally, run: <code>python3 -m http.server</code></div>';
+    }
+  }
+}
+
+loadData();
+setInterval(loadData, 5 * 60 * 1000);
+</script>
+
+</body>
+</html>
