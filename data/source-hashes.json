@@ -1,11 +1,47 @@
 {
-  "new-york":   { "url": "https://www.dfs.ny.gov/virtual_currency_businesses",                                                                                                                                                                                          "hash": null, "lastChecked": null },
-  "california": { "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB39",                                                                                                                                                          "hash": null, "lastChecked": null },
-  "texas":      { "url": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf",                                                                                                                                                                                    "hash": null, "lastChecked": null },
-  "florida":    { "url": "https://www.flsenate.gov/Session/Bill/2026/175",                                                                                                                                                                                              "hash": null, "lastChecked": null },
-  "wyoming":    { "url": "https://stabletoken.wyo.gov/assets/media/factbook.pdf",                                                                                                                                                                                       "hash": null, "lastChecked": null },
-  "illinois":   { "url": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=REGULATION&Chapter=FINANCIAL+REGULATION&ActName=Digital+Assets+and+Consumer+Protection+Act.&ActID=4632&ChapterID=20&SeqStart=&ChapAct=FullText", "hash": null, "lastChecked": null },
-  "colorado":   { "url": "https://leg.colorado.gov/bills/hb25-1201",                                                                                                                                                                                                    "hash": null, "lastChecked": null },
-  "washington": { "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230",                                                                                                                                                                                         "hash": null, "lastChecked": null },
-  "arizona":    { "url": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm",                                                                                                                                                            "hash": null, "lastChecked": null }
+  "new-york": {
+    "url": "https://www.dfs.ny.gov/virtual_currency_businesses",
+    "hash": "c3c8606dedb446468ba8711aeb22ea55bd2e3146bec4dc79560d81c42142aa95",
+    "lastChecked": "2026-06-22"
+  },
+  "california": {
+    "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB39",
+    "hash": "21cfb898dc62608450b1dd2f161282b2d16b33ad4011217fc6f692adfe4aaf0d",
+    "lastChecked": "2026-06-22"
+  },
+  "texas": {
+    "url": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf",
+    "hash": "98f3ce8f3a442815e191669bd7ec61a25b4d814213e93b8c9e399bc346c15604",
+    "lastChecked": "2026-06-22"
+  },
+  "florida": {
+    "url": "https://www.flsenate.gov/Session/Bill/2026/175",
+    "hash": "7b63a5ae25d74c59b362a3f9605b018dff9ee6cc5444c58cdcd2f20974dc7e70",
+    "lastChecked": "2026-06-22"
+  },
+  "wyoming": {
+    "url": "https://stabletoken.wyo.gov/assets/media/factbook.pdf",
+    "hash": null,
+    "lastChecked": null
+  },
+  "illinois": {
+    "url": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=REGULATION&Chapter=FINANCIAL+REGULATION&ActName=Digital+Assets+and+Consumer+Protection+Act.&ActID=4632&ChapterID=20&SeqStart=&ChapAct=FullText",
+    "hash": "a4006f497a17bc7ec130b63ec9805c08fe6148e2c062f504c00504c944887d9f",
+    "lastChecked": "2026-06-22"
+  },
+  "colorado": {
+    "url": "https://leg.colorado.gov/bills/hb25-1201",
+    "hash": "cceb51757d09827818a5a4ebec0f4011fb028c28aa1335f35f12ede7d6cd009e",
+    "lastChecked": "2026-06-22"
+  },
+  "washington": {
+    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230",
+    "hash": "2f3cbfaa0cf19dfdd501ff7df7b06cad00429254f615bc061c8cdb34faf3a19c",
+    "lastChecked": "2026-06-22"
+  },
+  "arizona": {
+    "url": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm",
+    "hash": "d0044608e9e6ef5d1239b8c8c61006682cdd727ceeb9627a399bf2007901fbfd",
+    "lastChecked": "2026-06-22"
+  }
 }
