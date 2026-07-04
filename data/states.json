@@ -42,9 +42,9 @@
       "slug": "florida",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Payment Stablecoin Licensing (HB 175)",
-      "detail": "Florida enacted HB 175, signed into law by Governor DeSantis in June 2026 and effective immediately. A money services business must now hold a license from the Office of Financial Regulation before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA, aligning the state framework with the federal GENIUS Act. Florida already required ordinary virtual-currency money transmitters to hold a money services license.",
-      "effective": "HB 175 signed into law by Gov. DeSantis, Jun. 2026; effective immediately",
+      "framework": "Payment Stablecoin Licensing (HB 175) + State Pilot (SB 1568)",
+      "detail": "Florida enacted a package of digital-asset laws signed by Governor DeSantis in late June 2026, all effective immediately. HB 175 requires a money services business to hold a license from the Office of Financial Regulation before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA, aligning the state framework with the federal GENIUS Act. SB 1568 establishes the Florida Stablecoin Pilot Program, allowing the Department of Financial Services to accept approved payment stablecoins for certain government fees. A companion law, HB 505, requires virtual-currency kiosk operators to register with the OFR.",
+      "effective": "HB 175 and SB 1568 signed by Gov. DeSantis, late Jun. 2026; effective immediately",
       "lastVerified": "2026-07-03",
       "sourceText": "Florida House/Senate, HB 175 and SB 1568 bill history",
       "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/175"
