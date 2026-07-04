@@ -9,7 +9,7 @@
       "framework": "NYDFS BitLicense / Limited Purpose Trust Charter",
       "detail": "Most coins commonly called 'stablecoins' count as Virtual Currency under New York's rules, which means issuing one requires a BitLicense or a New York-chartered trust company (the trust route also lets a company handle money transmission and fiduciary duties without extra licenses, which a BitLicense alone doesn't allow). Before issuing, a coin also needs DFS sign-off through self-certification, a spot on DFS's approved 'Greenlist,' or individual approval. Coins already on the Greenlist include Gemini Dollar, Ripple USD, and WisdomTree Dollar.",
       "effective": "In force since Jun. 8, 2022 guidance",
-      "lastVerified": "2026-06-16",
+      "lastVerified": "2026-07-03",
       "sourceText": "NY Dept. of Financial Services, Virtual Currency Businesses",
       "sourceUrl": "https://www.dfs.ny.gov/virtual_currency_businesses"
     },
@@ -33,7 +33,7 @@
       "framework": "Money Services Modernization Act (Finance Code Ch. 152)",
       "detail": "Texas treats qualifying stablecoins as 'money,' which means issuing or transmitting them requires a money transmission license. To count, a stablecoin must be pegged to a currency like the dollar, fully backed by reserve assets, and redeemable for that currency on demand. Licensees must hold a minimum net worth that scales with their size, starting at $100,000. Texas also lets a licensee hold stablecoin itself as part of its required reserves, as long as it's the same stablecoin it owes to customers and is kept in proper custody.",
       "effective": "In force since Sept. 1, 2023",
-      "lastVerified": "2026-06-16",
+      "lastVerified": "2026-07-03",
       "sourceText": "Tex. Finance Code Ch. 152, enacted by S.B. 895 (2023)",
       "sourceUrl": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf"
     },
@@ -55,9 +55,9 @@
       "status": "live",
       "statusLabel": "Live Regime + State Issuer",
       "framework": "Wyoming Stable Token Act",
-      "detail": "The only state to both regulate and directly issue a stablecoin. The Wyoming Stable Token Commission's Frontier Stable Token (FRNT) can only be backed by cash, US Treasuries maturing within a year, or short-term Treasury repurchase agreements, per W.S. 40-31-106(a). A Trust Account must hold 100% of WYST's notional value, plus a separate Liquidity Fund Account targeting another 2% as a buffer, with leftover investment earnings flowing quarterly to a state school foundation program. FRNT runs across eight blockchains and went live for public purchase on January 7, 2026, redeemable for $1.00.",
+      "detail": "The only state to both regulate and directly issue a stablecoin. The Wyoming Stable Token Commission's Frontier Stable Token (FRNT) can only be backed by cash, US Treasuries maturing within a year, or short-term Treasury repurchase agreements, per W.S. 40-31-106(a). A Trust Account must hold 100% of FRNT's notional value, plus a separate Liquidity Fund Account targeting another 2% as a buffer, with leftover investment earnings flowing quarterly to a state school foundation program. FRNT runs across eight blockchains and went live for public purchase on January 7, 2026, redeemable for $1.00.",
       "effective": "Mainnet live since Aug. 18, 2025; public purchase since Jan. 7, 2026",
-      "lastVerified": "2026-06-16",
+      "lastVerified": "2026-07-03",
       "sourceText": "Wyoming Stable Token Commission Factbook",
       "sourceUrl": "https://stabletoken.wyo.gov/assets/media/factbook.pdf"
     },
@@ -69,7 +69,7 @@
       "framework": "Digital Assets and Consumer Protection Act (DACPA) + Digital Asset Kiosk Act (DAKA)",
       "detail": "Signed the same day, August 18, 2025 (DACPA enacted as Public Act 104-0428), these twin laws split digital asset oversight in two. DACPA defines a 'digital asset' broadly enough to deliberately capture stablecoins: an asset normally excluded for not being used as an investment loses that exclusion if it's marketed as holding a stable, effectively fixed value, which is exactly how a stablecoin is sold. Businesses must register with IDFPR by July 1, 2027, though customer disclosure and custody protections apply sooner. DAKA separately regulates digital asset kiosks specifically, capping daily transactions at $2,500 for new customers and $10,500 for existing ones, and limiting fees to the greater of $5 or 18% of the transaction.",
       "effective": "Both effective Aug. 18, 2025; DACPA registration deadline Jul. 1, 2027",
-      "lastVerified": "2026-06-16",
+      "lastVerified": "2026-07-03",
       "sourceText": "205 ILCS 731/ and 205 ILCS 732/, Illinois Compiled Statutes",
       "sourceUrl": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=REGULATION&Chapter=FINANCIAL+REGULATION&ActName=Digital+Assets+and+Consumer+Protection+Act.&ActID=4632&ChapterID=20&SeqStart=&ChapAct=FullText"
     },
@@ -81,7 +81,7 @@
       "framework": "Model Money Transmission Modernization Act (HB 25-1201)",
       "detail": "Colorado repealed its old Money Transmitters Act and replaced it with the CSBS Model Money Transmission Modernization Act, enabling multistate licensing participation. Unlike Texas, Colorado writes no virtual currency or stablecoin language into the statute at all: 'monetary value' is defined simply as 'a medium of exchange, whether or not redeemable in money,' leaving it to interpretation whether a given stablecoin activity falls within that generic definition. Its net worth formula is identical to Texas's, since both states adopted the same model law: $100,000 or 3% of assets up to $100 million, then a declining percentage above that.",
       "effective": "Signed Apr. 18, 2025; effective Aug. 6, 2025",
-      "lastVerified": "2026-06-16",
+      "lastVerified": "2026-07-03",
       "sourceText": "Colorado General Assembly, HB 25-1201",
       "sourceUrl": "https://leg.colorado.gov/bills/hb25-1201"
     },
@@ -93,7 +93,7 @@
       "framework": "Uniform Money Services Act",
       "detail": "Washington's statute defines 'virtual currency' directly and writes it into the definition of 'money transmission' itself, so there's no separate crypto license, just the existing money transmitter framework. Virtual currency licensees face specific disclosure duties: fee schedules, whether funds are insured, a notice that virtual currency transfers are irrevocable, and how errors get resolved. The standard net worth formula (as low as $10,000) jumps to a $100,000 minimum specifically for companies that provide virtual currency storage, though that figure comes from the implementing regulation, not the statute itself.",
       "effective": "In force",
-      "lastVerified": "2026-06-16",
+      "lastVerified": "2026-07-03",
       "sourceText": "RCW 19.230 and WAC 208-690-060",
       "sourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230"
     },
@@ -105,7 +105,7 @@
       "framework": "CSBS Money Transmission Modernization Act (SB 1580, 2022)",
       "detail": "Arizona replaced its old money transmitter statute with the CSBS model act in 2022 (SB 1580, Chapter 236). Like Colorado, the new statute defines 'monetary value' as simply 'a medium of exchange, whether or not redeemable in money,' with no explicit virtual currency or stablecoin definition. Whether a given stablecoin activity triggers licensing depends on how Arizona DIFI interprets that generic definition. Cryptocurrency kiosk operators face separate, explicit requirements under A.R.S. 6-1236, including daily transaction caps of $2,000 for new customers and $10,500 for existing ones, mandatory fraud warnings, and blockchain analytics requirements. Net worth follows the same formula as Colorado and Texas: $100,000 or 3% of total assets up to $100 million.",
       "effective": "Signed May 20, 2022",
-      "lastVerified": "2026-06-16",
+      "lastVerified": "2026-07-03",
       "sourceText": "A.R.S. Title 6, Chapter 12 (SB 1580, Ch. 236, 2022)",
       "sourceUrl": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm"
     }
