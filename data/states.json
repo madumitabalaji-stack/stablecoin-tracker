@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-06-16",
+  "lastUpdated": "2026-07-03",
   "states": [
     {
       "name": "New York",
@@ -16,12 +16,12 @@
     {
       "name": "California",
       "slug": "california",
-      "status": "pending",
-      "statusLabel": "Phasing In",
+      "status": "live",
+      "statusLabel": "Live Regime",
       "framework": "Digital Financial Assets Law (DFAL)",
-      "detail": "California's Digital Financial Assets Law (signed 2023) requires a DFPI license to do business with digital financial assets, including stablecoins. The law specifically defines a stablecoin as a coin pegged to the dollar or another national currency and marketed as holding a stable value, and it bars licensees from exchanging a stablecoin unless its issuer is licensed, has applied for a license, or is a qualified bank or trust company backing the coin with eligible securities. The law leaves exact capital and bonding amounts to DFPI's discretion; DFPI currently expects an initial $100,000 net worth, subject to change.",
-      "effective": "Licensing prohibition effective Jul. 1, 2025; compliance deadline extended to Jul. 1, 2026",
-      "lastVerified": "2026-06-16",
+      "detail": "California's Digital Financial Assets Law entered into force on July 1, 2026. Any exchange, custodian, stablecoin issuer, or Bitcoin ATM operator serving California residents must now hold a DFPI license or have filed a complete application, or face civil enforcement of up to $100,000 per day. The law bars licensees from exchanging a stablecoin unless its issuer is licensed, has applied for a license, or is a qualified bank or trust company backing the coin with eligible securities. DFPI expects an initial $100,000 net worth, subject to change, and began accepting applications through NMLS on March 9, 2026.",
+      "effective": "In force since Jul. 1, 2026; DFPI license or complete application now required; enforcement active",
+      "lastVerified": "2026-07-03",
       "sourceText": "AB 39, Financial Code Div. 1.25",
       "sourceUrl": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB39"
     },
@@ -40,12 +40,12 @@
     {
       "name": "Florida",
       "slug": "florida",
-      "status": "pending",
-      "statusLabel": "Awaiting Governor",
-      "framework": "Stablecoin Issuer Licensing (HB 175) + Government Pilot Program (SB 1568)",
-      "detail": "Florida already requires ordinary virtual currency money transmitters to hold a money services license. Two further bills, HB 175 and SB 1568, passed the legislature and are awaiting the Governor's signature. HB 175 would require a license before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA. SB 1568 would let the state itself accept stablecoins for government fees, limited to large, fully-backed coins issued by a permitted issuer under the federal GENIUS Act.",
-      "effective": "Both passed legislature; awaiting Governor's signature as of Jun. 15, 2026",
-      "lastVerified": "2026-06-16",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Payment Stablecoin Licensing (HB 175)",
+      "detail": "Florida enacted HB 175, signed into law by Governor DeSantis in June 2026 and effective immediately. A money services business must now hold a license from the Office of Financial Regulation before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA, aligning the state framework with the federal GENIUS Act. Florida already required ordinary virtual-currency money transmitters to hold a money services license.",
+      "effective": "HB 175 signed into law by Gov. DeSantis, Jun. 2026; effective immediately",
+      "lastVerified": "2026-07-03",
       "sourceText": "Florida House/Senate, HB 175 and SB 1568 bill history",
       "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/175"
     },
