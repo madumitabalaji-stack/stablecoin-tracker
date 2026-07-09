@@ -19,6 +19,10 @@
     --bg: #fafafa;
     --card-bg: #ffffff;
     --border: #e5e5e5;
+    --c-live: hsl(150, 55%, 40%);
+    --c-pending: hsl(40, 90%, 52%);
+    --c-guidance: hsl(220, 62%, 55%);
+    --c-untracked: #d6d6db;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -102,7 +106,7 @@
 
   .controls {
     margin-top: 36px;
-    margin-bottom: 18px;
+    margin-bottom: 14px;
     display: flex;
     gap: 8px;
     flex-wrap: wrap;
@@ -123,7 +127,22 @@
     color: var(--gray);
     cursor: pointer;
     transition: all 0.15s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
   }
+
+  .filter-btn .dot {
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+  }
+
+  .dot-live { background: var(--c-live); }
+  .dot-pending { background: var(--c-pending); }
+  .dot-guidance { background: var(--c-guidance); }
 
   .filter-btn:hover { border-color: var(--teal-border); }
 
@@ -142,35 +161,123 @@
     min-width: 200px;
   }
 
-  .grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
-    gap: 16px;
+  .map-card {
+    border: 1px solid var(--border);
+    border-radius: 10px;
+    background: var(--card-bg);
+    padding: 18px 18px 8px;
+    position: relative;
   }
+
+  .map-hint {
+    text-align: center;
+    font-size: 12px;
+    color: var(--light-gray);
+    padding: 6px 0 10px;
+  }
+
+  #map-holder svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  #map-holder .state path,
+  #map-holder path {
+    transition: filter 0.12s ease, fill 0.2s ease;
+  }
+
+  #map-holder path.tracked { cursor: pointer; }
+  #map-holder path.tracked:hover { filter: brightness(0.85); }
+  #map-holder path.selected {
+    stroke: var(--ink);
+    stroke-width: 1.6;
+    stroke-linejoin: round;
+  }
+
+  #tooltip {
+    position: fixed;
+    pointer-events: none;
+    background: var(--ink);
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 6px;
+    z-index: 20;
+    display: none;
+    max-width: 240px;
+    line-height: 1.4;
+  }
+
+  #tooltip .tt-status { color: #b8c4d8; font-size: 11px; }
+
+  .chip-row {
+    margin-top: 14px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+  }
+
+  .chip {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 5px 12px;
+    border-radius: 16px;
+    border: 1px solid var(--border);
+    background: #fff;
+    color: var(--gray);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    transition: all 0.15s ease;
+  }
+
+  .chip .dot { width: 8px; height: 8px; border-radius: 50%; }
+  .chip:hover { border-color: var(--teal); color: var(--ink); }
+  .chip.selected { border-color: var(--ink); color: var(--ink); background: #f1f1f4; }
+  .chip.dimmed { opacity: 0.35; }
+
+  #detail { margin-top: 20px; }
 
   .card {
     border: 1px solid var(--border);
     border-radius: 10px;
     background: var(--card-bg);
     padding: 20px;
-    transition: box-shadow 0.15s ease;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.05);
+    position: relative;
   }
-
-  .card:hover { box-shadow: 0 4px 16px rgba(0,0,0,0.06); }
 
   .card-top {
     display: flex;
     justify-content: space-between;
     align-items: baseline;
     margin-bottom: 10px;
+    padding-right: 28px;
   }
 
   .card h3 {
     font-family: 'Space Grotesk', sans-serif;
-    font-size: 16px;
+    font-size: 17px;
     font-weight: 600;
     color: var(--purple);
   }
+
+  .card-close {
+    position: absolute;
+    top: 12px;
+    right: 14px;
+    border: none;
+    background: none;
+    font-size: 18px;
+    line-height: 1;
+    color: var(--light-gray);
+    cursor: pointer;
+    padding: 4px;
+  }
+  .card-close:hover { color: var(--ink); }
 
   .status-tag {
     font-size: 10px;
@@ -187,14 +294,14 @@
   .status-exempt { background: hsl(220, 50%, 93%); color: hsl(220, 50%, 38%); }
 
   .card .framework {
-    font-size: 12px;
+    font-size: 12.5px;
     font-weight: 600;
     color: var(--ink);
     margin-bottom: 8px;
   }
 
   .card .detail {
-    font-size: 12.5px;
+    font-size: 13px;
     color: #444;
     margin-bottom: 10px;
     line-height: 1.55;
@@ -216,11 +323,7 @@
     gap: 12px;
   }
 
-  .card .src {
-    font-size: 11px;
-    color: var(--light-gray);
-  }
-
+  .card .src { font-size: 11px; color: var(--light-gray); }
   .card .src a { color: var(--teal); text-decoration: none; }
   .card .src a:hover { text-decoration: underline; }
 
@@ -231,9 +334,15 @@
     flex-shrink: 0;
   }
 
-  .verified-stale {
-    color: hsl(35, 80%, 45%);
-    font-weight: 500;
+  .verified-stale { color: hsl(35, 80%, 45%); font-weight: 500; }
+
+  .placeholder {
+    text-align: center;
+    padding: 26px;
+    color: var(--light-gray);
+    font-size: 13px;
+    border: 1px dashed var(--border);
+    border-radius: 10px;
   }
 
   footer {
@@ -247,14 +356,6 @@
 
   footer a { color: var(--teal); text-decoration: none; }
   footer a:hover { text-decoration: underline; }
-
-  .no-results {
-    text-align: center;
-    padding: 40px;
-    color: var(--light-gray);
-    font-size: 13px;
-    grid-column: 1 / -1;
-  }
 </style>
 </head>
 <body>
@@ -264,7 +365,7 @@
     <h1>State Stablecoin Licensing Tracker</h1>
     <div class="gradient-bar"></div>
     <p class="sub">A working map of how state money-transmission and digital-asset licensing regimes are interacting with the federal GENIUS Act framework, tracked state by state.</p>
-    <div class="meta-line">Built and maintained by Madumita Mira Balaji &middot; <a href="https://substack.com/@theclaritybrief2" target="_blank">The Clarity Brief</a> &middot; <a href="https://linkedin.com/in/madumitabalaji" target="_blank">LinkedIn</a> &middot; Last updated June 2026</div>
+    <div class="meta-line">Built and maintained by Madumita Mira Balaji &middot; <a href="https://substack.com/@theclaritybrief2" target="_blank">The Clarity Brief</a> &middot; <a href="https://linkedin.com/in/madumitabalaji" target="_blank">LinkedIn</a> &middot; <span id="last-updated">Last updated July 2026</span></div>
     <div class="disclaimer">This is an independent research project for informational purposes only and does not constitute legal advice. Always verify current requirements with the relevant state regulator or counsel before relying on this information. Sources are linked on each entry.</div>
   </header>
 
@@ -277,13 +378,25 @@
   <div class="controls">
     <div class="filter-group" id="filters">
       <button class="filter-btn active" data-filter="all">All States</button>
-      <button class="filter-btn" data-filter="live">Live Regime</button>
-      <button class="filter-btn" data-filter="pending">Pending / Phasing In</button>
+      <button class="filter-btn" data-filter="live"><span class="dot dot-live"></span>Live Regime</button>
+      <button class="filter-btn" data-filter="pending"><span class="dot dot-pending"></span>Pending / Phasing In</button>
+      <button class="filter-btn" data-filter="guidance"><span class="dot dot-guidance"></span>Guidance-Based</button>
     </div>
     <input type="text" id="search" placeholder="Search states...">
   </div>
 
-  <div class="grid" id="grid"></div>
+  <div class="map-card">
+    <div id="map-holder" aria-live="polite"></div>
+    <div class="map-hint" id="map-hint">Click a colored state to read its licensing details. Gray states are not yet tracked.</div>
+  </div>
+
+  <div class="chip-row" id="chips"></div>
+
+  <div id="detail">
+    <div class="placeholder">Select a state on the map to see its licensing regime.</div>
+  </div>
+
+  <div id="tooltip"></div>
 
   <footer>
     Tracking state-level digital asset and stablecoin licensing regimes as they evolve alongside the GENIUS Act.
@@ -293,11 +406,44 @@
 </div>
 
 <script>
-const grid        = document.getElementById('grid');
+const mapHolder   = document.getElementById('map-holder');
+const detailEl    = document.getElementById('detail');
+const chipsEl     = document.getElementById('chips');
+const tooltip     = document.getElementById('tooltip');
 const searchInput = document.getElementById('search');
 const filterBtns  = document.querySelectorAll('.filter-btn');
-let activeFilter  = 'all';
-let states        = [];
+const lastUpdatedEl = document.getElementById('last-updated');
+
+let activeFilter = 'all';
+let states       = [];
+let selectedSlug = null;
+let svgReady     = false;
+
+const STATUS_COLORS = {
+  live:     getCss('--c-live'),
+  pending:  getCss('--c-pending'),
+  guidance: getCss('--c-guidance')
+};
+const UNTRACKED = getCss('--c-untracked');
+const DIMMED    = '#ebebee';
+
+function getCss(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
+
+const NAME_TO_CODE = {
+  'alabama':'al','alaska':'ak','arizona':'az','arkansas':'ar','california':'ca','colorado':'co',
+  'connecticut':'ct','delaware':'de','district of columbia':'dc','florida':'fl','georgia':'ga',
+  'hawaii':'hi','idaho':'id','illinois':'il','indiana':'in','iowa':'ia','kansas':'ks','kentucky':'ky',
+  'louisiana':'la','maine':'me','maryland':'md','massachusetts':'ma','michigan':'mi','minnesota':'mn',
+  'mississippi':'ms','missouri':'mo','montana':'mt','nebraska':'ne','nevada':'nv','new hampshire':'nh',
+  'new jersey':'nj','new mexico':'nm','new york':'ny','north carolina':'nc','north dakota':'nd',
+  'ohio':'oh','oklahoma':'ok','oregon':'or','pennsylvania':'pa','rhode island':'ri','south carolina':'sc',
+  'south dakota':'sd','tennessee':'tn','texas':'tx','utah':'ut','vermont':'vt','virginia':'va',
+  'washington':'wa','west virginia':'wv','wisconsin':'wi','wyoming':'wy'
+};
+const CODE_TO_NAME = Object.fromEntries(Object.entries(NAME_TO_CODE).map(([n,c]) => [c, n.replace(/\b\w/g, m => m.toUpperCase()).replace('Of','of')]));
+
+function codeFor(state) { return NAME_TO_CODE[state.name.trim().toLowerCase()] || null; }
+function stateByCode(code) { return states.find(s => codeFor(s) === code) || null; }
 
 function statusClass(s) {
   return s === 'live' ? 'status-live' : s === 'pending' ? 'status-pending' : 'status-exempt';
@@ -313,25 +459,62 @@ function formatVerified(dateStr) {
   return `<span class="verified${stale ? ' verified-stale' : ''}" title="${stale ? 'Over 90 days since last verification' : 'Recently verified'}">Verified ${label}</span>`;
 }
 
-function render() {
-  const query    = searchInput.value.trim().toLowerCase();
-  const filtered = states.filter(s => {
-    const matchesFilter = activeFilter === 'all' || s.status === activeFilter;
-    const matchesQuery  = !query || s.name.toLowerCase().includes(query) || s.framework.toLowerCase().includes(query);
-    return matchesFilter && matchesQuery;
+function matchesFilter(s) {
+  return activeFilter === 'all' || s.status === activeFilter;
+}
+
+function matchesQuery(s, query) {
+  return !query || s.name.toLowerCase().includes(query) || s.framework.toLowerCase().includes(query);
+}
+
+function paintMap() {
+  if (!svgReady) return;
+  const query = searchInput.value.trim().toLowerCase();
+  const svg = mapHolder.querySelector('svg');
+  if (!svg) return;
+
+  svg.querySelectorAll('path').forEach(p => {
+    p.classList.remove('tracked', 'selected');
+    p.style.fill = '';
   });
 
-  grid.innerHTML = '';
+  states.forEach(s => {
+    const code = codeFor(s);
+    if (!code) return;
+    const path = svg.querySelector('path.' + code);
+    if (!path) return;
+    path.classList.add('tracked');
+    const visible = matchesFilter(s) && matchesQuery(s, query);
+    path.style.fill = visible ? (STATUS_COLORS[s.status] || STATUS_COLORS.guidance) : DIMMED;
+    if (s.slug === selectedSlug) path.classList.add('selected');
+  });
+}
 
-  if (filtered.length === 0) {
-    grid.innerHTML = '<div class="no-results">No states match that search or filter.</div>';
+function renderChips() {
+  const query = searchInput.value.trim().toLowerCase();
+  chipsEl.innerHTML = '';
+  states.forEach(s => {
+    const chip = document.createElement('button');
+    chip.className = 'chip';
+    const visible = matchesFilter(s) && matchesQuery(s, query);
+    if (!visible) chip.classList.add('dimmed');
+    if (s.slug === selectedSlug) chip.classList.add('selected');
+    const dotColor = STATUS_COLORS[s.status] || STATUS_COLORS.guidance;
+    chip.innerHTML = `<span class="dot" style="background:${dotColor}"></span>${s.name}`;
+    chip.addEventListener('click', () => selectState(s.slug));
+    chipsEl.appendChild(chip);
+  });
+}
+
+function renderDetail() {
+  const s = states.find(x => x.slug === selectedSlug);
+  if (!s) {
+    detailEl.innerHTML = '<div class="placeholder">Select a state on the map to see its licensing regime.</div>';
     return;
   }
-
-  filtered.forEach(s => {
-    const card = document.createElement('div');
-    card.className = 'card';
-    card.innerHTML = `
+  detailEl.innerHTML = `
+    <div class="card">
+      <button class="card-close" aria-label="Close" onclick="clearSelection()">&times;</button>
       <div class="card-top">
         <h3>${s.name}</h3>
         <span class="status-tag ${statusClass(s.status)}">${s.statusLabel}</span>
@@ -343,8 +526,62 @@ function render() {
         <div class="src">Source: <a href="${s.sourceUrl}" target="_blank">${s.sourceText}</a></div>
         ${formatVerified(s.lastVerified)}
       </div>
-    `;
-    grid.appendChild(card);
+    </div>
+  `;
+}
+
+function selectState(slug) {
+  selectedSlug = (selectedSlug === slug) ? null : slug;
+  paintMap();
+  renderChips();
+  renderDetail();
+  if (selectedSlug) {
+    detailEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+function clearSelection() {
+  selectedSlug = null;
+  paintMap();
+  renderChips();
+  renderDetail();
+}
+
+function showTooltip(evt, code) {
+  const s = stateByCode(code);
+  const name = CODE_TO_NAME[code] || code.toUpperCase();
+  tooltip.innerHTML = s
+    ? `<strong>${s.name}</strong><br><span class="tt-status">${s.statusLabel} &middot; click for details</span>`
+    : `<strong>${name}</strong><br><span class="tt-status">Not yet tracked</span>`;
+  tooltip.style.display = 'block';
+  moveTooltip(evt);
+}
+
+function moveTooltip(evt) {
+  const pad = 14;
+  let x = evt.clientX + pad, y = evt.clientY + pad;
+  const rect = tooltip.getBoundingClientRect();
+  if (x + rect.width > window.innerWidth - 8)  x = evt.clientX - rect.width - pad;
+  if (y + rect.height > window.innerHeight - 8) y = evt.clientY - rect.height - pad;
+  tooltip.style.left = x + 'px';
+  tooltip.style.top  = y + 'px';
+}
+
+function hideTooltip() { tooltip.style.display = 'none'; }
+
+function wireMap() {
+  const svg = mapHolder.querySelector('svg');
+  if (!svg) return;
+  svg.querySelectorAll('path').forEach(path => {
+    const code = [...path.classList].find(c => /^[a-z]{2}$/.test(c));
+    if (!code) return;
+    path.addEventListener('mousemove', e => { showTooltip(e, code); });
+    path.addEventListener('mouseleave', hideTooltip);
+    path.addEventListener('click', () => {
+      const s = stateByCode(code);
+      if (s) selectState(s.slug);
+    });
+    path.setAttribute('tabindex', '-1');
   });
 }
 
@@ -353,13 +590,26 @@ filterBtns.forEach(btn => {
     filterBtns.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     activeFilter = btn.dataset.filter;
-    render();
+    paintMap();
+    renderChips();
   });
 });
 
-searchInput.addEventListener('input', render);
+searchInput.addEventListener('input', () => { paintMap(); renderChips(); });
 
 let lastUpdated = null;
+
+async function loadMap() {
+  try {
+    const r = await fetch('assets/us-map.svg');
+    mapHolder.innerHTML = await r.text();
+    svgReady = true;
+    wireMap();
+    paintMap();
+  } catch {
+    mapHolder.innerHTML = '<div class="placeholder">Could not load the map. If viewing locally, run: <code>python3 -m http.server</code></div>';
+  }
+}
 
 async function loadData() {
   try {
@@ -368,17 +618,26 @@ async function loadData() {
     if (data.lastUpdated !== lastUpdated) {
       lastUpdated = data.lastUpdated;
       states = data.states;
-      render();
+      if (data.lastUpdated) {
+        const d = new Date(data.lastUpdated + 'T00:00:00');
+        lastUpdatedEl.textContent = 'Last updated ' + d.toLocaleDateString('en-US', { month: 'long', day: 'numeric', year: 'numeric' });
+      }
+      paintMap();
+      renderChips();
+      renderDetail();
     }
   } catch {
     if (!states.length) {
-      grid.innerHTML = '<div class="no-results">Could not load state data. If viewing locally, run: <code>python3 -m http.server</code></div>';
+      detailEl.innerHTML = '<div class="placeholder">Could not load state data. If viewing locally, run: <code>python3 -m http.server</code></div>';
     }
   }
 }
 
-loadData();
-setInterval(loadData, 5 * 60 * 1000);
+(async () => {
+  await loadMap();
+  await loadData();
+  setInterval(loadData, 5 * 60 * 1000);
+})();
 </script>
 
 </body>
