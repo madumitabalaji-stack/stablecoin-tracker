@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-03",
+  "lastUpdated": "2026-07-09",
   "states": [
     {
       "name": "New York",
@@ -108,6 +108,54 @@
       "lastVerified": "2026-07-03",
       "sourceText": "A.R.S. Title 6, Chapter 12 (SB 1580, Ch. 236, 2022)",
       "sourceUrl": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm"
+    },
+    {
+      "name": "Georgia",
+      "slug": "georgia",
+      "status": "pending",
+      "statusLabel": "Phasing In",
+      "framework": "Georgia Payment Stablecoin Act (HB 1272)",
+      "detail": "Georgia enacted the Georgia Payment Stablecoin Act (HB 1272) in 2026, a dedicated licensing regime for payment stablecoin issuers, but it is not yet in force. Under Section 4, and subject to appropriations by the General Assembly, it becomes effective on the earlier of January 18, 2027 or 120 days after the issuance of final federal GENIUS Act implementing regulations. The Act carves payment stablecoin issuance out of Georgia's existing money transmission laws and authorizes the Department of Banking and Finance to license issuers, on a framework the statute requires to be substantially similar to the GENIUS Act. Licensed issuers must back outstanding stablecoins one-to-one with liquid reserves held in trust for consumers and maintain redemption policies. Beginning July 18, 2028, it becomes unlawful to offer or sell a payment stablecoin in Georgia unless the issuer is a permitted, licensed, or federally qualified issuer. Separately, some virtual-currency money transmission already requires a license under O.C.G.A. Sec. 7-1-680 et seq.",
+      "effective": "Enacted 2026; effective (subject to state appropriations) the earlier of Jan. 18, 2027 or 120 days after federal GENIUS Act final rules; issuer requirement from Jul. 18, 2028",
+      "lastVerified": "2026-07-09",
+      "sourceText": "HB 1272, Georgia Payment Stablecoin Act (as passed House and Senate)",
+      "sourceUrl": "https://www.legis.ga.gov/api/legislation/document/20252026/249038"
+    },
+    {
+      "name": "North Carolina",
+      "slug": "north-carolina",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmitters Act (N.C. Gen. Stat. Ch. 53, Art. 16B)",
+      "detail": "North Carolina regulates stablecoin and virtual-currency activity through its Money Transmitters Act (Chapter 53, Article 16B), administered by the Office of the Commissioner of Banks (NCCOB). The statute expressly defines virtual currency and brings money transmission conducted in whole or in part in virtual currency, including maintaining control of virtual currency on behalf of others, within its licensing requirement. A person engaging in money transmission must obtain a license through NMLS; the license is perpetual but requires an annual NMLS renewal filing. North Carolina does not yet have a dedicated stablecoin-issuer statute. A separate bill, the Virtual Currency Kiosk Consumer Protection Act (HB 920), would place crypto-ATM operators under NCCOB supervision, with implementing rules due by December 1, 2026.",
+      "effective": "Money Transmitters Act in force; virtual currency covered; kiosk bill (HB 920) pending, rules due Dec. 1, 2026",
+      "lastVerified": "2026-07-09",
+      "sourceText": "N.C. Gen. Stat. Ch. 53, Art. 16B (Money Transmitters Act); NC Office of the Commissioner of Banks",
+      "sourceUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_53/Article_16B.html"
+    },
+    {
+      "name": "Connecticut",
+      "slug": "connecticut",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmission Act (virtual currency revisions, PA 25-66 / HB 7082)",
+      "detail": "Connecticut revised its money transmission law to regulate virtual currency, effective October 1, 2025, administered by the Department of Banking. A person engaged in virtual currency business in Connecticut, by receiving, transmitting, storing, or maintaining custody or control of virtual currency, must hold virtual currency of the same type and amount owed or obligated to each customer. Licensees may not lend, hypothecate, pledge, or otherwise use or encumber customer virtual currency without authorization, and the act extends risk-disclosure and receipt requirements to virtual currency transmitters and kiosk operators. Custody may be delegated only to parties qualified to hold it.",
+      "effective": "In force since Oct. 1, 2025",
+      "lastVerified": "2026-07-09",
+      "sourceText": "Conn. Public Act 25-66 (HB 7082); CT Dept. of Banking",
+      "sourceUrl": "https://www.cga.ct.gov/2025/SUM/PDF/2025SUM00066-R03HB-07082-SUM.PDF"
+    },
+    {
+      "name": "Nevada",
+      "slug": "nevada",
+      "status": "guidance",
+      "statusLabel": "Guidance-Based",
+      "framework": "Money transmission law (NRS Ch. 671), applied to digital currency by FID guidance",
+      "detail": "Nevada has no dedicated virtual-currency or stablecoin statute; its money transmission law (NRS Chapter 671, modernized in 2025) does not expressly mention virtual or digital currency. Instead, the Financial Institutions Division (FID), through published guidance, applies the money-transmission licensing requirement to entities that transmit or hold digital currency, by kiosk, mobile, internet, or other means. Under that guidance, Bitcoin ATM operators must hold a money transmitter license and bond, and licensees holding virtual currency are expected to keep enough of each type to cover outstanding customer obligations. Entities acting purely as digital-asset custodians may instead be regulated as trust companies under NRS Chapter 669. Nevada thus regulates digital assets case by case under existing law rather than a bespoke framework.",
+      "effective": "Money transmission law (NRS Ch. 671) in force; digital currency covered via FID guidance, not express statute",
+      "lastVerified": "2026-07-09",
+      "sourceText": "NRS Ch. 671 (money transmission); applied to digital currency by Nevada Financial Institutions Division guidance",
+      "sourceUrl": "https://www.leg.state.nv.us/nrs/nrs-671.html"
     }
   ]
 }
