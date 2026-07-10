@@ -235,11 +235,11 @@
       "status": "excluded",
       "statusLabel": "VC Excluded",
       "framework": "Money Transmission Modernization Act (HB 1942, Ch. 19.1)",
-      "detail": "Virginia enacted a Money Transmission Modernization Act (HB 1942), effective July 1, 2026, replacing Chapter 19 with a new Chapter 19.1 administered by the State Corporation Commission's Bureau of Financial Institutions. Virtual currency is expressly excluded from the definition of 'money,' so a business engaged solely in transmitting virtual currency, including a stablecoin, may fall outside the licensing requirement. In practice the exclusion is narrower for stablecoins than for other crypto: stablecoin activity that also moves fiat currency, such as redemption or on- and off-ramps, transmits 'money' and can still be captured, and the Commission's enforcement position is not fully settled. Federal GENIUS Act and FinCEN requirements apply regardless.",
-      "effective": "MTMA (HB 1942) in force since Jul. 1, 2026; virtual currency expressly excluded from 'money'",
+      "detail": "Virginia's Money Transmission Modernization Act (HB 1942) takes effect in 2026 and is administered by the State Corporation Commission's Bureau of Financial Institutions. The statute defines 'money' as a medium of exchange authorized or adopted by a government and states that 'money' does not include virtual currency (Sec. 6.2-1922). Because money transmission is defined in terms of money, payment instruments, and stored value, a business engaged solely in transmitting virtual currency, including a stablecoin, generally falls outside the licensing requirement. In practice the exclusion is narrower for stablecoins: activity that also moves fiat currency, such as redemption or on- and off-ramps, transmits 'money' and can still be captured. Federal GENIUS Act and FinCEN requirements apply regardless.",
+      "effective": "Money Transmission Modernization Act (HB 1942) takes effect in 2026; virtual currency expressly excluded from the definition of 'money' (Sec. 6.2-1922)",
       "lastVerified": "2026-07-10",
-      "sourceText": "Va. HB 1942 (Ch. 19.1); State Corporation Commission, Bureau of Financial Institutions",
-      "sourceUrl": "https://www.scc.virginia.gov/pages/Money-Order-Transmitters"
+      "sourceText": "Va. HB 1942, Sec. 6.2-1922 (Money Transmission Modernization Act); SCC Bureau of Financial Institutions",
+      "sourceUrl": "https://lis.virginia.gov/bill-details/20251/HB1942/text/HB1942"
     },
     {
       "name": "South Carolina",
