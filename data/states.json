@@ -172,14 +172,14 @@
     {
       "name": "New Hampshire",
       "slug": "new-hampshire",
-      "status": "live",
-      "statusLabel": "Live Regime",
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
       "framework": "Money Transmission Act (RSA 399-G)",
-      "detail": "New Hampshire requires a money transmitter license under RSA 399-G, administered by the Banking Department, for businesses that receive money or monetary value for transmission, backed by a $100,000 surety bond. Since 2017, New Hampshire has exempted persons dealing solely in convertible virtual currency from money-transmitter licensing; however, a business that buys or sells virtual currency for fiat currency still falls within the licensing requirement. Only pure crypto-to-crypto activity that does not touch fiat may qualify for the exemption.",
-      "effective": "RSA 399-G in force; virtual-currency-only exemption since 2017; crypto-to-fiat still licensed",
+      "detail": "New Hampshire requires a money transmitter license under RSA 399-G, administered by the Banking Department, but RSA 399-G:3, VII expressly exempts from the chapter persons who sell or issue payment instruments or stored value solely in the form of convertible virtual currency, or who receive convertible virtual currency for transmission. As a result, a business dealing solely in convertible virtual currency, including a stablecoin, is not required to be licensed. The exemption is narrower for stablecoins in practice: activity that also involves fiat currency, such as buying or selling a stablecoin for dollars or redeeming it, falls outside the exemption and generally requires a license. New Hampshire adopted this virtual-currency exemption in 2017; federal GENIUS Act and FinCEN requirements apply regardless.",
+      "effective": "RSA 399-G in force; Sec. 399-G:3, VII exempts persons dealing solely in convertible virtual currency (fiat-touching activity still licensed)",
       "lastVerified": "2026-07-10",
-      "sourceText": "N.H. RSA 399-G; New Hampshire Banking Department",
-      "sourceUrl": "https://www.nh.gov/banking/"
+      "sourceText": "N.H. RSA 399-G:3, VII (Exemptions); New Hampshire Banking Department",
+      "sourceUrl": "https://gc.nh.gov/rsa/html/XXXVI/399-G/399-G-mrg.htm"
     },
     {
       "name": "Rhode Island",
