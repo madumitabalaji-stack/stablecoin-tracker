@@ -175,10 +175,10 @@
       "status": "excluded",
       "statusLabel": "VC Excluded",
       "framework": "Money Transmission Act (RSA 399-G)",
-      "detail": "New Hampshire requires a money transmitter license under RSA 399-G, administered by the Banking Department, but RSA 399-G:3, VII expressly exempts from the chapter persons who sell or issue payment instruments or stored value solely in the form of convertible virtual currency, or who receive convertible virtual currency for transmission. As a result, a business dealing solely in convertible virtual currency, including a stablecoin, is not required to be licensed. The exemption is narrower for stablecoins in practice: activity that also involves fiat currency, such as buying or selling a stablecoin for dollars or redeeming it, falls outside the exemption and generally requires a license. New Hampshire adopted this virtual-currency exemption in 2017; federal GENIUS Act and FinCEN requirements apply regardless.",
-      "effective": "RSA 399-G in force; Sec. 399-G:3, VII exempts persons dealing solely in convertible virtual currency (fiat-touching activity still licensed)",
+      "detail": "New Hampshire requires a money transmitter license under RSA 399-G, administered by the Banking Department, but RSA 399-G:3, VII expressly exempts persons who sell or issue payment instruments or stored value solely in the form of convertible virtual currency, or who receive convertible virtual currency for transmission. The Banking Department confirms it neither licenses nor supervises businesses dealing solely in convertible virtual currency, including a stablecoin. However, money transmitters that handle traditional fiat currency, or that transmit both fiat and cryptocurrency, still must be licensed. Even transactions solely involving cryptocurrency remain subject to New Hampshire's Consumer Protection Act (RSA 358-A), so exemption from licensing is not the same as being unregulated. New Hampshire adopted the virtual-currency exemption in 2017; federal GENIUS Act and FinCEN requirements apply regardless.",
+      "effective": "RSA 399-G:3, VII exempts persons dealing solely in convertible virtual currency from licensing (fiat-touching activity still licensed; RSA 358-A Consumer Protection Act still applies)",
       "lastVerified": "2026-07-10",
-      "sourceText": "N.H. RSA 399-G:3, VII (Exemptions); New Hampshire Banking Department",
+      "sourceText": "N.H. RSA 399-G:3, VII; N.H. Banking Department position on crypto regulation and jurisdiction",
       "sourceUrl": "https://gc.nh.gov/rsa/html/XXXVI/399-G/399-G-mrg.htm"
     },
     {
