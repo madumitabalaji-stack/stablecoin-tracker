@@ -246,12 +246,12 @@
       "slug": "south-carolina",
       "status": "excluded",
       "statusLabel": "VC Excluded",
-      "framework": "Anti-Money Laundering Act (money services)",
-      "detail": "South Carolina requires a money transmitter license under its Anti-Money Laundering Act, administered through the Attorney General's Money Services Division, for transmitting money, selling or issuing payment instruments, or holding stored value. The Division's position is that virtual currencies lack the characteristics of a medium of exchange and do not, by themselves, qualify as monetary value, so virtual currency alone, including a stablecoin, is not treated as money transmission. The exclusion is narrower for stablecoins in practice: because stablecoins are fiat-referenced, activity that also transfers fiat currency, such as redemption or on- and off-ramps, may fall within the Act. Federal GENIUS Act and FinCEN requirements apply regardless.",
-      "effective": "Anti-Money Laundering Act in force; virtual currency alone not treated as money transmission",
+      "framework": "South Carolina Uniform Money Services Act (Title 35, Ch. 11)",
+      "detail": "South Carolina regulates money transmission under the South Carolina Uniform Money Services Act (Title 35, Chapter 11), administered through the Attorney General's Money Services Division. The chapter, originally the Anti-Money Laundering Act, was renamed the Uniform Money Services Act by 2024 Act No. 218 (effective July 2, 2024). The statute defines 'money transmission' in terms of payment instruments, stored value, and receiving money for transmission, and 'monetary value' as a medium of exchange; it does not expressly address virtual currency. The Money Services Division's interpretive position is that virtual currency lacks the characteristics of a medium of exchange and does not, by itself, qualify as 'monetary value,' so virtual currency alone, including a stablecoin, is not treated as money transmission. Because this is an interpretive position rather than a statutory exclusion, it could change. The exclusion is also narrower for stablecoins in practice: activity that also transfers fiat currency, such as redemption or on- and off-ramps, may fall within the Act. Federal GENIUS Act and FinCEN requirements apply regardless.",
+      "effective": "Uniform Money Services Act (Title 35, Ch. 11; renamed by 2024 Act No. 218) in force; Money Services Division interprets virtual currency as not 'monetary value,' so VC alone is not money transmission",
       "lastVerified": "2026-07-10",
-      "sourceText": "S.C. Anti-Money Laundering Act; S.C. Attorney General, Money Services Division",
-      "sourceUrl": "https://www.scag.gov/inside-the-office/legal-services-division/money-services/"
+      "sourceText": "S.C. Code Title 35, Ch. 11 (Uniform Money Services Act); S.C. Attorney General, Money Services Division",
+      "sourceUrl": "https://www.scstatehouse.gov/code/t35c011.php"
     },
     {
       "name": "Massachusetts",
