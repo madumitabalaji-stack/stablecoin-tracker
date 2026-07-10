@@ -264,6 +264,30 @@
       "lastVerified": "2026-07-10",
       "sourceText": "Mass. money transmission law; Massachusetts Division of Banks",
       "sourceUrl": "https://www.mass.gov/orgs/division-of-banks"
+    },
+    {
+      "name": "Pennsylvania",
+      "slug": "pennsylvania",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmitter Act (Money Transmission Business Licensing Law)",
+      "detail": "Pennsylvania regulates money transmission under the Money Transmission Business Licensing Law (Money Transmitter Act), administered by the Department of Banking and Securities (DoBS). Its position on virtual currency reversed: in January 2019, DoBS guidance held that virtual currency was not 'money' and that crypto trading platforms were not money transmitters. In 2024, DoBS issued a new policy statement reinterpreting the Act to treat virtual currency as 'money,' bringing virtual-currency transmission within the licensing requirement. Under the current position, virtual-currency businesses serving Pennsylvania consumers generally require a money transmitter license.",
+      "effective": "Money Transmitter Act in force; DoBS reversed course in 2024 to treat virtual currency as 'money' (excluded 2019-2024)",
+      "lastVerified": "2026-07-10",
+      "sourceText": "Pa. Money Transmitter Act; Pa. Dept. of Banking and Securities (2024 policy statement)",
+      "sourceUrl": "https://www.dobs.pa.gov/"
+    },
+    {
+      "name": "District of Columbia",
+      "slug": "district-of-columbia",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmissions Act (D.C. Code Title 26, Ch. 10)",
+      "detail": "The District of Columbia requires a money transmitter license from the Department of Insurance, Securities and Banking (DISB) under the Money Transmissions Act (D.C. Code Title 26, Chapter 10). By DISB bulletin, the District treats Bitcoin and other virtual currency used as a medium of exchange, method of payment, or store of value as money for money transmission purposes, so receiving for transmission, storing, or taking custody of virtual currency from consumers, via kiosks, mobile apps, or online, requires a license. Simply buying or selling virtual currency for cash via kiosk or online is not treated as money transmission. Bonding is $50,000, up to $250,000 across locations.",
+      "effective": "Money Transmissions Act in force; DISB treats virtual currency as money (transmission/custody licensed; simple buy/sell carved out)",
+      "lastVerified": "2026-07-10",
+      "sourceText": "D.C. Code Title 26, Ch. 10; DISB cryptocurrency & money transmission bulletin",
+      "sourceUrl": "https://disb.dc.gov/page/banking-licensing-requirements-fintech-companies"
     }
   ]
 }
