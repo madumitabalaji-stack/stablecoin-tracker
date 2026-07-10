@@ -256,14 +256,14 @@
     {
       "name": "Massachusetts",
       "slug": "massachusetts",
-      "status": "excluded",
-      "statusLabel": "VC Unsettled",
-      "framework": "Money transmission law (consumer transactions)",
-      "detail": "Massachusetts began regulating domestic money transmission for consumer transactions under a new framework effective January 1, 2026, administered by the Division of Banks, covering entities that transfer money within the United States for consumers. It remains unsettled whether the framework reaches virtual currency, including stablecoins, so the treatment of stablecoin and digital-asset activity in Massachusetts is not yet clear. Federal GENIUS Act and FinCEN requirements apply regardless of the state-law question.",
-      "effective": "New money transmission framework in force since Jan. 1, 2026; application to virtual currency unresolved",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmission Law (Ch. 312 of the Acts of 2024; MGL c. 169B)",
+      "detail": "Massachusetts overhauled its money transmission regime with Chapter 312 of the Acts of 2024, codified as MGL c. 169B ('Regulation of Money Transmission') and administered by the Division of Banks. The Division began licensing and regulating money transmitters under c. 169B effective January 1, 2026 (NMLS applications opened around July 1, 2025). The Division has stated that most common transactional virtual currencies, expressly including stablecoins such as USDC, are a form of 'monetary value' under c. 169B, Sec. 1, so virtual-currency transmission requires a license. Non-convertible or closed-loop currencies (for example, in-game currency) are not 'monetary value.' The law is consumer-protection focused, covering money transmission for personal, family, or household purposes.",
+      "effective": "MGL c. 169B (Ch. 312, Acts of 2024); licensing effective Jan. 1, 2026; Division treats transactional virtual currency including USDC as 'monetary value' (licensed)",
       "lastVerified": "2026-07-10",
-      "sourceText": "Mass. money transmission law; Massachusetts Division of Banks",
-      "sourceUrl": "https://www.mass.gov/orgs/division-of-banks"
+      "sourceText": "Mass. Ch. 312, Acts of 2024 (MGL c. 169B, Sec. 1); Massachusetts Division of Banks FAQs",
+      "sourceUrl": "https://www.mass.gov/info-details/chapter-312-of-the-acts-of-2024-money-transmission-law"
     },
     {
       "name": "Pennsylvania",
