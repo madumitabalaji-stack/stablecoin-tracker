@@ -22,6 +22,7 @@
     --c-live: hsl(150, 55%, 40%);
     --c-pending: hsl(40, 90%, 52%);
     --c-guidance: hsl(220, 62%, 55%);
+    --c-excluded: hsl(342, 46%, 58%);
     --c-untracked: #d6d6db;
   }
 
@@ -143,6 +144,7 @@
   .dot-live { background: var(--c-live); }
   .dot-pending { background: var(--c-pending); }
   .dot-guidance { background: var(--c-guidance); }
+  .dot-excluded { background: var(--c-excluded); }
 
   .filter-btn:hover { border-color: var(--teal-border); }
 
@@ -292,6 +294,7 @@
   .status-live { background: hsl(150, 50%, 92%); color: hsl(150, 60%, 28%); }
   .status-pending { background: hsl(40, 80%, 92%); color: hsl(35, 70%, 32%); }
   .status-exempt { background: hsl(220, 50%, 93%); color: hsl(220, 50%, 38%); }
+  .status-excluded { background: hsl(342, 46%, 93%); color: hsl(342, 50%, 40%); }
 
   .card .framework {
     font-size: 12.5px;
@@ -381,6 +384,7 @@
       <button class="filter-btn" data-filter="live"><span class="dot dot-live"></span>Live Regime</button>
       <button class="filter-btn" data-filter="pending"><span class="dot dot-pending"></span>Pending / Phasing In</button>
       <button class="filter-btn" data-filter="guidance"><span class="dot dot-guidance"></span>Guidance-Based</button>
+      <button class="filter-btn" data-filter="excluded"><span class="dot dot-excluded"></span>VC Excluded / Unsettled</button>
     </div>
     <input type="text" id="search" placeholder="Search states...">
   </div>
@@ -422,7 +426,8 @@ let svgReady     = false;
 const STATUS_COLORS = {
   live:     getCss('--c-live'),
   pending:  getCss('--c-pending'),
-  guidance: getCss('--c-guidance')
+  guidance: getCss('--c-guidance'),
+  excluded: getCss('--c-excluded')
 };
 const UNTRACKED = getCss('--c-untracked');
 const DIMMED    = '#ebebee';
@@ -446,7 +451,10 @@ function codeFor(state) { return NAME_TO_CODE[state.name.trim().toLowerCase()] |
 function stateByCode(code) { return states.find(s => codeFor(s) === code) || null; }
 
 function statusClass(s) {
-  return s === 'live' ? 'status-live' : s === 'pending' ? 'status-pending' : 'status-exempt';
+  return s === 'live' ? 'status-live'
+       : s === 'pending' ? 'status-pending'
+       : s === 'excluded' ? 'status-excluded'
+       : 'status-exempt';
 }
 
 function formatVerified(dateStr) {

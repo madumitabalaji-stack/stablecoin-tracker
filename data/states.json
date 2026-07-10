@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "states": [
     {
       "name": "New York",
@@ -156,6 +156,114 @@
       "lastVerified": "2026-07-09",
       "sourceText": "NRS Ch. 671 (money transmission); applied to digital currency by Nevada Financial Institutions Division guidance",
       "sourceUrl": "https://www.leg.state.nv.us/nrs/nrs-671.html"
+    },
+    {
+      "name": "Maine",
+      "slug": "maine",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmission Modernization Act (LD 2112)",
+      "detail": "Maine enacted the Money Transmission Modernization Act (LD 2112), effective August 9, 2024, and opted to include the model act's virtual currency provisions. Businesses transmitting virtual currency are covered and must be licensed through the Bureau of Consumer Credit Protection, subject to a minimum net worth of $100,000 and a $100,000 surety bond or equivalent. A licensee that holds virtual currency for customers must maintain like-kind holdings sufficient to satisfy customer entitlements.",
+      "effective": "In force since Aug. 9, 2024 (LD 2112); virtual-currency provisions adopted",
+      "lastVerified": "2026-07-10",
+      "sourceText": "Maine Money Transmission Modernization Act (LD 2112); Bureau of Consumer Credit Protection",
+      "sourceUrl": "https://www.maine.gov/pfr/consumercredit/"
+    },
+    {
+      "name": "New Hampshire",
+      "slug": "new-hampshire",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmission Act (RSA 399-G)",
+      "detail": "New Hampshire requires a money transmitter license under RSA 399-G, administered by the Banking Department, for businesses that receive money or monetary value for transmission, backed by a $100,000 surety bond. Since 2017, New Hampshire has exempted persons dealing solely in convertible virtual currency from money-transmitter licensing; however, a business that buys or sells virtual currency for fiat currency still falls within the licensing requirement. Only pure crypto-to-crypto activity that does not touch fiat may qualify for the exemption.",
+      "effective": "RSA 399-G in force; virtual-currency-only exemption since 2017; crypto-to-fiat still licensed",
+      "lastVerified": "2026-07-10",
+      "sourceText": "N.H. RSA 399-G; New Hampshire Banking Department",
+      "sourceUrl": "https://www.nh.gov/banking/"
+    },
+    {
+      "name": "Rhode Island",
+      "slug": "rhode-island",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Currency transmission law (MTMA provisions, H.B. 7282)",
+      "detail": "Rhode Island regulates money transmission under its currency-transmission law, administered by the Department of Business Regulation, and adopted Money Transmission Modernization Act provisions through H.B. 7282. A licensee that has control of virtual currency for one or more persons must maintain, in its control, an amount of each type of virtual currency sufficient to satisfy the aggregate entitlements of those persons, a one-to-one like-kind custody standard.",
+      "effective": "Currency transmission law in force; MTMA virtual-currency provisions adopted (H.B. 7282)",
+      "lastVerified": "2026-07-10",
+      "sourceText": "R.I. currency transmission law (H.B. 7282); R.I. Department of Business Regulation",
+      "sourceUrl": "https://dbr.ri.gov/divisions/banking"
+    },
+    {
+      "name": "New Jersey",
+      "slug": "new-jersey",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Money Transmitters Act (N.J.S.A. 17:15C); Digital Asset Business Act (A3454, proposed)",
+      "detail": "New Jersey requires a license under its Money Transmitters Act, administered by the Department of Banking and Insurance, and the statutory definition of 'payment instrument' is broad enough to bring virtual currency transmission within the licensing scheme. Separately, New Jersey's proposed Digital Asset and Blockchain Technology Act (A3454) would require any person engaging in 'digital asset business activity' with New Jersey residents to be licensed by the Bureau of Securities in the Division of Consumer Affairs, a dedicated crypto-licensing regime that would layer on top of money transmission if enacted.",
+      "effective": "Money Transmitters Act in force (covers virtual currency); dedicated Digital Asset Business Act (A3454) pending",
+      "lastVerified": "2026-07-10",
+      "sourceText": "N.J.S.A. 17:15C; N.J. Dept. of Banking and Insurance; A3454",
+      "sourceUrl": "https://www.nj.gov/dobi/banklicensing/formontrans.html"
+    },
+    {
+      "name": "Delaware",
+      "slug": "delaware",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Sale of Checks and Transmission of Money Act (5 Del. C. Ch. 23)",
+      "detail": "Delaware requires a license under its Sale of Checks and Transmission of Money Act, administered by the Office of the State Bank Commissioner, for any business that receives money for transmission. Delaware applies this to virtual currency transmission in practice: major digital-asset exchanges hold Delaware money transmitter licenses. Surety bonding starts at $25,000 plus $5,000 per additional location, capped at $250,000.",
+      "effective": "Sale of Checks and Transmission of Money Act in force; applied to virtual-currency transmission",
+      "lastVerified": "2026-07-10",
+      "sourceText": "5 Del. C. Ch. 23; Delaware Office of the State Bank Commissioner",
+      "sourceUrl": "https://banking.delaware.gov/"
+    },
+    {
+      "name": "Maryland",
+      "slug": "maryland",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Maryland Money Transmission Act",
+      "detail": "Maryland regulates money transmission under the Maryland Money Transmission Act, administered by the Office of the Commissioner of Financial Regulation, and has modernized its framework to allow limited recognition of digital assets as permissible investments. Consistent with federal (FinCEN) treatment, Commissioner guidance provides that an administrator or exchanger that accepts and transmits convertible virtual currency, or buys or sells it, is a money transmitter. Applications include a detailed cybersecurity and IT-risk review.",
+      "effective": "Money Transmission Act in force; virtual-currency exchangers treated as money transmitters (Commissioner guidance)",
+      "lastVerified": "2026-07-10",
+      "sourceText": "Maryland Money Transmission Act; Office of the Commissioner of Financial Regulation",
+      "sourceUrl": "https://www.labor.maryland.gov/finance/"
+    },
+    {
+      "name": "Virginia",
+      "slug": "virginia",
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
+      "framework": "Money Transmission Modernization Act (HB 1942, Ch. 19.1)",
+      "detail": "Virginia enacted a Money Transmission Modernization Act (HB 1942), effective July 1, 2026, replacing Chapter 19 with a new Chapter 19.1 administered by the State Corporation Commission's Bureau of Financial Institutions. Notably, virtual currency is expressly excluded from the definition of 'money.' A business engaged solely in transmitting virtual currency, without also transmitting money, payment instruments, or stored value, may fall outside the licensing requirement, though the Commission's enforcement position is not fully settled and such businesses may remain subject to other state or federal rules.",
+      "effective": "MTMA (HB 1942) in force since Jul. 1, 2026; virtual currency expressly excluded from 'money'",
+      "lastVerified": "2026-07-10",
+      "sourceText": "Va. HB 1942 (Ch. 19.1); State Corporation Commission, Bureau of Financial Institutions",
+      "sourceUrl": "https://www.scc.virginia.gov/pages/Money-Order-Transmitters"
+    },
+    {
+      "name": "South Carolina",
+      "slug": "south-carolina",
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
+      "framework": "Anti-Money Laundering Act (money services)",
+      "detail": "South Carolina requires a money transmitter license under its Anti-Money Laundering Act, administered through the Attorney General's Money Services Division, for transmitting money, selling or issuing payment instruments, or holding stored value. The Division's position is that virtual currencies lack the characteristics of a medium of exchange and therefore do not, by themselves, qualify as monetary value, so virtual currency alone is not treated as money transmission. To the extent a virtual-currency transaction also involves transferring fiat currency, it may fall within the Act.",
+      "effective": "Anti-Money Laundering Act in force; virtual currency alone not treated as money transmission",
+      "lastVerified": "2026-07-10",
+      "sourceText": "S.C. Anti-Money Laundering Act; S.C. Attorney General, Money Services Division",
+      "sourceUrl": "https://www.scag.gov/inside-the-office/legal-services-division/money-services/"
+    },
+    {
+      "name": "Massachusetts",
+      "slug": "massachusetts",
+      "status": "excluded",
+      "statusLabel": "VC Unsettled",
+      "framework": "Money transmission law (consumer transactions)",
+      "detail": "Massachusetts began regulating domestic money transmission for consumer transactions under a new framework effective January 1, 2026, administered by the Division of Banks, covering entities that transfer money within the United States for consumers. As of now it remains unsettled whether the framework will be interpreted to reach virtual currency transactions, so the treatment of stablecoin and digital-asset activity in Massachusetts is not yet clear.",
+      "effective": "New money transmission framework in force since Jan. 1, 2026; application to virtual currency unresolved",
+      "lastVerified": "2026-07-10",
+      "sourceText": "Mass. money transmission law; Massachusetts Division of Banks",
+      "sourceUrl": "https://www.mass.gov/orgs/division-of-banks"
     }
   ]
 }
