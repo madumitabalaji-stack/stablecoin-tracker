@@ -270,12 +270,12 @@
       "slug": "pennsylvania",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Money Transmitter Act, as amended by Act 7 of 2025",
-      "detail": "Pennsylvania regulates money transmission under the Money Transmitter Act, administered by the Department of Banking and Securities (DoBS), and its treatment of virtual currency is now settled by statute. After a 2019 DoBS guidance holding that virtual currency was not 'money' (crypto platforms not money transmitters) and a 2024 policy statement reversing that view, the legislature enacted Act 7 of 2025, effective August 26, 2025, which amended the Money Transmitter Act to treat the transmission of virtual currency the same as traditional money transmission. Entities that facilitate the transfer of virtual currency for a fee, including stablecoins, must be licensed as money transmitters. The Act also modernized the MTA's definitions, licensing, exemptions, and oversight, and DoBS rescinded its prior virtual-currency statement of policy.",
-      "effective": "Money Transmitter Act as amended by Act 7 of 2025, effective Aug. 26, 2025; virtual-currency transmission licensed by statute",
+      "framework": "Money Transmission Business Licensing Law, as amended by Act 7 of 2025",
+      "detail": "Pennsylvania regulates money transmission under the Money Transmission Business Licensing Law, administered by the Department of Banking and Securities (DoBS), and virtual currency is now covered by statute. After 2019 DoBS guidance that virtual currency was not 'money' and a 2024 policy statement reversing that view, the legislature enacted Act 7 of 2025, which amended the law to expressly require a license to 'engage in the business of transmitting virtual currency ... for a fee' and retitled it to reference virtual currency. Entities that transmit virtual currency, including stablecoins, for a fee generally must be licensed, subject to exemptions such as transmission solely for personal or household use and certain self-hosted wallet activity. The Act takes effect 60 days after enactment (August 26, 2025), and DoBS rescinded its prior virtual-currency statement of policy.",
+      "effective": "Money Transmission Business Licensing Law as amended by Act 7 of 2025; effective 60 days after enactment (Aug. 26, 2025); virtual-currency transmission for a fee licensed by statute",
       "lastVerified": "2026-07-10",
-      "sourceText": "Pa. Money Transmitter Act as amended by Act 7 of 2025; Pa. Dept. of Banking and Securities",
-      "sourceUrl": "https://www.pa.gov/agencies/dobs/newsroom/dobs-regulating-virtual-currency-transmitters-thanks-to-new-bipa"
+      "sourceText": "Pa. Act 7 of 2025 (Money Transmission Business Licensing Law); Pa. Dept. of Banking and Securities",
+      "sourceUrl": "https://www.pa.gov/agencies/dobs/non-bank-licensees"
     },
     {
       "name": "District of Columbia",
