@@ -270,12 +270,12 @@
       "slug": "pennsylvania",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Money Transmitter Act (Money Transmission Business Licensing Law)",
-      "detail": "Pennsylvania regulates money transmission under the Money Transmission Business Licensing Law (Money Transmitter Act), administered by the Department of Banking and Securities (DoBS). Its position on virtual currency reversed: in January 2019, DoBS guidance held that virtual currency was not 'money' and that crypto trading platforms were not money transmitters. In 2024, DoBS issued a new policy statement reinterpreting the Act to treat virtual currency as 'money,' bringing virtual-currency transmission within the licensing requirement. Under the current position, virtual-currency businesses serving Pennsylvania consumers generally require a money transmitter license.",
-      "effective": "Money Transmitter Act in force; DoBS reversed course in 2024 to treat virtual currency as 'money' (excluded 2019-2024)",
+      "framework": "Money Transmitter Act, as amended by Act 7 of 2025",
+      "detail": "Pennsylvania regulates money transmission under the Money Transmitter Act, administered by the Department of Banking and Securities (DoBS), and its treatment of virtual currency is now settled by statute. After a 2019 DoBS guidance holding that virtual currency was not 'money' (crypto platforms not money transmitters) and a 2024 policy statement reversing that view, the legislature enacted Act 7 of 2025, effective August 26, 2025, which amended the Money Transmitter Act to treat the transmission of virtual currency the same as traditional money transmission. Entities that facilitate the transfer of virtual currency for a fee, including stablecoins, must be licensed as money transmitters. The Act also modernized the MTA's definitions, licensing, exemptions, and oversight, and DoBS rescinded its prior virtual-currency statement of policy.",
+      "effective": "Money Transmitter Act as amended by Act 7 of 2025, effective Aug. 26, 2025; virtual-currency transmission licensed by statute",
       "lastVerified": "2026-07-10",
-      "sourceText": "Pa. Money Transmitter Act; Pa. Dept. of Banking and Securities (2024 policy statement)",
-      "sourceUrl": "https://www.dobs.pa.gov/"
+      "sourceText": "Pa. Money Transmitter Act as amended by Act 7 of 2025; Pa. Dept. of Banking and Securities",
+      "sourceUrl": "https://www.pa.gov/agencies/dobs/newsroom/dobs-regulating-virtual-currency-transmitters-thanks-to-new-bipa"
     },
     {
       "name": "District of Columbia",
