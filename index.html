@@ -163,6 +163,29 @@
     min-width: 200px;
   }
 
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 6px 18px;
+    margin: 0 0 16px;
+    font-size: 13px;
+    color: var(--gray);
+  }
+  .legend .lg-total { font-weight: 600; color: var(--ink); }
+  .legend .lg-item { display: inline-flex; align-items: center; gap: 6px; }
+  .legend .lg-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; }
+
+  .map-layout {
+    display: grid;
+    grid-template-columns: 1.35fr 1fr;
+    gap: 20px;
+    align-items: start;
+  }
+  @media (max-width: 860px) {
+    .map-layout { grid-template-columns: 1fr; }
+  }
+
   .map-card {
     border: 1px solid var(--border);
     border-radius: 10px;
@@ -258,7 +281,10 @@
   .chip.selected { border-color: var(--ink); color: var(--ink); background: #f1f1f4; }
   .chip.dimmed { opacity: 0.35; }
 
-  #detail { margin-top: 20px; }
+  #detail { }
+  @media (min-width: 861px) {
+    #detail { position: sticky; top: 20px; }
+  }
 
   .card {
     border: 1px solid var(--border);
@@ -415,16 +441,20 @@
     <input type="text" id="search" placeholder="Search states...">
   </div>
 
-  <div class="map-card">
-    <div id="map-holder" aria-live="polite"></div>
-    <div class="map-hint" id="map-hint">Click a colored state to read its licensing details. Gray states are not yet tracked.</div>
+  <div class="legend" id="legend"></div>
+
+  <div class="map-layout">
+    <div class="map-card">
+      <div id="map-holder" aria-live="polite"></div>
+      <div class="map-hint" id="map-hint">Click a colored state to read its licensing details. Gray states are not yet tracked.</div>
+    </div>
+
+    <div id="detail">
+      <div class="placeholder">Select a state on the map to see its licensing regime.</div>
+    </div>
   </div>
 
   <div class="chip-row" id="chips"></div>
-
-  <div id="detail">
-    <div class="placeholder">Select a state on the map to see its licensing regime.</div>
-  </div>
 
   <div id="tooltip"></div>
 
@@ -619,13 +649,42 @@ function renderDetail() {
   `;
 }
 
-function selectState(slug) {
+function renderLegend() {
+  const el = document.getElementById('legend');
+  if (!el || !states.length) return;
+  const counts = {};
+  states.forEach(s => { counts[s.status] = (counts[s.status] || 0) + 1; });
+  const order = [
+    ['live', 'Live', '--c-live'],
+    ['pending', 'Pending', '--c-pending'],
+    ['guidance', 'Guidance-Based', '--c-guidance'],
+    ['excluded', 'Excluded / Unsettled', '--c-excluded']
+  ];
+  let html = `<span class="lg-total">${states.length} jurisdictions</span>`;
+  order.forEach(([k, label, v]) => {
+    if (counts[k]) html += `<span class="lg-item"><span class="lg-dot" style="background:${getCss(v)}"></span>${counts[k]} ${label}</span>`;
+  });
+  el.innerHTML = html;
+}
+
+function selectState(slug, fromHash) {
   selectedSlug = (selectedSlug === slug) ? null : slug;
   paintMap();
   renderChips();
   renderDetail();
-  if (selectedSlug) {
+  if (!fromHash) {
+    if (selectedSlug) history.replaceState(null, '', '#' + selectedSlug);
+    else history.replaceState(null, '', location.pathname + location.search);
+  }
+  if (selectedSlug && window.matchMedia('(max-width: 860px)').matches) {
     detailEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+  }
+}
+
+function applyHash() {
+  const slug = decodeURIComponent(location.hash.replace('#', ''));
+  if (slug && slug !== selectedSlug && states.some(s => s.slug === slug)) {
+    selectState(slug, true);
   }
 }
 
@@ -685,6 +744,7 @@ filterBtns.forEach(btn => {
 });
 
 searchInput.addEventListener('input', () => { paintMap(); renderChips(); });
+window.addEventListener('hashchange', applyHash);
 
 let lastUpdated = null;
 
@@ -714,6 +774,8 @@ async function loadData() {
       paintMap();
       renderChips();
       renderDetail();
+      renderLegend();
+      applyHash();
     }
   } catch {
     if (!states.length) {
