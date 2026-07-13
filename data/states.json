@@ -196,13 +196,13 @@
     {
       "name": "New Jersey",
       "slug": "new-jersey",
-      "status": "live",
-      "statusLabel": "Live Regime",
+      "status": "excluded",
+      "statusLabel": "VC Unsettled",
       "framework": "Money Transmitters Act (N.J.S.A. 17:15C); Digital Asset & Blockchain Technology Act (A3454, pending)",
-      "detail": "New Jersey licenses money transmission under its Money Transmitters Act (N.J.S.A. 17:15C), administered by the Department of Banking and Insurance; the reach of that law over pure virtual currency rests on its broad statutory definitions and is not firmly settled. Separately, the Digital Asset and Blockchain Technology Act (A3454) is pending before the legislature (approved in committee, not yet enacted). If enacted, it would require any person engaging in 'digital asset business activity' with New Jersey residents to be licensed by the Bureau of Securities in the Division of Consumer Affairs, a dedicated crypto-licensing regime.",
-      "effective": "Money Transmitters Act (N.J.S.A. 17:15C) in force; virtual-currency coverage not firmly settled; dedicated Digital Asset Business Act (A3454) pending, not enacted",
+      "detail": "New Jersey's treatment of virtual currency is unsettled. It licenses money transmission under the Money Transmitters Act (N.J.S.A. 17:15C), administered by the Department of Banking and Insurance, and historically regulated crypto firms as money transmitters, but virtual currency does not fit cleanly within the statutory definitions of 'money' or 'payment instrument,' making that application awkward. The Digital Asset and Blockchain Technology Act (A3454) is pending before the legislature (approved in committee, not enacted); if passed, it would move digital-asset licensing to the Bureau of Securities in the Division of Consumer Affairs, clarify that digital assets are not money-transmission instruments, and require a license for digital-asset business activity (custody, trading, transfer). Until then, whether pure virtual currency requires a New Jersey money transmitter license is not firmly settled. Federal GENIUS Act and FinCEN requirements apply regardless.",
+      "effective": "Money Transmitters Act (N.J.S.A. 17:15C) in force but virtual-currency fit is awkward and unsettled; dedicated Digital Asset Business Act (A3454) pending, not enacted",
       "lastVerified": "2026-07-10",
-      "sourceText": "N.J.S.A. 17:15C; N.J. Dept. of Banking and Insurance; A3454 (pending)",
+      "sourceText": "N.J.S.A. 17:15C; N.J. Dept. of Banking and Insurance; A3454 (pending); N.J. Bureau of Securities",
       "sourceUrl": "https://www.nj.gov/dobi/banklicensing/formontrans.html"
     },
     {
@@ -210,11 +210,11 @@
       "slug": "delaware",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Sale of Checks and Transmission of Money Act (5 Del. C. Ch. 23); Money Transmission and Virtual Currency Modernization Act (SB 18)",
-      "detail": "Delaware requires a money transmitter license under its Sale of Checks and Transmission of Money Act (5 Del. C. Chapter 23, Sec. 2303), administered by the Office of the State Bank Commissioner; licensees are treated as money services businesses subject to the Bank Secrecy Act. Delaware applies this to virtual currency transmission in practice, and major digital-asset exchanges hold Delaware money transmitter licenses. Delaware has also advanced Senate Bill 18, the Delaware Money Transmission and Virtual Currency Modernization Act, which would repeal and replace Chapter 23 with a modernized framework that expressly addresses virtual currency.",
-      "effective": "Sale of Checks and Transmission of Money Act (5 Del. C. Ch. 23) in force and applied to virtual currency; modernization advancing via SB 18",
+      "framework": "Sale of Checks and Transmission of Money Act (5 Del. C. Ch. 23); Money Transmission and Virtual Currency Modernization Act (SB 18, enacted 2026)",
+      "detail": "Delaware currently requires a money transmitter license under its Sale of Checks and Transmission of Money Act (5 Del. C. Chapter 23, Sec. 2303), administered by the Office of the State Bank Commissioner, and applies it to virtual currency transmission in practice, with major digital-asset exchanges holding Delaware money transmitter licenses. In July 2026, Governor Meyer signed Senate Bill 18, the Delaware Money Transmission and Virtual Currency Modernization Act, part of a banking-modernization package aligning Delaware with the federal GENIUS Act. SB 18 replaces Chapter 23 with a comprehensive licensing framework for money transmitters and virtual currency businesses, including stablecoins. It takes effect the earlier of one year after enactment (around July 2027) or when the State Bank Commissioner promulgates final regulations.",
+      "effective": "Sale of Checks Act (Ch. 23) in force and applied to virtual currency; SB 18 signed July 2026, effective the earlier of 1 year after enactment (~July 2027) or upon final regulations",
       "lastVerified": "2026-07-10",
-      "sourceText": "5 Del. C. Ch. 23 (Sale of Checks and Transmission of Money Act); Del. SB 18; Office of the State Bank Commissioner",
+      "sourceText": "5 Del. C. Ch. 23; Del. SB 18 (Money Transmission and Virtual Currency Modernization Act, enacted 2026); Office of the State Bank Commissioner",
       "sourceUrl": "https://delcode.delaware.gov/title5/c023/index.html"
     },
     {
