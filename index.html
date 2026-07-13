@@ -209,6 +209,8 @@
     text-anchor: middle;
   }
   .state-label.small { font-size: 10px; }
+  .state-label.name { font-size: 10px; font-weight: 600; stroke-width: 2px; }
+  .state-label.name.tight { font-size: 8.5px; stroke-width: 1.6px; }
   .state-label.ext { text-anchor: start; font-size: 12px; }
   .label-leader { stroke: var(--ink); stroke-width: 0.7px; fill: none; }
 
@@ -552,7 +554,9 @@ function drawLabels(svg, query) {
     const cx = bb.x + bb.width / 2, cy = bb.y + bb.height / 2;
     const visible = matchesFilter(s) && matchesQuery(s, query);
     if (EXTERNAL.has(code)) { ext.push({ code, cx, cy, visible }); return; }
-    svg.appendChild(mkLabel(cx, cy, code.toUpperCase(), 'state-label' + (bb.width < 26 ? ' small' : ''), visible));
+    const name = CODE_TO_NAME[code] || code.toUpperCase();
+    const tight = name.length > 8 && bb.width < 78;
+    svg.appendChild(mkLabel(cx, cy, name, 'state-label name' + (tight ? ' tight' : ''), visible));
   });
   // external labels in a right-side column with leader lines
   ext.sort((a, b) => a.cy - b.cy);
