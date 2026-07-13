@@ -197,6 +197,21 @@
     stroke-linejoin: round;
   }
 
+  .state-label {
+    font-family: 'EB Garamond', Garamond, serif;
+    font-size: 13px;
+    font-weight: 600;
+    fill: var(--ink);
+    stroke: #fff;
+    stroke-width: 2.4px;
+    paint-order: stroke;
+    pointer-events: none;
+    text-anchor: middle;
+  }
+  .state-label.small { font-size: 10px; }
+  .state-label.ext { text-anchor: start; font-size: 12px; }
+  .label-leader { stroke: var(--ink); stroke-width: 0.7px; fill: none; }
+
   #tooltip {
     position: fixed;
     pointer-events: none;
@@ -215,7 +230,7 @@
 
   .chip-row {
     margin-top: 14px;
-    display: flex;
+    display: none;
     flex-wrap: wrap;
     gap: 8px;
   }
@@ -504,6 +519,59 @@ function paintMap() {
     const visible = matchesFilter(s) && matchesQuery(s, query);
     path.style.fill = visible ? (STATUS_COLORS[s.status] || STATUS_COLORS.guidance) : DIMMED;
     if (s.slug === selectedSlug) path.classList.add('selected');
+  });
+
+  drawLabels(svg, query);
+}
+
+const SVGNS = 'http://www.w3.org/2000/svg';
+const EXTERNAL = new Set(['ma', 'ri', 'ct', 'nj', 'de', 'md', 'dc', 'nh']);
+
+function mkLabel(x, y, text, cls, visible) {
+  const t = document.createElementNS(SVGNS, 'text');
+  t.setAttribute('x', x);
+  t.setAttribute('y', y);
+  t.setAttribute('dominant-baseline', 'central');
+  t.setAttribute('class', cls);
+  t.style.opacity = visible ? '1' : '0.3';
+  t.textContent = text;
+  return t;
+}
+
+function drawLabels(svg, query) {
+  svg.querySelectorAll('.state-label, .label-leader').forEach(e => e.remove());
+  svg.setAttribute('viewBox', '0 0 1120 593');
+  const ext = [];
+  states.forEach(s => {
+    const code = codeFor(s);
+    if (!code) return;
+    const path = svg.querySelector('path.' + code);
+    if (!path) return;
+    let bb;
+    try { bb = path.getBBox(); } catch (e) { return; }
+    const cx = bb.x + bb.width / 2, cy = bb.y + bb.height / 2;
+    const visible = matchesFilter(s) && matchesQuery(s, query);
+    if (EXTERNAL.has(code)) { ext.push({ code, cx, cy, visible }); return; }
+    svg.appendChild(mkLabel(cx, cy, code.toUpperCase(), 'state-label' + (bb.width < 26 ? ' small' : ''), visible));
+  });
+  // external labels in a right-side column with leader lines
+  ext.sort((a, b) => a.cy - b.cy);
+  const X = 1000, startY = 120, gap = 44;
+  ext.forEach((e, i) => {
+    const ly = startY + i * gap;
+    const ln = document.createElementNS(SVGNS, 'line');
+    ln.setAttribute('x1', e.cx); ln.setAttribute('y1', e.cy);
+    ln.setAttribute('x2', X - 5); ln.setAttribute('y2', ly);
+    ln.setAttribute('class', 'label-leader');
+    ln.style.opacity = e.visible ? '0.55' : '0.12';
+    svg.appendChild(ln);
+    const lbl = mkLabel(X, ly, e.code.toUpperCase(), 'state-label ext', e.visible);
+    lbl.style.pointerEvents = 'auto';
+    lbl.style.cursor = 'pointer';
+    lbl.addEventListener('click', () => { const s = stateByCode(e.code); if (s) selectState(s.slug); });
+    lbl.addEventListener('mousemove', ev => showTooltip(ev, e.code));
+    lbl.addEventListener('mouseleave', hideTooltip);
+    svg.appendChild(lbl);
   });
 }
 
