@@ -162,11 +162,11 @@
       "slug": "maine",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Money Transmission Modernization Act (LD 2112)",
-      "detail": "Maine enacted the Money Transmission Modernization Act (LD 2112), effective August 9, 2024, and opted to include the model act's virtual currency provisions. Businesses transmitting virtual currency are covered and must be licensed through the Bureau of Consumer Credit Protection, subject to a minimum net worth of $100,000 and a $100,000 surety bond or equivalent. A licensee that holds virtual currency for customers must maintain like-kind holdings sufficient to satisfy customer entitlements.",
-      "effective": "In force since Aug. 9, 2024 (LD 2112); virtual-currency provisions adopted",
+      "framework": "Maine Money Transmission Modernization Act (LD 2112)",
+      "detail": "Maine enacted the Maine Money Transmission Modernization Act (LD 2112, signed April 2024), effective August 9, 2024, administered by the Bureau of Consumer Credit Protection. The Act addresses virtual currency: it defines virtual currency and brings 'virtual currency business activity', including exchanging, transferring, or storing virtual currency and virtual currency administration (issuing virtual currency redeemable for money or other value), within its licensing framework. A business engaged in virtual currency business activity in Maine is generally covered.",
+      "effective": "Maine Money Transmission Modernization Act (LD 2112) in force since Aug. 9, 2024; virtual currency business activity covered",
       "lastVerified": "2026-07-10",
-      "sourceText": "Maine Money Transmission Modernization Act (LD 2112); Bureau of Consumer Credit Protection",
+      "sourceText": "Me. Money Transmission Modernization Act (LD 2112); Maine Bureau of Consumer Credit Protection",
       "sourceUrl": "https://www.maine.gov/pfr/consumercredit/"
     },
     {
@@ -186,23 +186,23 @@
       "slug": "rhode-island",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Currency transmission law (MTMA provisions, H.B. 7282)",
-      "detail": "Rhode Island regulates money transmission under its currency-transmission law, administered by the Department of Business Regulation, and adopted Money Transmission Modernization Act provisions through H.B. 7282. A licensee that has control of virtual currency for one or more persons must maintain, in its control, an amount of each type of virtual currency sufficient to satisfy the aggregate entitlements of those persons, a one-to-one like-kind custody standard.",
-      "effective": "Currency transmission law in force; MTMA virtual-currency provisions adopted (H.B. 7282)",
+      "framework": "Currency Transmissions law (R.I. Gen. Laws Ch. 19-14)",
+      "detail": "Rhode Island regulates money transmission under its Currency Transmissions law (R.I. Gen. Laws Title 19, Chapter 19-14), administered by the Department of Business Regulation, and its currency-transmitter licensing applies to virtual currency. H.B. 7282 (2024) added Money Transmission Modernization Act provisions, including tangible-net-worth and permissible-investment requirements and consumer protections, for currency transmitters, including cryptocurrency. Businesses that transmit or hold virtual currency for others are generally covered.",
+      "effective": "Currency Transmissions law (R.I. Gen. Laws Ch. 19-14) in force; applies to virtual currency; MTMA provisions added by H.B. 7282 (2024)",
       "lastVerified": "2026-07-10",
-      "sourceText": "R.I. currency transmission law (H.B. 7282); R.I. Department of Business Regulation",
-      "sourceUrl": "https://dbr.ri.gov/divisions/banking"
+      "sourceText": "R.I. Gen. Laws Title 19, Ch. 19-14 (Currency Transmissions); H.B. 7282 (2024); R.I. Department of Business Regulation",
+      "sourceUrl": "https://webserver.rilegislature.gov/Statutes/TITLE19/19-14/19-14-6.htm"
     },
     {
       "name": "New Jersey",
       "slug": "new-jersey",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Money Transmitters Act (N.J.S.A. 17:15C); Digital Asset Business Act (A3454, proposed)",
-      "detail": "New Jersey requires a license under its Money Transmitters Act, administered by the Department of Banking and Insurance, and the statutory definition of 'payment instrument' is broad enough to bring virtual currency transmission within the licensing scheme. Separately, New Jersey's proposed Digital Asset and Blockchain Technology Act (A3454) would require any person engaging in 'digital asset business activity' with New Jersey residents to be licensed by the Bureau of Securities in the Division of Consumer Affairs, a dedicated crypto-licensing regime that would layer on top of money transmission if enacted.",
-      "effective": "Money Transmitters Act in force (covers virtual currency); dedicated Digital Asset Business Act (A3454) pending",
+      "framework": "Money Transmitters Act (N.J.S.A. 17:15C); Digital Asset & Blockchain Technology Act (A3454, pending)",
+      "detail": "New Jersey licenses money transmission under its Money Transmitters Act (N.J.S.A. 17:15C), administered by the Department of Banking and Insurance; the reach of that law over pure virtual currency rests on its broad statutory definitions and is not firmly settled. Separately, the Digital Asset and Blockchain Technology Act (A3454) is pending before the legislature (approved in committee, not yet enacted). If enacted, it would require any person engaging in 'digital asset business activity' with New Jersey residents to be licensed by the Bureau of Securities in the Division of Consumer Affairs, a dedicated crypto-licensing regime.",
+      "effective": "Money Transmitters Act (N.J.S.A. 17:15C) in force; virtual-currency coverage not firmly settled; dedicated Digital Asset Business Act (A3454) pending, not enacted",
       "lastVerified": "2026-07-10",
-      "sourceText": "N.J.S.A. 17:15C; N.J. Dept. of Banking and Insurance; A3454",
+      "sourceText": "N.J.S.A. 17:15C; N.J. Dept. of Banking and Insurance; A3454 (pending)",
       "sourceUrl": "https://www.nj.gov/dobi/banklicensing/formontrans.html"
     },
     {
@@ -210,24 +210,24 @@
       "slug": "delaware",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Sale of Checks and Transmission of Money Act (5 Del. C. Ch. 23)",
-      "detail": "Delaware requires a license under its Sale of Checks and Transmission of Money Act, administered by the Office of the State Bank Commissioner, for any business that receives money for transmission. Delaware applies this to virtual currency transmission in practice: major digital-asset exchanges hold Delaware money transmitter licenses. Surety bonding starts at $25,000 plus $5,000 per additional location, capped at $250,000.",
-      "effective": "Sale of Checks and Transmission of Money Act in force; applied to virtual-currency transmission",
+      "framework": "Sale of Checks and Transmission of Money Act (5 Del. C. Ch. 23); Money Transmission and Virtual Currency Modernization Act (SB 18)",
+      "detail": "Delaware requires a money transmitter license under its Sale of Checks and Transmission of Money Act (5 Del. C. Chapter 23, Sec. 2303), administered by the Office of the State Bank Commissioner; licensees are treated as money services businesses subject to the Bank Secrecy Act. Delaware applies this to virtual currency transmission in practice, and major digital-asset exchanges hold Delaware money transmitter licenses. Delaware has also advanced Senate Bill 18, the Delaware Money Transmission and Virtual Currency Modernization Act, which would repeal and replace Chapter 23 with a modernized framework that expressly addresses virtual currency.",
+      "effective": "Sale of Checks and Transmission of Money Act (5 Del. C. Ch. 23) in force and applied to virtual currency; modernization advancing via SB 18",
       "lastVerified": "2026-07-10",
-      "sourceText": "5 Del. C. Ch. 23; Delaware Office of the State Bank Commissioner",
-      "sourceUrl": "https://banking.delaware.gov/"
+      "sourceText": "5 Del. C. Ch. 23 (Sale of Checks and Transmission of Money Act); Del. SB 18; Office of the State Bank Commissioner",
+      "sourceUrl": "https://delcode.delaware.gov/title5/c023/index.html"
     },
     {
       "name": "Maryland",
       "slug": "maryland",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Maryland Money Transmission Act",
-      "detail": "Maryland regulates money transmission under the Maryland Money Transmission Act, administered by the Office of the Commissioner of Financial Regulation, and has modernized its framework to allow limited recognition of digital assets as permissible investments. Consistent with federal (FinCEN) treatment, Commissioner guidance provides that an administrator or exchanger that accepts and transmits convertible virtual currency, or buys or sells it, is a money transmitter. Applications include a detailed cybersecurity and IT-risk review.",
-      "effective": "Money Transmission Act in force; virtual-currency exchangers treated as money transmitters (Commissioner guidance)",
+      "framework": "Maryland Money Transmission Act (digital-asset authority via SB 759)",
+      "detail": "Maryland regulates money transmission under the Maryland Money Transmission Act, administered by the Office of the Commissioner of Financial Regulation (OFR). OFR guidance confirms that receiving cryptocurrency from a customer and transferring it constitutes regulated money transmission, so virtual-currency businesses are generally licensed. Senate Bill 759 established explicit statutory authority to regulate digital assets under the Money Transmission Act, effective June 1, 2026. Virtual currency kiosk operators are separately regulated: a final rule effective March 30, 2026 (under Ch. 117 / S.B. 305, 2025) requires kiosk operators and each kiosk to register through NMLS.",
+      "effective": "Money Transmission Act in force (OFR: crypto transmission licensed); digital-asset authority via SB 759 (eff. June 1, 2026); VC kiosk registration rule eff. Mar. 30, 2026",
       "lastVerified": "2026-07-10",
-      "sourceText": "Maryland Money Transmission Act; Office of the Commissioner of Financial Regulation",
-      "sourceUrl": "https://www.labor.maryland.gov/finance/"
+      "sourceText": "Maryland Money Transmission Act; SB 759 (2026); Office of the Commissioner of Financial Regulation",
+      "sourceUrl": "https://www.dllr.state.md.us/finance/industry/moneytran.shtml"
     },
     {
       "name": "Virginia",
@@ -282,12 +282,12 @@
       "slug": "district-of-columbia",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Money Transmissions Act (D.C. Code Title 26, Ch. 10)",
-      "detail": "The District of Columbia requires a money transmitter license from the Department of Insurance, Securities and Banking (DISB) under the Money Transmissions Act (D.C. Code Title 26, Chapter 10). By DISB bulletin, the District treats Bitcoin and other virtual currency used as a medium of exchange, method of payment, or store of value as money for money transmission purposes, so receiving for transmission, storing, or taking custody of virtual currency from consumers, via kiosks, mobile apps, or online, requires a license. Simply buying or selling virtual currency for cash via kiosk or online is not treated as money transmission. Bonding is $50,000, up to $250,000 across locations.",
-      "effective": "Money Transmissions Act in force; DISB treats virtual currency as money (transmission/custody licensed; simple buy/sell carved out)",
+      "framework": "Money Transmissions Act (D.C. Code Title 26, Ch. 10, Sec. 26-1001)",
+      "detail": "The District of Columbia requires a money transmitter license under its Money Transmissions Act (D.C. Code Title 26, Chapter 10; Sec. 26-1001), administered by the Department of Insurance, Securities and Banking (DISB). By DISB bulletin, and relying on United States v. Harmon (in which the court treated Bitcoin as functioning like money under the District's money-transmission definition), DISB considers Bitcoin and other virtual currency used as a medium of exchange, method of payment, or store of value to be money, so receiving for transmission, storing, or taking custody of virtual currency requires a license. Operating a virtual-currency kiosk or transmitting virtual currency without a license violates Sec. 26-1002 and can carry civil and criminal penalties.",
+      "effective": "Money Transmissions Act (D.C. Code Sec. 26-1001 et seq.) in force; DISB treats virtual currency as money (per bulletin and U.S. v. Harmon); VC transmission/custody licensed",
       "lastVerified": "2026-07-10",
-      "sourceText": "D.C. Code Title 26, Ch. 10; DISB cryptocurrency & money transmission bulletin",
-      "sourceUrl": "https://disb.dc.gov/page/banking-licensing-requirements-fintech-companies"
+      "sourceText": "D.C. Code Title 26, Ch. 10 (Sec. 26-1001 et seq.); DISB cryptocurrency & money transmission bulletin",
+      "sourceUrl": "https://code.dccouncil.gov/us/dc/council/code/titles/26/chapters/10"
     }
   ]
 }
