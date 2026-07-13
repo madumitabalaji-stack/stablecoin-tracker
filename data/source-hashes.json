@@ -2,46 +2,116 @@
   "new-york": {
     "url": "https://www.dfs.ny.gov/virtual_currency_businesses",
     "hash": "c3c8606dedb446468ba8711aeb22ea55bd2e3146bec4dc79560d81c42142aa95",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
   },
   "california": {
     "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB39",
     "hash": "21cfb898dc62608450b1dd2f161282b2d16b33ad4011217fc6f692adfe4aaf0d",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
   },
   "texas": {
     "url": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf",
     "hash": "98f3ce8f3a442815e191669bd7ec61a25b4d814213e93b8c9e399bc346c15604",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
   },
   "florida": {
     "url": "https://www.flsenate.gov/Session/Bill/2026/175",
     "hash": "a88489f7dc3378e89a361188b83251cd5ee33d2c9986e06dbb46fcd87168062d",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
   },
   "wyoming": {
     "url": "https://stabletoken.wyo.gov/assets/media/factbook.pdf",
-    "hash": null,
-    "lastChecked": null
+    "hash": "2c6dd4003533815729783ba6b6eb7a9849afbbc7a5307069bffb7f841cae2724",
+    "lastChecked": "2026-07-13"
   },
   "illinois": {
     "url": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=REGULATION&Chapter=FINANCIAL+REGULATION&ActName=Digital+Assets+and+Consumer+Protection+Act.&ActID=4632&ChapterID=20&SeqStart=&ChapAct=FullText",
     "hash": "d71cc676c5e1d77ed513b6f3250e2615ff60cce5e2ec686178e5cd644b96f180",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
   },
   "colorado": {
     "url": "https://leg.colorado.gov/bills/hb25-1201",
     "hash": "cceb51757d09827818a5a4ebec0f4011fb028c28aa1335f35f12ede7d6cd009e",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
   },
   "washington": {
     "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230",
     "hash": "2f3cbfaa0cf19dfdd501ff7df7b06cad00429254f615bc061c8cdb34faf3a19c",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
   },
   "arizona": {
     "url": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm",
     "hash": "d0044608e9e6ef5d1239b8c8c61006682cdd727ceeb9627a399bf2007901fbfd",
-    "lastChecked": "2026-07-06"
+    "lastChecked": "2026-07-13"
+  },
+  "georgia": {
+    "url": "https://www.legis.ga.gov/api/legislation/document/20252026/249038",
+    "hash": "0b567ab7df73820a5632cd923aacf5f42f86c7003d924cdd8a1df33ab4c4c6d3",
+    "lastChecked": "2026-07-13"
+  },
+  "north-carolina": {
+    "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_53/Article_16B.html",
+    "hash": "5fd580feb11315d4113a846935b9679ad3b8139e7034efd636c8c401b60fb6fe",
+    "lastChecked": "2026-07-13"
+  },
+  "nevada": {
+    "url": "https://www.leg.state.nv.us/nrs/nrs-671.html",
+    "hash": "b6c30a4b5521df7a2e7e9b5b2bff60b27eea53044c6c970ed8d7edee13cb8bfb",
+    "lastChecked": "2026-07-13"
+  },
+  "maine": {
+    "url": "https://www.maine.gov/pfr/consumercredit/",
+    "hash": "cec3375615f04ea442cfe2971ea85702c8f6a1e9137901bdf8918dc045109a0f",
+    "lastChecked": "2026-07-13"
+  },
+  "new-hampshire": {
+    "url": "https://gc.nh.gov/rsa/html/XXXVI/399-G/399-G-mrg.htm",
+    "hash": "8bc05dcee497e740e840d15b1de7bbefd1a9a9b238c8ddac656dce0f05755531",
+    "lastChecked": "2026-07-13"
+  },
+  "rhode-island": {
+    "url": "https://webserver.rilegislature.gov/Statutes/TITLE19/19-14/19-14-6.htm",
+    "hash": "b43610faf61e4355215a6cb0a106d525130185abec33197c0ccd95fee1ab0238",
+    "lastChecked": "2026-07-13"
+  },
+  "new-jersey": {
+    "url": "https://www.nj.gov/dobi/banklicensing/formontrans.html",
+    "hash": "f475896a2e7fb89666a6fbab5ba4591e66b9e2df4e6fe28e8cd488a18790458b",
+    "lastChecked": "2026-07-13"
+  },
+  "delaware": {
+    "url": "https://delcode.delaware.gov/title5/c023/index.html",
+    "hash": "ab68646910fcb6308146a335ece309a3b6a3ede4aae29181ab656a0805a7fb56",
+    "lastChecked": "2026-07-13"
+  },
+  "maryland": {
+    "url": "https://www.dllr.state.md.us/finance/industry/moneytran.shtml",
+    "hash": "7ed098df0fe9da5605f518ad8e25133f7e502056a708f04ef595aff81ccc1f1c",
+    "lastChecked": "2026-07-13"
+  },
+  "virginia": {
+    "url": "https://law.lis.virginia.gov/vacode/title6.2/chapter19.1/section6.2-1922/",
+    "hash": "cb3bdba2b03a4acb30c4d3caa954524982ac8a8a4510a9a742b6bb4fdc3da28e",
+    "lastChecked": "2026-07-13"
+  },
+  "south-carolina": {
+    "url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/163.htm",
+    "hash": "140b55006ac725d47b6291880bbdcb9f48caca3b1f6365b6463959385bc0360e",
+    "lastChecked": "2026-07-13"
+  },
+  "massachusetts": {
+    "url": "https://www.mass.gov/info-details/chapter-312-of-the-acts-of-2024-money-transmission-law",
+    "hash": "5e4c49056c709ad321bf91cc9223d9aa87ceab76385602066b230b945d328391",
+    "lastChecked": "2026-07-13"
+  },
+  "pennsylvania": {
+    "url": "https://www.pa.gov/agencies/dobs/non-bank-licensees",
+    "hash": "9e3ca8a02eb9c6b276918a7df33307d2d0b4897ceae5b99032c0888251e27b73",
+    "lastChecked": "2026-07-13"
+  },
+  "district-of-columbia": {
+    "url": "https://code.dccouncil.gov/us/dc/council/code/titles/26/chapters/10",
+    "hash": "8a01e04ce471ebb69aa572a3791c1c9fda12fda941de1b9cc8447f339e8167f5",
+    "lastChecked": "2026-07-13"
   }
 }
