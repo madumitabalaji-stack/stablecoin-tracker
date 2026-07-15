@@ -66,11 +66,11 @@
       "slug": "illinois",
       "status": "pending",
       "statusLabel": "Phasing In",
-      "framework": "Digital Assets and Consumer Protection Act (DACPA) + Digital Asset Kiosk Act (DAKA)",
-      "detail": "Signed the same day, August 18, 2025 (DACPA enacted as Public Act 104-0428), these twin laws split digital asset oversight in two. DACPA defines a 'digital asset' broadly enough to deliberately capture stablecoins: an asset normally excluded for not being used as an investment loses that exclusion if it's marketed as holding a stable, effectively fixed value, which is exactly how a stablecoin is sold. Businesses must register with IDFPR by July 1, 2027, though customer disclosure and custody protections apply sooner. DAKA separately regulates digital asset kiosks specifically, capping daily transactions at $2,500 for new customers and $10,500 for existing ones, and limiting fees to the greater of $5 or 18% of the transaction.",
-      "effective": "Both effective Aug. 18, 2025; DACPA registration deadline Jul. 1, 2027",
-      "lastVerified": "2026-07-03",
-      "sourceText": "205 ILCS 731/ and 205 ILCS 732/, Illinois Compiled Statutes",
+      "framework": "Money transmission: Uniform Money Transmission Modernization Act (SB 3412, replacing the Transmitters of Money Act, eff. Jan. 1, 2026). Digital assets/stablecoins: Digital Assets and Consumer Protection Act (DACPA) + Digital Asset Kiosk Act (DAKA)",
+      "detail": "For money transmission generally, Illinois enacted the CSBS Money Transmission Modernization Act via SB 3412 (the Uniform Money Transmission Modernization Act, signed August 2024), which replaces the prior Transmitters of Money Act effective January 1, 2026 and adopts NMLS-based multistate licensing. For digital assets specifically, two further laws signed August 18, 2025 (DACPA enacted as Public Act 104-0428) split digital asset oversight in two. DACPA defines a 'digital asset' broadly enough to deliberately capture stablecoins: an asset normally excluded for not being used as an investment loses that exclusion if it's marketed as holding a stable, effectively fixed value, which is exactly how a stablecoin is sold. Businesses must register with IDFPR by July 1, 2027, though customer disclosure and custody protections apply sooner. DAKA separately regulates digital asset kiosks specifically, capping daily transactions at $2,500 for new customers and $10,500 for existing ones, and limiting fees to the greater of $5 or 18% of the transaction.",
+      "effective": "MTMA (SB 3412) money-transmission changes eff. Jan. 1, 2026; DACPA and DAKA eff. Aug. 18, 2025; DACPA registration deadline Jul. 1, 2027",
+      "lastVerified": "2026-07-14",
+      "sourceText": "205 ILCS 731/ (DACPA) and 205 ILCS 732/ (DAKA); Uniform Money Transmission Modernization Act (SB 3412), amending the Transmitters of Money Act",
       "sourceUrl": "https://www.ilga.gov/legislation/ILCS/details?MajorTopic=REGULATION&Chapter=FINANCIAL+REGULATION&ActName=Digital+Assets+and+Consumer+Protection+Act.&ActID=4632&ChapterID=20&SeqStart=&ChapAct=FullText"
     },
     {
@@ -150,11 +150,11 @@
       "slug": "nevada",
       "status": "guidance",
       "statusLabel": "Guidance-Based",
-      "framework": "Money transmission law (NRS Ch. 671), applied to digital currency by FID guidance",
-      "detail": "Nevada has no dedicated virtual-currency or stablecoin statute; its money transmission law (NRS Chapter 671, modernized in 2025) does not expressly mention virtual or digital currency. Instead, the Financial Institutions Division (FID), through published guidance, applies the money-transmission licensing requirement to entities that transmit or hold digital currency, by kiosk, mobile, internet, or other means. Under that guidance, Bitcoin ATM operators must hold a money transmitter license and bond, and licensees holding virtual currency are expected to keep enough of each type to cover outstanding customer obligations. Entities acting purely as digital-asset custodians may instead be regulated as trust companies under NRS Chapter 669. Nevada thus regulates digital assets case by case under existing law rather than a bespoke framework.",
-      "effective": "Money transmission law (NRS Ch. 671) in force; digital currency covered via FID guidance, not express statute",
-      "lastVerified": "2026-07-09",
-      "sourceText": "NRS Ch. 671 (money transmission); applied to digital currency by Nevada Financial Institutions Division guidance",
+      "framework": "CSBS Money Transmission Modernization Act (NRS Ch. 671, enacted by A.B. 21, 2023); virtual currency covered by FID guidance",
+      "detail": "Nevada enacted the CSBS Model Money Transmission Modernization Act through A.B. 21 (2023), modernizing its money transmission law at NRS Chapter 671, but it did not adopt the model's optional virtual-currency title (Article XIII). NRS Chapter 671 therefore does not expressly mention virtual or digital currency. Instead, the Financial Institutions Division (FID), through published guidance, applies the money-transmission licensing requirement to entities that transmit or hold digital currency, by kiosk, mobile, internet, or other means. Under that guidance, Bitcoin ATM operators must hold a money transmitter license and bond, and licensees holding virtual currency are expected to keep enough of each type to cover outstanding customer obligations. Entities acting purely as digital-asset custodians may instead be regulated as trust companies under NRS Chapter 669. Nevada thus regulates digital assets case by case under its MTMA-based money transmission law rather than a bespoke virtual-currency framework.",
+      "effective": "MTMA enacted via A.B. 21 (2023) at NRS Ch. 671; digital currency covered by FID guidance, not the optional Article XIII virtual-currency title",
+      "lastVerified": "2026-07-14",
+      "sourceText": "NRS Ch. 671, enacted by A.B. 21 (2023) adopting the CSBS Model MTMA without the optional virtual-currency title; digital currency covered by Nevada FID guidance",
       "sourceUrl": "https://www.leg.state.nv.us/nrs/nrs-671.html"
     },
     {
