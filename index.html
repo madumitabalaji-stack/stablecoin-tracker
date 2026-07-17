@@ -9,22 +9,21 @@
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap" rel="stylesheet">
 <style>
   :root {
-    color-scheme: dark;
-    --teal: hsl(187, 62%, 58%);
-    --teal-light: hsl(187, 42%, 14%);
-    --teal-border: hsl(187, 34%, 28%);
-    --purple: hsl(268, 80%, 76%);
-    --ink: #e9eaf1;
-    --gray: #b6b9c6;
-    --light-gray: #888ca0;
-    --bg: #0e1018;
-    --card-bg: #191c28;
-    --border: #2a2e40;
-    --c-live: hsl(150, 56%, 50%);
-    --c-pending: hsl(42, 90%, 58%);
-    --c-guidance: hsl(220, 72%, 64%);
-    --c-excluded: hsl(342, 62%, 66%);
-    --c-untracked: #4a4f63;
+    --teal: hsl(187, 74%, 32%);
+    --teal-light: hsl(187, 40%, 95%);
+    --teal-border: hsl(187, 40%, 85%);
+    --purple: hsl(270, 70%, 45%);
+    --ink: #1a1a2e;
+    --gray: #555;
+    --light-gray: #888;
+    --bg: #fafafa;
+    --card-bg: #ffffff;
+    --border: #e5e5e5;
+    --c-live: hsl(150, 55%, 40%);
+    --c-pending: hsl(40, 90%, 52%);
+    --c-guidance: hsl(220, 62%, 55%);
+    --c-excluded: hsl(342, 46%, 58%);
+    --c-untracked: #d6d6db;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -81,7 +80,7 @@
     border: 1px solid var(--teal-border);
     border-radius: 6px;
     font-size: 12.5px;
-    color: var(--teal);
+    color: #2f5a5e;
     line-height: 1.55;
   }
 
@@ -101,7 +100,7 @@
     margin-bottom: 10px;
   }
 
-  .federal p { font-size: 13.5px; color: var(--gray); margin-bottom: 8px; }
+  .federal p { font-size: 13.5px; color: #333; margin-bottom: 8px; }
   .federal p:last-child { margin-bottom: 0; }
   .federal .src { font-size: 11.5px; color: var(--light-gray); }
   .federal .src a { color: var(--teal); text-decoration: none; }
@@ -125,7 +124,7 @@
     padding: 6px 14px;
     border-radius: 20px;
     border: 1px solid var(--border);
-    background: var(--card-bg);
+    background: #fff;
     color: var(--gray);
     cursor: pointer;
     transition: all 0.15s ease;
@@ -212,7 +211,6 @@
   #map-holder path {
     transition: filter 0.12s ease, fill 0.2s ease;
   }
-  #map-holder .state path { fill: var(--c-untracked); }
 
   #map-holder path.tracked { cursor: pointer; }
   #map-holder path.tracked:hover { filter: brightness(0.85); }
@@ -226,7 +224,7 @@
     font-family: 'EB Garamond', Garamond, serif;
     font-size: 13px;
     font-weight: 600;
-    fill: #16181f;
+    fill: var(--ink);
     stroke: #fff;
     stroke-width: 2.4px;
     paint-order: stroke;
@@ -236,14 +234,13 @@
   .state-label.small { font-size: 10px; }
   .state-label.name { font-size: 10px; font-weight: 600; stroke-width: 2px; }
   .state-label.name.tight { font-size: 8.5px; stroke-width: 1.6px; }
-  .state-label.ext { text-anchor: start; font-size: 12px; fill: var(--ink); stroke: var(--bg); stroke-width: 3px; }
-  .label-leader { stroke: var(--light-gray); stroke-width: 0.7px; fill: none; }
+  .state-label.ext { text-anchor: start; font-size: 12px; }
+  .label-leader { stroke: var(--ink); stroke-width: 0.7px; fill: none; }
 
   #tooltip {
     position: fixed;
     pointer-events: none;
-    background: #0a0b11;
-    border: 1px solid var(--border);
+    background: var(--ink);
     color: #fff;
     font-size: 12px;
     padding: 6px 10px;
@@ -270,7 +267,7 @@
     padding: 5px 12px;
     border-radius: 16px;
     border: 1px solid var(--border);
-    background: var(--card-bg);
+    background: #fff;
     color: var(--gray);
     cursor: pointer;
     display: inline-flex;
@@ -281,7 +278,7 @@
 
   .chip .dot { width: 8px; height: 8px; border-radius: 50%; }
   .chip:hover { border-color: var(--teal); color: var(--ink); }
-  .chip.selected { border-color: var(--ink); color: var(--ink); background: #2a2e40; }
+  .chip.selected { border-color: var(--ink); color: var(--ink); background: #f1f1f4; }
   .chip.dimmed { opacity: 0.35; }
 
   #detail { }
@@ -337,10 +334,10 @@
     white-space: nowrap;
   }
 
-  .status-live { background: hsl(150, 45%, 16%); color: hsl(150, 60%, 68%); }
-  .status-pending { background: hsl(40, 55%, 16%); color: hsl(42, 90%, 66%); }
-  .status-exempt { background: hsl(220, 45%, 20%); color: hsl(220, 75%, 74%); }
-  .status-excluded { background: hsl(342, 42%, 20%); color: hsl(342, 70%, 76%); }
+  .status-live { background: hsl(150, 50%, 92%); color: hsl(150, 60%, 28%); }
+  .status-pending { background: hsl(40, 80%, 92%); color: hsl(35, 70%, 32%); }
+  .status-exempt { background: hsl(220, 50%, 93%); color: hsl(220, 50%, 38%); }
+  .status-excluded { background: hsl(342, 46%, 93%); color: hsl(342, 50%, 40%); }
 
   .card .framework {
     font-size: 12.5px;
@@ -351,7 +348,7 @@
 
   .card .detail {
     font-size: 13px;
-    color: var(--gray);
+    color: #444;
     margin-bottom: 10px;
     line-height: 1.55;
   }
@@ -489,7 +486,7 @@ const STATUS_COLORS = {
   excluded: getCss('--c-excluded')
 };
 const UNTRACKED = getCss('--c-untracked');
-const DIMMED    = '#2f3446';
+const DIMMED    = '#ebebee';
 
 function getCss(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
 
