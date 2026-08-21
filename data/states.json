@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-08-20",
   "states": [
     {
       "name": "New York",
@@ -288,6 +288,126 @@
       "lastVerified": "2026-07-10",
       "sourceText": "D.C. Code Title 26, Ch. 10 (Sec. 26-1001 et seq.); DISB cryptocurrency & money transmission bulletin",
       "sourceUrl": "https://code.dccouncil.gov/us/dc/council/code/titles/26/chapters/10"
+    },
+    {
+      "name": "Ohio",
+      "slug": "ohio",
+      "status": "guidance",
+      "statusLabel": "Guidance-Based",
+      "framework": "Ohio Money Transmitters Act + DFI Interpretive Guidance 2022-01",
+      "detail": "Ohio's Division of Financial Institutions treats businesses that buy, sell, or transmit cryptocurrency as money transmitters that must be licensed before serving Ohio customers. Interpretive Guidance 2022-01 covers crypto exchanges, kiosks/BTMs, and businesses with independent control over a customer's virtual currency. Stablecoin activity involving transmission or fiat conversion would require licensure on the same basis.",
+      "effective": "Interpretive Guidance 2022-01, effective Aug. 31, 2022",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Ohio Div. of Financial Institutions, Money Transmitters",
+      "sourceUrl": "https://com.ohio.gov/divisions-and-programs/financial-institutions/money-transmitters/money-transmitters"
+    },
+    {
+      "name": "Michigan",
+      "slug": "michigan",
+      "status": "excluded",
+      "statusLabel": "VC Unsettled",
+      "framework": "Michigan Money Transmission Services Act (Act 250 of 2006)",
+      "detail": "Michigan's money-transmission law predates crypto and was never updated for it. DIFS's position is that cryptocurrency is not 'money' (not backed by tangible assets or insured deposits), so the pure-crypto leg falls outside DIFS authority. Fiat-to-crypto and crypto-to-fiat transactions do require a money transmitter license, and major exchanges hold Michigan MT licenses. Treatment of stablecoins specifically remains unsettled.",
+      "effective": "Act 250 of 2006 (no crypto-specific amendment)",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Michigan DIFS, Money Transmission Services",
+      "sourceUrl": "https://www.michigan.gov/difs/industry/licensing-cf/money-transmit"
+    },
+    {
+      "name": "Tennessee",
+      "slug": "tennessee",
+      "status": "guidance",
+      "statusLabel": "Guidance-Based",
+      "framework": "Tennessee Money Transmitter Act + TDFI Virtual Currency Guidance",
+      "detail": "TDFI's guidance is that cryptocurrency itself is not 'money,' so holding or transmitting pure virtual currency is not money transmission and the MT license does not cover VC transmission. However, converting crypto to or from sovereign currency through a third-party exchanger or automated machine IS money transmission requiring a license, and TDFI has stated that trade in stablecoins must be licensed as money transmission.",
+      "effective": "TDFI Virtual Currency Guidance",
+      "lastVerified": "2026-08-20",
+      "sourceText": "TN Dept. of Financial Institutions, Virtual Currency Guidance",
+      "sourceUrl": "https://www.tn.gov/tdfi/mortgage-consumer-lending/money-transmitter/virtual-currency-guidance-.html"
+    },
+    {
+      "name": "Minnesota",
+      "slug": "minnesota",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Minnesota Money Transmission Act (broad 'payment instrument' definition)",
+      "detail": "Minnesota's money-transmission statute does not define 'money' and uses a broad 'payment instrument' definition understood to reach virtual currency, so a money transmitter license is required for VC transmission, and major exchanges hold Minnesota licenses. Treatment applies under the general statute rather than a crypto-specific law.",
+      "effective": "Under existing Money Transmission Act (no separate VC statute confirmed)",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Minnesota Dept. of Commerce, Money Services Business",
+      "sourceUrl": "https://mn.gov/commerce/money/industry/money-services-business"
+    },
+    {
+      "name": "Missouri",
+      "slug": "missouri",
+      "status": "excluded",
+      "statusLabel": "VC Unsettled",
+      "framework": "Missouri Sale of Checks Law / money transmission (no VC-specific guidance)",
+      "detail": "Missouri's Division of Finance has not published virtual-currency-specific guidance. A money transmitter (Sale of Checks) license is likely required where fiat currency is involved, and at least one major exchange holds a Missouri Sale of Checks license, but the treatment of pure crypto and stablecoins is unsettled absent specific guidance.",
+      "effective": "No VC-specific guidance issued",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Missouri Division of Finance",
+      "sourceUrl": "https://finance.mo.gov/"
+    },
+    {
+      "name": "Oregon",
+      "slug": "oregon",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Oregon Money Transmission Law (ORS 717.205)",
+      "detail": "Oregon requires a money transmission license to conduct a money transmission business (ORS 717.205), and the Division of Financial Regulation applies this to cryptocurrency businesses transmitting value for Oregon customers. Stablecoin transmission and fiat conversion would require licensure on the same basis.",
+      "effective": "Under ORS 717 (money transmission license required)",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Oregon Div. of Financial Regulation, Money Transmitter Licensing",
+      "sourceUrl": "https://dfr.oregon.gov/business/licensing/financial/pages/money-transmitters.aspx"
+    },
+    {
+      "name": "Indiana",
+      "slug": "indiana",
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
+      "framework": "Indiana Money Transmission (DFI: VC exchange exempt)",
+      "detail": "The Indiana Department of Financial Institutions has stated that a money transmitter license is not required for a fiat or virtual currency exchange where the consumer is strictly buying or selling currency and cannot send fiat to another consumer. A virtual currency exchange therefore does not generally require an Indiana money transmitter license.",
+      "effective": "Per DFI money transmitter licensing FAQ (NMLS)",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Indiana Dept. of Financial Institutions (money transmitter FAQ)",
+      "sourceUrl": "https://www.in.gov/dfi/"
+    },
+    {
+      "name": "Iowa",
+      "slug": "iowa",
+      "status": "guidance",
+      "statusLabel": "Guidance-Based",
+      "framework": "Iowa money transmission + Division of Banking VC guidance",
+      "detail": "Iowa's Division has held that virtual currency qualifies as 'monetary value,' so receiving virtual currency for transmission in Iowa requires a money transmission license, and the Division has issued guidance for virtual currency kiosks. Major exchanges (Coinbase, Binance, Gemini) are registered as money transmitters in Iowa.",
+      "effective": "Per Division of Banking guidance (VC = monetary value)",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Iowa Division of Banking, Guidance for Virtual Currency Kiosks",
+      "sourceUrl": "https://idob.iowa.gov/media/169/download?inline="
+    },
+    {
+      "name": "Kansas",
+      "slug": "kansas",
+      "status": "guidance",
+      "statusLabel": "Guidance-Based",
+      "framework": "Kansas Money Transmitter Act + OSBC Guidance (MT 2014-01)",
+      "detail": "Kansas OSBC guidance states that an entity engaged solely in the transmission of cryptocurrency is not required to obtain a license, and that exchanging one cryptocurrency for another, or transferring cryptocurrency between accounts, does not by itself qualify as money transmission because crypto is not 'money.' Transactions involving sovereign currency (fiat) can still trigger licensing.",
+      "effective": "OSBC Cryptocurrency Guidance MT 2014-01",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Kansas Office of the State Bank Commissioner, Guidance MT 2014-01",
+      "sourceUrl": "https://www.osbckansas.gov/cml/mt_2014_01.pdf"
+    },
+    {
+      "name": "Kentucky",
+      "slug": "kentucky",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Kentucky money transmission (transmission of money or monetary value)",
+      "detail": "Kentucky requires a license to operate a money transmission business, covering the transmission of money or monetary value by any means, which is understood to reach cryptocurrency businesses transmitting value for Kentucky customers. Treatment applies under the general money transmission statute rather than a crypto-specific law.",
+      "effective": "Under Kentucky money transmission statute",
+      "lastVerified": "2026-08-20",
+      "sourceText": "Kentucky Dept. of Financial Institutions, Money Transmission",
+      "sourceUrl": "https://kfi.ky.gov/"
     }
   ]
 }
