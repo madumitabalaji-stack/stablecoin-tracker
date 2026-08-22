@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-22",
   "states": [
     {
       "name": "New York",
@@ -408,6 +408,78 @@
       "lastVerified": "2026-08-20",
       "sourceText": "Kentucky Dept. of Financial Institutions, Money Transmission",
       "sourceUrl": "https://kfi.ky.gov/"
+    },
+    {
+      "name": "Hawaii",
+      "slug": "hawaii",
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
+      "framework": "Hawaii Money Transmitters Modernization Act (HRS Ch. 489D); virtual currency excluded by DFI interpretation (post Digital Currency Innovation Lab)",
+      "detail": "As of July 1, 2024, Hawaii's Division of Financial Institutions determined that virtual-currency activity is no longer treated as money transmission, so a standalone virtual-currency business (including transmitting or exchanging stablecoins) does not need a Hawaii money transmitter license. This exclusion rests on regulator interpretation following the multi-year Digital Currency Innovation Lab rather than an express statutory carve-out, which makes it less durable, and adding a fiat-currency leg, custody of customer assets, or a virtual-currency kiosk can change the analysis. Federal FinCEN and SEC requirements still apply.",
+      "effective": "DFI determination effective Jul. 1, 2024 (Digital Currency Innovation Lab concluded); interpretation-based, not statutory",
+      "lastVerified": "needs-review",
+      "sourceText": "Hawaii DFI / DCCA (Digital Currency Innovation Lab conclusion, eff. Jul. 1 2024); Greenberg Traurig analysis",
+      "sourceUrl": "https://governor.hawaii.gov/newsroom/dcca-release-hawaii-digital-currency-innovation-lab-to-conclude/"
+    },
+    {
+      "name": "Alabama",
+      "slug": "alabama",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Alabama Monetary Transmission Act (Ala. Code Title 8, Ch. 7A); virtual currency covered as monetary value",
+      "detail": "Alabama licenses money transmission under the Monetary Transmission Act, which covers the transmission of monetary value. The Alabama Securities Commission applies this to virtual currency, so transmitting or exchanging stablecoins on behalf of others generally requires a money transmitter license, with financial requirements including minimum net worth and a surety bond. Whether virtual currency is expressly named or captured by interpretation should be confirmed.",
+      "effective": "Monetary Transmission Act in force; virtual-currency coverage applied by the Alabama Securities Commission",
+      "lastVerified": "needs-review",
+      "sourceText": "Alabama Monetary Transmission Act (Ala. Code Title 8, Ch. 7A); Alabama Securities Commission; Carlton Fields 50-state survey",
+      "sourceUrl": "https://www.carltonfields.com/insights/publications/2021/state-regulations-virtual-currency-blockchain-tech"
+    },
+    {
+      "name": "Alaska",
+      "slug": "alaska",
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
+      "framework": "Alaska Uniform Money Services Act (fiat only); virtual currency not regulated per Division of Banking & Securities guidance",
+      "detail": "Alaska has no virtual-currency-specific statute. The Division of Banking and Securities has stated it is not authorized under current law to regulate virtual currencies, and that only transactions involving fiat currency fall under the state's Money Transmitter law (the Uniform Money Services Act). Virtual-currency-only activity is therefore not licensed at the state level, but this rests on guidance and prior efforts to bring virtual currency within the money-transmission framework mean pending or future legislation could change it.",
+      "effective": "Guidance-based exclusion; only fiat transactions covered by the Uniform Money Services Act",
+      "lastVerified": "needs-review",
+      "sourceText": "Alaska Division of Banking & Securities guidance; Uniform Money Services Act; Carlton Fields 50-state survey",
+      "sourceUrl": "https://www.carltonfields.com/insights/publications/2021/state-regulations-virtual-currency-blockchain-tech"
+    },
+    {
+      "name": "Arkansas",
+      "slug": "arkansas",
+      "status": "guidance",
+      "statusLabel": "Guidance-Based",
+      "framework": "Arkansas Uniform Money Services Act (Ark. Code § 23-55-102, monetary value); Securities Department no-action letters",
+      "detail": "Arkansas has no cryptocurrency-specific statute. Virtual currency may fall within the state's money-transmission law, which covers monetary value defined as a medium of exchange whether or not redeemable in money (Ark. Code § 23-55-102), but the Arkansas Securities Department has issued no-action letters exempting certain digital-asset businesses from licensing. Treatment is therefore unsettled and fact-specific, handled through guidance and no-action relief rather than a clear statutory rule.",
+      "effective": "No crypto-specific statute; treatment via money-services law plus Securities Department no-action letters",
+      "lastVerified": "needs-review",
+      "sourceText": "Arkansas Uniform Money Services Act (Ark. Code § 23-55-102); Arkansas Securities Department no-action letters; Carlton Fields survey",
+      "sourceUrl": "https://www.carltonfields.com/insights/publications/2021/state-regulations-virtual-currency-blockchain-tech"
+    },
+    {
+      "name": "Idaho",
+      "slug": "idaho",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Idaho Money Transmitters Act (virtual-currency exchangers licensed); Idaho Digital Assets Act",
+      "detail": "The Idaho Department of Finance requires virtual-currency exchangers to hold an Idaho money transmitter license, so transmitting or exchanging stablecoins for customers generally requires licensure. The Department has issued numerous no-action letters exempting businesses that sell their own inventory of digital currency through kiosks. Separately, Idaho's Digital Assets Act categorizes digital assets as intangible personal property and applies existing property law to them.",
+      "effective": "Money Transmitters Act applied to virtual-currency exchangers; Digital Assets Act signed 2025",
+      "lastVerified": "needs-review",
+      "sourceText": "Idaho Department of Finance (virtual-currency exchanger licensing); Idaho Digital Assets Act; Astraea state crypto licensing map",
+      "sourceUrl": "https://astraea.law/insights/state-by-state-crypto-licensing-map-2025"
+    },
+    {
+      "name": "Louisiana",
+      "slug": "louisiana",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Louisiana Virtual Currency Business Act (dedicated virtual-currency license, Office of Financial Institutions)",
+      "detail": "Louisiana enacted the Virtual Currency Business Act, making it one of the few states with a dedicated virtual-currency licensing regime rather than relying solely on general money-transmission law. Engaging in virtual-currency business activity in Louisiana, including transmitting, exchanging, or custodying stablecoins for others, generally requires a virtual-currency license (or money transmitter license) from the Office of Financial Institutions. NOTE: verify current effective status and scope directly, as this entry is based on the enacting statute and has not been reconfirmed against current OFI guidance.",
+      "effective": "Virtual Currency Business Act enacted; confirm current effective date and scope with the Office of Financial Institutions",
+      "lastVerified": "needs-review",
+      "sourceText": "Louisiana Virtual Currency Business Act; Louisiana Office of Financial Institutions (VERIFY current status)",
+      "sourceUrl": "https://ofi.la.gov/"
     }
   ]
 }
