@@ -480,6 +480,138 @@
       "lastVerified": "needs-review",
       "sourceText": "Louisiana Virtual Currency Business Act; Louisiana Office of Financial Institutions (VERIFY current status)",
       "sourceUrl": "https://ofi.la.gov/"
+    },
+    {
+      "name": "Montana",
+      "slug": "montana",
+      "status": "excluded",
+      "statusLabel": "No MT Regime",
+      "framework": "No state money transmitter statute (Montana is the only state without one)",
+      "detail": "Montana is the only U.S. state with no money transmitter statute at all, so there is no state-level money transmitter license requirement for transmitting or exchanging fiat or virtual currency, including stablecoins. Firms operating from Montana still register with FinCEN and comply with the federal Bank Secrecy Act; the absence of a state regime is unique and should be tracked separately from statutory VC exclusions.",
+      "effective": "No state money transmission law; federal FinCEN/BSA still applies",
+      "lastVerified": "needs-review",
+      "sourceText": "Montana has no state money transmitter statute; Astraea state crypto licensing map",
+      "sourceUrl": "https://astraea.law/insights/state-by-state-crypto-licensing-map-2025"
+    },
+    {
+      "name": "South Dakota",
+      "slug": "south-dakota",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "South Dakota money transmission law (Division of Banking); 'monetary value' includes virtual currency; SB 58 (2024) reserve rule",
+      "detail": "South Dakota treats 'monetary value' as including virtual currency, so persons in the business of money transmission (including transmitting stablecoins) must obtain a license from the Division of Banking. SB 58, signed in March 2024, additionally requires licensees transmitting virtual currency to hold like-kind virtual currency in an amount equal to what is owed to consumers.",
+      "effective": "Money transmission license required; SB 58 like-kind reserve rule enacted March 2024",
+      "lastVerified": "needs-review",
+      "sourceText": "South Dakota Division of Banking; SB 58 (2024)",
+      "sourceUrl": "https://dlr.sd.gov/banking/money_transmitters/default.aspx"
+    },
+    {
+      "name": "North Dakota",
+      "slug": "north-dakota",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "North Dakota Money Transmission Modernization Act, including the optional virtual-currency provisions",
+      "detail": "North Dakota adopted the CSBS Model Money Transmission Modernization Act and, unusually, included the model's optional virtual-currency provisions (one of only a few states, alongside Maine and Minnesota, to do so). Virtual-currency business activity, including transmitting or custodying stablecoins, is therefore expressly within the state's money-transmission licensing framework.",
+      "effective": "Model MTMA with optional virtual-currency provisions enacted",
+      "lastVerified": "needs-review",
+      "sourceText": "North Dakota MTMA (with optional virtual-currency provisions); Cooley analysis of Model Act adoptions",
+      "sourceUrl": "https://www.cooley.com/news/insight/2023/2023-09-12-model-money-transmission-modernization-act-12-states-take-action"
+    },
+    {
+      "name": "Nebraska",
+      "slug": "nebraska",
+      "status": "live",
+      "statusLabel": "Live Regime + Digital Asset Charter",
+      "framework": "Nebraska Financial Innovation Act (Neb. Rev. Stat. §§ 8-3001 to 8-3031); digital asset depository charter",
+      "detail": "Nebraska created a bespoke digital-asset regime under the Nebraska Financial Innovation Act, offering two pathways: a state-chartered bank may create a digital-asset division, or a new digital-asset depository may be chartered. Chartered institutions can provide custody and asset servicing and must hold unencumbered USD-denominated liquid assets of at least 100% of digital assets in custody, with a $10 million minimum capital requirement. This is a dedicated charter framework rather than a standard money-transmitter approach, and is directly relevant to stablecoin custody and reserves.",
+      "effective": "Nebraska Financial Innovation Act effective (digital-asset depository charter); Title 47 rules updated",
+      "lastVerified": "needs-review",
+      "sourceText": "Nebraska Financial Innovation Act (Neb. Rev. Stat. §§ 8-3001 to 8-3031); Nebraska Dept. of Banking and Finance",
+      "sourceUrl": "https://ndbf.nebraska.gov/about/legal/nebraska-financial-innovation-act"
+    },
+    {
+      "name": "Oklahoma",
+      "slug": "oklahoma",
+      "status": "pending",
+      "statusLabel": "Phasing In",
+      "framework": "Oklahoma Money Transmission Modernization Act (HB 3521), 6 O.S. § 1551 et seq., effective Nov. 1, 2026; new 'money' definition expressly includes fully-reserved fiat-pegged stablecoins",
+      "detail": "Oklahoma enacted the Money Transmission Modernization Act (HB 3521), which repeals its existing money-transmission statute and recodifies the regime at 6 O.S. § 1551 et seq., effective November 1, 2026. Notably, the new statutory definition of 'money' expressly includes a fiat-backed, sovereign-pegged, fully reserve-backed stablecoin that is redeemable by its issuer, making Oklahoma one of the states to name stablecoins directly in statute. The regime is phasing in ahead of the November 2026 effective date.",
+      "effective": "HB 3521 (MTMA) effective Nov. 1, 2026; statutory 'money' definition expressly includes fully-reserved fiat-pegged stablecoins",
+      "lastVerified": "needs-review",
+      "sourceText": "Oklahoma Money Transmission Modernization Act (HB 3521), 6 O.S. § 1551 et seq.; CSBS MTMA legislation tracker",
+      "sourceUrl": "https://www.csbs.org/state-pending-enacted-mtma-legislation"
+    },
+    {
+      "name": "Utah",
+      "slug": "utah",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Utah Money Transmitter Act (amended 2019 to address cryptocurrency); virtual-currency kiosk legislation; regulatory sandbox",
+      "detail": "Utah amended its Money Transmitter Act in 2019 to address whether cryptocurrency transactions fall within the Act's money-transmission jurisdiction, and more recent legislation has targeted virtual-currency kiosk operators, requiring them to obtain money transmitter licenses. Utah also operates a financial regulatory sandbox. The precise line between covered and exempt virtual-currency activity is nuanced and should be confirmed against the current statute and Department of Financial Institutions guidance.",
+      "effective": "Money Transmitter Act amended 2019 re cryptocurrency; kiosk licensing legislation more recent",
+      "lastVerified": "needs-review",
+      "sourceText": "Utah Money Transmitter Act (2019 cryptocurrency amendments); virtual-currency kiosk legislation; Freeman Law summary",
+      "sourceUrl": "https://freemanlaw.com/cryptocurrency/utah/"
+    },
+    {
+      "name": "New Mexico",
+      "slug": "new-mexico",
+      "status": "guidance",
+      "statusLabel": "Unsettled",
+      "framework": "New Mexico Uniform Money Services Act; virtual-currency treatment not clearly documented",
+      "detail": "New Mexico regulates money transmission under its Uniform Money Services Act (it was among the last states to adopt a money-transmitter regime). Reporting suggests New Mexico takes a comparatively rigid approach to virtual currency, but the specific licensing treatment of virtual-currency-only activity is not clearly documented in readily available sources. This entry is a placeholder and should be confirmed directly against the Regulation and Licensing Department / Financial Institutions Division before it is relied on.",
+      "effective": "Uniform Money Services Act in force; virtual-currency treatment unconfirmed",
+      "lastVerified": "needs-review",
+      "sourceText": "New Mexico Uniform Money Services Act; treatment of virtual currency NOT confirmed - VERIFY directly",
+      "sourceUrl": "https://pro.bloomberglaw.com/insights/technology/cryptocurrency-laws-and-regulations-by-state/"
+    },
+    {
+      "name": "Mississippi",
+      "slug": "mississippi",
+      "status": "excluded",
+      "statusLabel": "VC Unsettled",
+      "framework": "Mississippi Money Transmission Modernization Act, enacted without the optional virtual-currency provisions",
+      "detail": "Mississippi adopted the CSBS Model Money Transmission Modernization Act but excluded the model's optional virtual-currency provisions, which would have expressly treated certain virtual-currency activity as money transmission. As a result, virtual currency is not expressly covered by statute, and whether virtual-currency-only activity requires a Mississippi money transmitter license is unsettled and should be confirmed against Department of Banking and Consumer Finance guidance.",
+      "effective": "MTMA adopted without the optional virtual-currency provisions; VC treatment unsettled",
+      "lastVerified": "needs-review",
+      "sourceText": "Mississippi MTMA (enacted without optional virtual-currency provisions); Cooley analysis",
+      "sourceUrl": "https://www.cooley.com/news/insight/2024/2024-08-20-us-states-adopt-model-money-transmission-act-but-harmonization-remains-elusive"
+    },
+    {
+      "name": "West Virginia",
+      "slug": "west-virginia",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "West Virginia money transmission licensing (issuing/selling payment instruments; transmission by electronic means; stored value)",
+      "detail": "West Virginia requires a license for money transmission, including selling or issuing payment instruments and receiving currency for transmission by wire, facsimile, or electronic means, as well as stored-value issuance. Whether virtual-currency-only activity is captured within this framework is not expressly documented and should be confirmed with the Division of Financial Institutions, but crypto activity with a fiat leg would generally fall within the licensing regime.",
+      "effective": "Money transmission licensing in force; express virtual-currency coverage to be confirmed",
+      "lastVerified": "needs-review",
+      "sourceText": "West Virginia money transmission licensing; Ridgeway state MTL survey (VC coverage to VERIFY)",
+      "sourceUrl": "https://www.ridgewayfs.com/money-transmitter-license-requirements-by-state/"
+    },
+    {
+      "name": "Vermont",
+      "slug": "vermont",
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Vermont money transmission licensing; virtual-currency activity treated within scope with VC permissible-investment rules",
+      "detail": "Vermont treats virtual-currency activity as within the scope of its money-transmission licensing and allows limited use of virtual currency as a permissible investment aligned to same-currency customer obligations, while expecting robust AML and cybersecurity practices. Licensure carries a minimum net worth requirement (roughly $100,000), with regulator discretion to require more from larger operators. Transmitting or custodying stablecoins for customers generally falls within this framework.",
+      "effective": "Money transmission licensing with virtual-currency activity in scope; VC permissible-investment rules",
+      "lastVerified": "needs-review",
+      "sourceText": "Vermont money transmission licensing (virtual-currency in scope; VC permissible investments); Astraea / Ridgeway surveys",
+      "sourceUrl": "https://astraea.law/insights/state-by-state-crypto-licensing-map-2025"
+    },
+    {
+      "name": "Wisconsin",
+      "slug": "wisconsin",
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
+      "framework": "Wisconsin Department of Financial Institutions interprets its authority as not extending to virtual-currency transmission",
+      "detail": "The Wisconsin Department of Financial Institutions interprets its authority as not extending to the transmission of virtual currency, so a virtual-currency-only business generally does not need a Wisconsin money transmitter license, although a dealer handling both virtual and fiat currency would likely need a license for the fiat leg. This exclusion rests on regulator interpretation rather than an express statutory carve-out.",
+      "effective": "DFI interpretation: authority does not extend to virtual-currency transmission (fiat leg still licensed)",
+      "lastVerified": "needs-review",
+      "sourceText": "Wisconsin DFI interpretation (authority does not extend to virtual-currency transmission); Bloomberg Law state survey",
+      "sourceUrl": "https://pro.bloomberglaw.com/insights/technology/cryptocurrency-laws-and-regulations-by-state/"
     }
   ]
 }
