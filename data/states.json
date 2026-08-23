@@ -544,14 +544,14 @@
     {
       "name": "Utah",
       "slug": "utah",
-      "status": "live",
-      "statusLabel": "Live Regime",
-      "framework": "Utah Money Transmitter Act (amended 2019 to address cryptocurrency); virtual-currency kiosk legislation; regulatory sandbox",
-      "detail": "Utah amended its Money Transmitter Act in 2019 to address whether cryptocurrency transactions fall within the Act's money-transmission jurisdiction, and more recent legislation has targeted virtual-currency kiosk operators, requiring them to obtain money transmitter licenses. Utah also operates a financial regulatory sandbox. The precise line between covered and exempt virtual-currency activity is nuanced and should be confirmed against the current statute and Department of Financial Institutions guidance.",
-      "effective": "Money Transmitter Act amended 2019 re cryptocurrency; kiosk licensing legislation more recent",
-      "lastVerified": "needs-review",
-      "sourceText": "Utah Money Transmitter Act (2019 cryptocurrency amendments); virtual-currency kiosk legislation; Freeman Law summary",
-      "sourceUrl": "https://freemanlaw.com/cryptocurrency/utah/"
+      "status": "excluded",
+      "statusLabel": "VC Excluded",
+      "framework": "Utah Money Transmitter Act expressly excludes blockchain tokens (Utah Code § 7-25-102(9)(b)); HB 72 (2026) carves virtual-currency kiosks back into licensing",
+      "detail": "Utah does not require a money-transmitter license for standalone virtual-currency transmission. The Money Transmitter Act expressly excludes “blockchain tokens” from the definition of money transmission (Utah Code § 7-25-102(9)(b)), and a 2019 amendment confirmed that cryptocurrency transactions are not money transmissions, so crypto firms are generally exempt. Because the exemption rests on an express statutory exclusion rather than regulator interpretation, it is comparatively durable. The one significant carve-back is virtual-currency kiosks (crypto ATMs): HB 72 (2026), effective May 6, 2026, requires kiosk operators to obtain money-transmitter licenses and adds consumer protections (transaction limits, fee caps, mandatory fraud warnings, and attorney-general enforcement), administered through the Utah Department of Commerce. Payment-stablecoin issuance remains federally governed by the GENIUS Act regardless of this state exemption.",
+      "effective": "Express virtual-currency exclusion in the Money Transmitter Act; VC-kiosk operators licensed under HB 72 (2026), effective May 6, 2026",
+      "lastVerified": "2026-08-23",
+      "sourceText": "Utah Code § 7-25-102(9)(b) (blockchain-token exclusion); HB 72 (2026) VC-kiosk licensing; Utah Dept. of Commerce; corroborated by Bloomberg Law state survey",
+      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/utah/"
     },
     {
       "name": "New Mexico",
