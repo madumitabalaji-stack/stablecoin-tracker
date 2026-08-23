@@ -582,12 +582,12 @@
       "slug": "west-virginia",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "West Virginia money transmission licensing (issuing/selling payment instruments; transmission by electronic means; stored value)",
-      "detail": "West Virginia requires a license for money transmission, including selling or issuing payment instruments and receiving currency for transmission by wire, facsimile, or electronic means, as well as stored-value issuance. Whether virtual-currency-only activity is captured within this framework is not expressly documented and should be confirmed with the Division of Financial Institutions, but crypto activity with a fiat leg would generally fall within the licensing regime.",
-      "effective": "Money transmission licensing in force; express virtual-currency coverage to be confirmed",
-      "lastVerified": "needs-review",
-      "sourceText": "West Virginia money transmission licensing; Ridgeway state MTL survey (VC coverage to VERIFY)",
-      "sourceUrl": "https://www.ridgewayfs.com/money-transmitter-license-requirements-by-state/"
+      "framework": "West Virginia money transmission statute (W. Va. Code § 32A-2-1 et seq., amended by HB 2585, 2019); virtual currency expressly within scope",
+      "detail": "West Virginia expressly reaches virtual currency under its money-transmission statute. HB 2585 (2019) amended the money-transmission definitions, and W. Va. Code § 32A-2-1(6) treats “currency transmission” and “money transmission” as synonymous, both covering the transfer of “value that substitutes for money,” which the Division of Financial Institutions applies to virtual currency. Any person in the business of transmitting, exchanging, or administering virtual currency for others must therefore obtain a money transmitter license. Licensure carries a $1,000 registration fee plus $20 per authorized delegate, a $300,000 surety bond for transmission by wire, facsimile, or electronic means, and a minimum tangible net worth of $50,000 (plus $25,000 for each location beyond the principal office), alongside AML/KYC obligations. Notably, a participant in the West Virginia Fintech Regulatory Sandbox (W. Va. Code § 31A-8G-4(d), (e)) does not need a separate money transmitter license while in the sandbox.",
+      "effective": "Money-transmission definition amended to reach virtual currency by HB 2585 (2019); licensing administered by the Division of Financial Institutions",
+      "lastVerified": "2026-08-23",
+      "sourceText": "W. Va. Code § 32A-2-1(6) (HB 2585, 2019); WV Division of Financial Institutions; corroborated by Bloomberg Law state survey",
+      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/west-virginia/"
     },
     {
       "name": "Vermont",
