@@ -29,11 +29,11 @@
     --shadow-md: 0 6px 24px rgba(0,0,0,0.35), 0 2px 8px rgba(0,0,0,0.3);
     --shadow-lg: 0 18px 50px rgba(0,0,0,0.5), 0 6px 16px rgba(0,0,0,0.4);
 
-    /* status colors, muted for dark map fills */
-    --c-live:      #5a9c81;
-    --c-pending:   #c6a561;
-    --c-guidance:  #6b88bd;
-    --c-excluded:  #b57f90;
+    /* status colors, validated colorblind-safe on the dark map surface */
+    --c-live:      #3f9e7c;
+    --c-pending:   #b88a34;
+    --c-guidance:  #5f82c4;
+    --c-excluded:  #5c6470;
     --c-untracked: #1b2331;
   }
 
@@ -321,19 +321,20 @@
 
   .state-label {
     font-family: var(--sans);
-    font-size: 12px;
-    font-weight: 600;
-    fill: #f5f8fc;
+    font-size: 11px;
+    font-weight: 500;
+    fill: #dbe3ef;
     stroke: #0a0e14;
-    stroke-width: 2.6px;
+    stroke-width: 2.1px;
     paint-order: stroke;
     pointer-events: none;
     text-anchor: middle;
+    letter-spacing: 0.01em;
   }
-  .state-label.small { font-size: 10px; }
-  .state-label.name { font-size: 10px; font-weight: 600; stroke-width: 2.2px; }
-  .state-label.name.tight { font-size: 8.5px; stroke-width: 1.8px; }
-  .state-label.ext { text-anchor: start; font-size: 12px; }
+  .state-label.small { font-size: 9.5px; }
+  .state-label.name { font-size: 9.5px; font-weight: 500; stroke-width: 1.9px; }
+  .state-label.name.tight { font-size: 8px; stroke-width: 1.6px; }
+  .state-label.ext { text-anchor: start; font-size: 11px; fill: #aab4c4; }
   .label-leader { stroke: var(--text-dim); stroke-width: 0.7px; fill: none; }
 
   #tooltip {
@@ -436,7 +437,7 @@
   .status-live { background: rgba(70,199,141,0.12); color: #6fe0ab; border-color: rgba(70,199,141,0.28); }
   .status-pending { background: rgba(230,180,80,0.12); color: var(--gold-hi); border-color: rgba(230,180,80,0.3); }
   .status-exempt { background: rgba(91,157,255,0.12); color: #8bbaff; border-color: rgba(91,157,255,0.28); }
-  .status-excluded { background: rgba(209,113,138,0.12); color: #e592a8; border-color: rgba(209,113,138,0.28); }
+  .status-excluded { background: rgba(92,100,112,0.16); color: #b3bccb; border-color: rgba(92,100,112,0.34); }
 
   .card .framework {
     font-family: var(--sans);
