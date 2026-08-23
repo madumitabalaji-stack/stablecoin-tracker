@@ -6,134 +6,179 @@
 <title>State Stablecoin Licensing Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --serif: 'EB Garamond', Garamond, 'Times New Roman', serif;
+    --serif: 'Fraunces', 'Iowan Old Style', Georgia, 'Times New Roman', serif;
     --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
-    --teal: hsl(187, 70%, 33%);
-    --teal-light: hsl(187, 44%, 96%);
-    --teal-border: hsl(187, 38%, 86%);
-    --purple: hsl(268, 62%, 50%);
-    --ink: #17171f;
-    --gray: #54545e;
-    --light-gray: #8b8b95;
-    --bg: #f6f6f3;
-    --card-bg: #ffffff;
-    --border: #e7e7e2;
-    --shadow-sm: 0 1px 2px rgba(20,20,30,0.04), 0 1px 8px rgba(20,20,30,0.03);
-    --shadow-md: 0 6px 22px rgba(20,20,30,0.06), 0 2px 6px rgba(20,20,30,0.04);
-    --shadow-lg: 0 14px 44px rgba(20,20,30,0.09), 0 4px 12px rgba(20,20,30,0.05);
-    --c-live: hsl(150, 55%, 40%);
-    --c-pending: hsl(40, 90%, 52%);
-    --c-guidance: hsl(220, 62%, 55%);
-    --c-excluded: hsl(342, 46%, 58%);
-    --c-untracked: #dcdcd7;
+
+    --bg: #0a0e14;
+    --bg-elev: #10151e;
+    --bg-elev2: #141b26;
+    --border: #222b39;
+    --border-hi: #2f3a4b;
+
+    --text: #eef2f8;
+    --text-body: #97a4b6;
+    --text-dim: #63718a;
+
+    --gold: #e6b450;
+    --gold-hi: #f0c877;
+    --blue: #4a8fff;
+
+    --shadow-md: 0 6px 24px rgba(0,0,0,0.35), 0 2px 8px rgba(0,0,0,0.3);
+    --shadow-lg: 0 18px 50px rgba(0,0,0,0.5), 0 6px 16px rgba(0,0,0,0.4);
+
+    /* status colors, tuned for dark map fills */
+    --c-live:      #46c78d;
+    --c-pending:   #e6b450;
+    --c-guidance:  #5b9dff;
+    --c-excluded:  #d1718a;
+    --c-untracked: #1b2331;
   }
 
   * { margin: 0; padding: 0; box-sizing: border-box; }
 
-  @keyframes fadeUp { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: translateY(0); } }
+  @keyframes fadeUp { from { opacity: 0; transform: translateY(12px); } to { opacity: 1; transform: translateY(0); } }
 
   html { scroll-behavior: smooth; }
 
   body {
-    font-family: var(--serif);
+    font-family: var(--sans);
     background:
-      radial-gradient(1100px 520px at 15% -8%, hsla(187,55%,80%,0.16), transparent 60%),
-      radial-gradient(1000px 520px at 100% 0%, hsla(268,60%,80%,0.13), transparent 55%),
+      radial-gradient(900px 480px at 88% -6%, rgba(230,180,80,0.10), transparent 58%),
+      radial-gradient(1000px 560px at 6% -10%, rgba(74,143,255,0.07), transparent 60%),
       var(--bg);
     background-attachment: fixed;
-    color: var(--ink);
+    color: var(--text-body);
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
     text-rendering: optimizeLegibility;
   }
 
   .wrap {
-    max-width: 1120px;
+    max-width: 1160px;
     margin: 0 auto;
-    padding: 72px 28px 96px;
+    padding: 68px 28px 96px;
   }
 
+  /* ---------- HERO ---------- */
   header { animation: fadeUp 0.6s ease both; }
+
+  .eyebrow {
+    font-family: var(--sans);
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 20px;
+  }
 
   header h1 {
     font-family: var(--serif);
-    font-size: 43px;
-    font-weight: 700;
-    letter-spacing: -0.025em;
-    line-height: 1.04;
-    margin-bottom: 14px;
-  }
-
-  .gradient-bar {
-    height: 3px;
-    width: 76px;
-    background: linear-gradient(to right, var(--teal), var(--purple));
-    border-radius: 2px;
-    margin-bottom: 20px;
+    font-size: 52px;
+    font-weight: 500;
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    color: var(--text);
+    margin-bottom: 22px;
+    max-width: 16ch;
   }
 
   header p.sub {
     font-size: 17px;
-    color: var(--gray);
+    color: var(--text-body);
     max-width: 660px;
-    line-height: 1.6;
-    margin-bottom: 4px;
+    line-height: 1.62;
   }
+
+  .hero-actions { display: flex; flex-wrap: wrap; gap: 12px; margin-top: 30px; }
+
+  .btn {
+    font-family: var(--sans);
+    font-size: 14px;
+    font-weight: 600;
+    padding: 11px 22px;
+    border-radius: 12px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: all 0.18s cubic-bezier(0.2,0.7,0.3,1);
+    border: 1px solid transparent;
+  }
+  .btn-primary { background: var(--gold); color: #1a1305; box-shadow: 0 8px 24px rgba(230,180,80,0.22); }
+  .btn-primary:hover { background: var(--gold-hi); transform: translateY(-1px); }
+  .btn-ghost { background: rgba(255,255,255,0.02); color: var(--text); border-color: var(--border-hi); }
+  .btn-ghost:hover { border-color: var(--gold); color: var(--gold-hi); transform: translateY(-1px); }
 
   .meta-line {
     font-family: var(--sans);
-    font-size: 12px;
-    color: var(--light-gray);
-    margin-top: 16px;
+    font-size: 12.5px;
+    color: var(--text-dim);
+    margin-top: 26px;
     letter-spacing: 0.01em;
   }
-
-  .meta-line a { color: var(--teal); text-decoration: none; font-weight: 500; transition: color 0.15s ease; }
-  .meta-line a:hover { color: var(--purple); }
+  .meta-line a { color: var(--text-body); text-decoration: none; font-weight: 500; transition: color 0.15s ease; }
+  .meta-line a:hover { color: var(--gold); }
 
   .disclaimer {
     font-family: var(--sans);
     margin-top: 22px;
-    padding: 13px 18px;
-    background: var(--teal-light);
-    border: 1px solid var(--teal-border);
-    border-radius: 10px;
+    padding: 14px 18px;
+    background: rgba(74,143,255,0.05);
+    border: 1px solid rgba(74,143,255,0.16);
+    border-radius: 12px;
     font-size: 12px;
-    color: #2f5a5e;
+    color: #9db4d6;
     line-height: 1.6;
+    max-width: 820px;
   }
 
+  /* ---------- FEDERAL SECTIONS ---------- */
   section.federal {
-    margin-top: 44px;
+    margin-top: 40px;
     border: 1px solid var(--border);
-    border-radius: 14px;
-    background: var(--card-bg);
+    border-radius: 16px;
+    background: var(--bg-elev);
     padding: 30px 32px;
-    box-shadow: var(--shadow-sm);
+    box-shadow: var(--shadow-md);
     animation: fadeUp 0.6s ease 0.08s both;
+  }
+
+  .federal .kicker {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--gold);
+    margin-bottom: 8px;
   }
 
   .federal h2 {
     font-family: var(--serif);
-    font-size: 21px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     letter-spacing: -0.01em;
-    color: var(--purple);
-    margin-bottom: 12px;
+    color: var(--text);
+    margin-bottom: 14px;
   }
 
-  .federal p { font-size: 14px; color: var(--gray); margin-bottom: 9px; line-height: 1.65; }
+  .federal p { font-size: 14px; color: var(--text-body); margin-bottom: 10px; line-height: 1.68; }
   .federal p:last-child { margin-bottom: 0; }
-  .federal .src { font-family: var(--sans); font-size: 11px; color: var(--light-gray); }
-  .federal .src a { color: var(--teal); text-decoration: none; font-weight: 500; }
-  .federal .src a:hover { color: var(--purple); }
+  .federal strong { color: var(--text); font-weight: 600; }
+  .federal em { color: var(--gold-hi); font-style: italic; }
+  .federal .src { font-family: var(--sans); font-size: 11px; color: var(--text-dim); }
+  .federal .src a { color: var(--blue); text-decoration: none; font-weight: 500; }
+  .federal .src a:hover { color: var(--gold); }
 
+  /* ---------- CONTROLS ---------- */
   .controls {
-    margin-top: 44px;
-    margin-bottom: 16px;
+    margin-top: 48px;
+    margin-bottom: 18px;
     display: flex;
     gap: 10px;
     flex-wrap: wrap;
@@ -147,70 +192,63 @@
     font-family: var(--sans);
     font-size: 12.5px;
     font-weight: 500;
-    padding: 7px 15px;
+    padding: 8px 16px;
     border-radius: 22px;
     border: 1px solid var(--border);
-    background: var(--card-bg);
-    color: var(--gray);
+    background: var(--bg-elev);
+    color: var(--text-body);
     cursor: pointer;
     transition: all 0.18s cubic-bezier(0.2,0.7,0.3,1);
     display: inline-flex;
     align-items: center;
     gap: 7px;
-    box-shadow: var(--shadow-sm);
   }
 
-  .filter-btn .dot {
-    width: 9px;
-    height: 9px;
-    border-radius: 50%;
-    display: inline-block;
-    flex-shrink: 0;
-  }
-
+  .filter-btn .dot { width: 9px; height: 9px; border-radius: 50%; display: inline-block; flex-shrink: 0; }
   .dot-live { background: var(--c-live); }
   .dot-pending { background: var(--c-pending); }
   .dot-guidance { background: var(--c-guidance); }
   .dot-excluded { background: var(--c-excluded); }
 
-  .filter-btn:hover { border-color: var(--teal); color: var(--ink); transform: translateY(-1px); }
-
+  .filter-btn:hover { border-color: var(--border-hi); color: var(--text); transform: translateY(-1px); }
   .filter-btn.active {
-    background: var(--ink);
-    color: #fff;
-    border-color: var(--ink);
-    box-shadow: var(--shadow-md);
+    background: var(--gold);
+    color: #1a1305;
+    border-color: var(--gold);
+    font-weight: 600;
+    box-shadow: 0 6px 18px rgba(230,180,80,0.2);
   }
 
   #search {
     font-family: var(--sans);
     font-size: 13px;
-    padding: 8px 15px;
+    padding: 9px 16px;
     border-radius: 22px;
     border: 1px solid var(--border);
-    background: var(--card-bg);
-    min-width: 210px;
-    color: var(--ink);
-    box-shadow: var(--shadow-sm);
+    background: var(--bg-elev);
+    min-width: 220px;
+    color: var(--text);
     transition: border-color 0.18s ease, box-shadow 0.18s ease;
   }
-  #search::placeholder { color: var(--light-gray); }
-  #search:focus { outline: none; border-color: var(--teal); box-shadow: 0 0 0 3px hsla(187,60%,45%,0.14); }
+  #search::placeholder { color: var(--text-dim); }
+  #search:focus { outline: none; border-color: var(--gold); box-shadow: 0 0 0 3px rgba(230,180,80,0.15); }
 
+  /* ---------- LEGEND ---------- */
   .legend {
     font-family: var(--sans);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: 7px 18px;
-    margin: 0 0 18px;
+    gap: 8px 20px;
+    margin: 0 0 20px;
     font-size: 12.5px;
-    color: var(--gray);
+    color: var(--text-body);
   }
-  .legend .lg-total { font-weight: 600; color: var(--ink); }
-  .legend .lg-item { display: inline-flex; align-items: center; gap: 6px; }
-  .legend .lg-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 0 2px rgba(255,255,255,0.8); }
+  .legend .lg-total { font-weight: 600; color: var(--text); }
+  .legend .lg-item { display: inline-flex; align-items: center; gap: 7px; }
+  .legend .lg-dot { width: 10px; height: 10px; border-radius: 50%; display: inline-block; box-shadow: 0 0 0 3px rgba(255,255,255,0.04); }
 
+  /* ---------- MAP ---------- */
   .map-layout {
     display: grid;
     grid-template-columns: 1.35fr 1fr;
@@ -218,14 +256,14 @@
     align-items: start;
     animation: fadeUp 0.6s ease 0.16s both;
   }
-  @media (max-width: 860px) {
-    .map-layout { grid-template-columns: 1fr; }
-  }
+  @media (max-width: 860px) { .map-layout { grid-template-columns: 1fr; } }
 
   .map-card {
     border: 1px solid var(--border);
-    border-radius: 16px;
-    background: var(--card-bg);
+    border-radius: 18px;
+    background:
+      radial-gradient(600px 340px at 30% 0%, rgba(74,143,255,0.05), transparent 62%),
+      var(--bg-elev);
     padding: 22px 22px 10px;
     position: relative;
     box-shadow: var(--shadow-md);
@@ -235,72 +273,64 @@
     font-family: var(--sans);
     text-align: center;
     font-size: 11.5px;
-    color: var(--light-gray);
+    color: var(--text-dim);
     padding: 8px 0 12px;
     letter-spacing: 0.01em;
   }
 
-  #map-holder svg {
-    width: 100%;
-    height: auto;
-    display: block;
-  }
+  #map-holder svg { width: 100%; height: auto; display: block; }
 
-  #map-holder .state path,
   #map-holder path {
+    stroke: #0a0e14;
+    stroke-width: 0.6;
     transition: filter 0.15s ease, fill 0.25s ease;
   }
-
   #map-holder path.tracked { cursor: pointer; }
-  #map-holder path.tracked:hover { filter: brightness(0.9) saturate(1.15); }
+  #map-holder path.tracked:hover { filter: brightness(1.15) saturate(1.1); }
   #map-holder path.selected {
-    stroke: var(--ink);
-    stroke-width: 1.8;
+    stroke: var(--text);
+    stroke-width: 1.6;
     stroke-linejoin: round;
-    filter: drop-shadow(0 2px 5px rgba(20,20,30,0.25));
+    filter: drop-shadow(0 2px 8px rgba(0,0,0,0.6)) brightness(1.08);
   }
 
   .state-label {
-    font-family: 'EB Garamond', Garamond, serif;
-    font-size: 13px;
+    font-family: var(--sans);
+    font-size: 12px;
     font-weight: 600;
-    fill: var(--ink);
-    stroke: #fff;
-    stroke-width: 2.4px;
+    fill: #f5f8fc;
+    stroke: #0a0e14;
+    stroke-width: 2.6px;
     paint-order: stroke;
     pointer-events: none;
     text-anchor: middle;
   }
   .state-label.small { font-size: 10px; }
-  .state-label.name { font-size: 10px; font-weight: 600; stroke-width: 2px; }
-  .state-label.name.tight { font-size: 8.5px; stroke-width: 1.6px; }
+  .state-label.name { font-size: 10px; font-weight: 600; stroke-width: 2.2px; }
+  .state-label.name.tight { font-size: 8.5px; stroke-width: 1.8px; }
   .state-label.ext { text-anchor: start; font-size: 12px; }
-  .label-leader { stroke: var(--ink); stroke-width: 0.7px; fill: none; }
+  .label-leader { stroke: var(--text-dim); stroke-width: 0.7px; fill: none; }
 
   #tooltip {
     font-family: var(--sans);
     position: fixed;
     pointer-events: none;
-    background: var(--ink);
-    color: #fff;
+    background: var(--bg-elev2);
+    border: 1px solid var(--border-hi);
+    color: var(--text);
     font-size: 11.5px;
-    padding: 7px 11px;
-    border-radius: 8px;
+    padding: 8px 12px;
+    border-radius: 9px;
     z-index: 20;
     display: none;
     max-width: 240px;
     line-height: 1.45;
     box-shadow: var(--shadow-lg);
   }
+  #tooltip .tt-status { color: var(--text-body); font-size: 10.5px; }
 
-  #tooltip .tt-status { color: #b8c4d8; font-size: 10.5px; }
-
-  .chip-row {
-    margin-top: 14px;
-    display: none;
-    flex-wrap: wrap;
-    gap: 8px;
-  }
+  /* ---------- CHIPS ---------- */
+  .chip-row { margin-top: 16px; display: none; flex-wrap: wrap; gap: 8px; }
 
   .chip {
     font-family: var(--sans);
@@ -309,31 +339,27 @@
     padding: 6px 13px;
     border-radius: 16px;
     border: 1px solid var(--border);
-    background: var(--card-bg);
-    color: var(--gray);
+    background: var(--bg-elev);
+    color: var(--text-body);
     cursor: pointer;
     display: inline-flex;
     align-items: center;
     gap: 6px;
     transition: all 0.18s cubic-bezier(0.2,0.7,0.3,1);
-    box-shadow: var(--shadow-sm);
   }
-
   .chip .dot { width: 8px; height: 8px; border-radius: 50%; }
-  .chip:hover { border-color: var(--teal); color: var(--ink); transform: translateY(-1px); }
-  .chip.selected { border-color: var(--ink); color: var(--ink); background: #f1f1f4; }
-  .chip.dimmed { opacity: 0.35; }
+  .chip:hover { border-color: var(--border-hi); color: var(--text); transform: translateY(-1px); }
+  .chip.selected { border-color: var(--gold); color: var(--text); background: rgba(230,180,80,0.08); }
+  .chip.dimmed { opacity: 0.32; }
 
-  #detail { }
-  @media (min-width: 861px) {
-    #detail { position: sticky; top: 20px; }
-  }
+  /* ---------- DETAIL CARD ---------- */
+  @media (min-width: 861px) { #detail { position: sticky; top: 20px; } }
 
   .card {
-    border: 1px solid var(--border);
-    border-radius: 16px;
-    background: var(--card-bg);
-    padding: 24px;
+    border: 1px solid var(--border-hi);
+    border-radius: 18px;
+    background: var(--bg-elev);
+    padding: 26px;
     box-shadow: var(--shadow-lg);
     position: relative;
     animation: fadeUp 0.35s ease both;
@@ -343,33 +369,33 @@
     display: flex;
     justify-content: space-between;
     align-items: baseline;
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     padding-right: 28px;
     gap: 10px;
   }
 
   .card h3 {
     font-family: var(--serif);
-    font-size: 20px;
-    font-weight: 600;
+    font-size: 24px;
+    font-weight: 500;
     letter-spacing: -0.01em;
-    color: var(--purple);
+    color: var(--text);
   }
 
   .card-close {
     position: absolute;
-    top: 14px;
-    right: 16px;
+    top: 16px;
+    right: 18px;
     border: none;
     background: none;
-    font-size: 18px;
+    font-size: 19px;
     line-height: 1;
-    color: var(--light-gray);
+    color: var(--text-dim);
     cursor: pointer;
     padding: 4px;
     transition: color 0.15s ease, transform 0.15s ease;
   }
-  .card-close:hover { color: var(--ink); transform: rotate(90deg); }
+  .card-close:hover { color: var(--text); transform: rotate(90deg); }
 
   .status-tag {
     font-family: var(--sans);
@@ -377,36 +403,35 @@
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.05em;
-    padding: 4px 10px;
+    padding: 5px 11px;
     border-radius: 12px;
     white-space: nowrap;
+    border: 1px solid transparent;
   }
-
-  .status-live { background: hsl(150, 50%, 92%); color: hsl(150, 60%, 28%); }
-  .status-pending { background: hsl(40, 80%, 92%); color: hsl(35, 70%, 32%); }
-  .status-exempt { background: hsl(220, 50%, 93%); color: hsl(220, 50%, 38%); }
-  .status-excluded { background: hsl(342, 46%, 93%); color: hsl(342, 50%, 40%); }
+  .status-live { background: rgba(70,199,141,0.12); color: #6fe0ab; border-color: rgba(70,199,141,0.28); }
+  .status-pending { background: rgba(230,180,80,0.12); color: var(--gold-hi); border-color: rgba(230,180,80,0.3); }
+  .status-exempt { background: rgba(91,157,255,0.12); color: #8bbaff; border-color: rgba(91,157,255,0.28); }
+  .status-excluded { background: rgba(209,113,138,0.12); color: #e592a8; border-color: rgba(209,113,138,0.28); }
 
   .card .framework {
     font-family: var(--sans);
-    font-size: 12px;
+    font-size: 12.5px;
     font-weight: 600;
-    color: var(--ink);
-    margin-bottom: 10px;
-    line-height: 1.45;
-  }
-
-  .card .detail {
-    font-size: 14px;
-    color: var(--gray);
+    color: var(--text);
     margin-bottom: 12px;
-    line-height: 1.65;
+    line-height: 1.5;
   }
-
+  .card .detail {
+    font-family: var(--serif);
+    font-size: 15.5px;
+    color: var(--text-body);
+    margin-bottom: 14px;
+    line-height: 1.62;
+  }
   .card .effective {
     font-family: var(--sans);
     font-size: 11px;
-    color: var(--light-gray);
+    color: var(--text-dim);
     margin-bottom: 4px;
   }
 
@@ -415,70 +440,74 @@
     justify-content: space-between;
     align-items: baseline;
     border-top: 1px solid var(--border);
-    padding-top: 10px;
-    margin-top: 12px;
+    padding-top: 12px;
+    margin-top: 14px;
     gap: 12px;
   }
-
-  .card .src { font-family: var(--sans); font-size: 11px; color: var(--light-gray); }
-  .card .src a { color: var(--teal); text-decoration: none; font-weight: 500; }
-  .card .src a:hover { color: var(--purple); }
+  .card .src { font-family: var(--sans); font-size: 11px; color: var(--text-dim); }
+  .card .src a { color: var(--blue); text-decoration: none; font-weight: 500; }
+  .card .src a:hover { color: var(--gold); }
 
   .verified {
     font-family: var(--sans);
     font-size: 10px;
-    color: var(--light-gray);
+    color: var(--text-dim);
     white-space: nowrap;
     flex-shrink: 0;
   }
-
-  .verified-stale { color: hsl(35, 80%, 45%); font-weight: 500; }
+  .verified-stale { color: var(--gold); font-weight: 500; }
 
   .placeholder {
     font-family: var(--sans);
     text-align: center;
-    padding: 36px 26px;
-    color: var(--light-gray);
+    padding: 40px 26px;
+    color: var(--text-dim);
     font-size: 12.5px;
-    border: 1px dashed var(--border);
-    border-radius: 16px;
-    background: rgba(255,255,255,0.4);
+    border: 1px dashed var(--border-hi);
+    border-radius: 18px;
+    background: rgba(255,255,255,0.015);
   }
+  .placeholder code { color: var(--gold-hi); font-family: ui-monospace, Menlo, monospace; }
 
   footer {
     font-family: var(--sans);
-    margin-top: 64px;
-    padding-top: 26px;
+    margin-top: 68px;
+    padding-top: 28px;
     border-top: 1px solid var(--border);
     font-size: 12px;
-    color: var(--light-gray);
+    color: var(--text-dim);
     text-align: center;
     line-height: 1.6;
   }
-
-  footer a { color: var(--teal); text-decoration: none; font-weight: 500; }
-  footer a:hover { color: var(--purple); }
+  footer a { color: var(--blue); text-decoration: none; font-weight: 500; }
+  footer a:hover { color: var(--gold); }
 </style>
 </head>
 <body>
 <div class="wrap">
 
   <header>
-    <h1>State Stablecoin Licensing Tracker</h1>
-    <div class="gradient-bar"></div>
-    <p class="sub">A working map of how state money-transmission and digital-asset licensing regimes are interacting with the federal GENIUS Act framework, tracked state by state.</p>
-    <div class="meta-line">Built and maintained by Madumita Mira Balaji &middot; <a href="https://substack.com/@theclaritybrief2" target="_blank">The Clarity Brief</a> &middot; <a href="https://linkedin.com/in/madumitabalaji" target="_blank">LinkedIn</a> &middot; <span id="last-updated">Last updated July 2026</span></div>
+    <div class="eyebrow">State-by-State &middot; GENIUS Act Framework</div>
+    <h1>Every state stablecoin regime. One tracker.</h1>
+    <p class="sub">A working map of how state money-transmission and digital-asset licensing regimes are interacting with the federal GENIUS Act framework, tracked jurisdiction by jurisdiction and linked to primary sources.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="https://substack.com/@theclaritybrief2" target="_blank">Read The Clarity Brief</a>
+      <a class="btn btn-ghost" href="https://linkedin.com/in/madumitabalaji" target="_blank">Connect on LinkedIn</a>
+    </div>
+    <div class="meta-line">Built and maintained by Madumita Mira Balaji &middot; <span id="last-updated">Last updated July 2026</span></div>
     <div class="disclaimer">This is an independent research project for informational purposes only and does not constitute legal advice. Always verify current requirements with the relevant state regulator or counsel before relying on this information. Sources are linked on each entry.</div>
   </header>
 
   <section class="federal">
-    <h2>Federal Baseline: The GENIUS Act</h2>
+    <div class="kicker">Federal Baseline</div>
+    <h2>The GENIUS Act</h2>
     <p>Signed into law on July 18, 2025 (P.L. 119-27, S. 1582), the GENIUS Act created the first comprehensive federal framework for payment stablecoins. Issuers with $10 billion or less in outstanding stablecoins may elect state-level supervision if their state regime is "substantially similar" to the federal framework; issuers above that threshold must transition to federal oversight (OCC, Fed, FDIC, or NCUA depending on issuer type) within 360 days of crossing it. On April 3, 2026, Treasury proposed broad-based principles for evaluating whether a state regime qualifies as substantially similar, with most implementing rulemakings due by July 18, 2026. In December 2025, the OCC granted conditional national trust bank charters to five digital asset firms: Circle (as First National Digital Currency Bank), Paxos, Ripple, BitGo, and Fidelity Digital Assets.</p>
     <p class="src">Sources: <a href="https://www.federalregister.gov/documents/2026/04/03/2026-06489/genius-act-broad-based-principles-for-determining-whether-a-state-level-regulatory-regime-is" target="_blank">Federal Register, Apr. 3, 2026 NPRM</a> &middot; <a href="https://occ.treas.gov/news-issuances/bulletins/2026/bulletin-2026-3.html" target="_blank">OCC Bulletin 2026-3</a></p>
   </section>
 
   <section class="federal">
-    <h2>How to Read This Tracker: Two Different Questions</h2>
+    <div class="kicker">Reading Guide</div>
+    <h2>Two Different Questions</h2>
     <p>State money-transmission law and the federal GENIUS Act regulate <em>different activities</em>, so a state can "exclude" virtual currency while federal rules still apply:</p>
     <p><strong>State licensing</strong> (what the map below tracks): whether a state requires a <strong>money-transmitter license</strong> to transmit, exchange, or custody stablecoins and other virtual currency for others. States marked <strong>VC Excluded</strong> do not require a state transmitter license for this activity.</p>
     <p><strong>Federal issuance, under the GENIUS Act:</strong> the GENIUS Act governs the <strong>issuance of payment stablecoins</strong>. Only a permitted issuer may issue one: a federally regulated issuer, or a state-qualified issuer operating under a state regime deemed "substantially similar" to the federal framework. This applies regardless of a state's money-transmission stance. FinCEN's federal anti-money-laundering rules also reach crypto money-services businesses independently.</p>
@@ -542,7 +571,7 @@ const STATUS_COLORS = {
   excluded: getCss('--c-excluded')
 };
 const UNTRACKED = getCss('--c-untracked');
-const DIMMED    = '#ebebee';
+const DIMMED    = '#141a24';
 
 function getCss(v) { return getComputedStyle(document.documentElement).getPropertyValue(v).trim(); }
 
@@ -571,6 +600,7 @@ function statusClass(s) {
 
 function formatVerified(dateStr) {
   if (!dateStr) return '';
+  if (dateStr === 'needs-review') return `<span class="verified verified-stale" title="Draft entry pending source verification">Pending verification</span>`;
   const d    = new Date(dateStr + 'T00:00:00');
   const now  = new Date();
   const days = Math.floor((now - d) / 86400000);
@@ -595,7 +625,7 @@ function paintMap() {
 
   svg.querySelectorAll('path').forEach(p => {
     p.classList.remove('tracked', 'selected');
-    p.style.fill = '';
+    p.style.fill = UNTRACKED;
   });
 
   states.forEach(s => {
