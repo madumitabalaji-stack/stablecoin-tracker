@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>State Stablecoin Licensing Tracker</title>
+<title>The Stablecoin Atlas — State Stablecoin Regulation Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,500;9..144,600&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -59,11 +59,36 @@
   .wrap {
     max-width: 1160px;
     margin: 0 auto;
-    padding: 68px 28px 96px;
+    padding: 30px 28px 96px;
   }
 
+  /* ---------- TOP BRAND BAR ---------- */
+  .topbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 22px;
+    margin-bottom: 46px;
+    border-bottom: 1px solid var(--border);
+    animation: fadeUp 0.5s ease both;
+  }
+  .brand { display: inline-flex; align-items: center; gap: 11px; text-decoration: none; }
+  .brand-mark { display: inline-flex; transition: transform 0.2s ease; }
+  .brand:hover .brand-mark { transform: rotate(-12deg); }
+  .brand-name { font-family: var(--serif); font-size: 19px; font-weight: 600; color: var(--text); letter-spacing: -0.01em; }
+  .brand-name .the { color: var(--text-dim); font-weight: 400; }
+  .topbar-meta {
+    font-family: var(--sans);
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.11em;
+    text-transform: uppercase;
+    color: var(--text-dim);
+  }
+  @media (max-width: 560px) { .topbar-meta { display: none; } }
+
   /* ---------- HERO ---------- */
-  header { animation: fadeUp 0.6s ease both; }
+  header { animation: fadeUp 0.6s ease 0.05s both; }
 
   .eyebrow {
     font-family: var(--sans);
@@ -486,9 +511,22 @@
 <body>
 <div class="wrap">
 
-  <header>
+  <div class="topbar">
+    <a class="brand" href="#top" aria-label="The Stablecoin Atlas home">
+      <span class="brand-mark">
+        <svg width="28" height="28" viewBox="0 0 28 28" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <circle cx="14" cy="14" r="11" fill="none" stroke="#e6b450" stroke-width="1.6"/>
+          <text x="14" y="19.2" text-anchor="middle" font-family="Fraunces, Georgia, serif" font-size="15" font-weight="600" fill="#e6b450">$</text>
+        </svg>
+      </span>
+      <span class="brand-name"><span class="the">The</span> Stablecoin Atlas</span>
+    </a>
+    <span class="topbar-meta">GENIUS Act &middot; 50 States + DC</span>
+  </div>
+
+  <header id="top">
     <div class="eyebrow">State-by-State &middot; GENIUS Act Framework</div>
-    <h1>Every state stablecoin regime. One tracker.</h1>
+    <h1>Every state stablecoin law. One atlas.</h1>
     <p class="sub">A working map of how state money-transmission and digital-asset licensing regimes are interacting with the federal GENIUS Act framework, tracked jurisdiction by jurisdiction and linked to primary sources.</p>
     <div class="hero-actions">
       <a class="btn btn-primary" href="https://substack.com/@theclaritybrief2" target="_blank">Read The Clarity Brief</a>
