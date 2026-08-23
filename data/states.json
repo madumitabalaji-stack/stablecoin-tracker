@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-22",
+  "lastUpdated": "2026-08-23",
   "states": [
     {
       "name": "New York",
@@ -556,14 +556,14 @@
     {
       "name": "New Mexico",
       "slug": "new-mexico",
-      "status": "guidance",
-      "statusLabel": "Unsettled",
-      "framework": "New Mexico Uniform Money Services Act; virtual-currency treatment not clearly documented",
-      "detail": "New Mexico regulates money transmission under its Uniform Money Services Act (it was among the last states to adopt a money-transmitter regime). Reporting suggests New Mexico takes a comparatively rigid approach to virtual currency, but the specific licensing treatment of virtual-currency-only activity is not clearly documented in readily available sources. This entry is a placeholder and should be confirmed directly against the Regulation and Licensing Department / Financial Institutions Division before it is relied on.",
-      "effective": "Uniform Money Services Act in force; virtual-currency treatment unconfirmed",
-      "lastVerified": "needs-review",
-      "sourceText": "New Mexico Uniform Money Services Act; treatment of virtual currency NOT confirmed - VERIFY directly",
-      "sourceUrl": "https://pro.bloomberglaw.com/insights/technology/cryptocurrency-laws-and-regulations-by-state/"
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "New Mexico Uniform Money Services Act (NMSA § 58-32-101 et seq.); virtual currency treated as money transmission by the Financial Institutions Division",
+      "detail": "New Mexico requires a money-transmitter license for virtual-currency business. The Regulation and Licensing Department’s Financial Institutions Division (FID) takes the position that any entity in the business of exchanging virtual currency for money or other monetary value must be licensed by the FID as a money transmitter, and the Uniform Money Services Act defines “monetary value” as a medium of exchange whether or not redeemable in money, which reaches virtual currency. Licensure carries a $300,000 minimum surety bond (or 1% of annual volume, up to $2,000,000) and a minimum net worth of $100,000 for one to four locations, rising to $500,000 for five or more locations or internet-based businesses. New Mexico is generally regarded as one of the more rigid states on virtual-currency licensing.",
+      "effective": "Uniform Money Services Act in force; FID requires money-transmitter licensing for virtual-currency exchange/transmission",
+      "lastVerified": "2026-08-23",
+      "sourceText": "NM Uniform Money Services Act (NMSA § 58-32-101 et seq.); NM RLD Financial Institutions Division licensing position",
+      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/new-mexico/"
     },
     {
       "name": "Mississippi",
