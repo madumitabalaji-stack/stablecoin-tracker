@@ -5,9 +5,16 @@ Weekly source checker for the stablecoin tracker.
 Fetches each state's primary source URL, extracts text, and compares
 a SHA-256 hash against the stored baseline in data/source-hashes.json.
 
+To cut noise (timestamps, bill-status counters, rotating "related links"),
+a hash difference is only reported as a CHANGE when the extracted-text
+length also moves by a meaningful amount (see MIN_DELTA / PCT_DELTA). Below
+that threshold the change is treated as trivial: it is logged but not
+flagged, and the stored baseline is kept so slow drift still accumulates
+until it crosses the threshold.
+
 Exit codes:
-  0  all sources unchanged (or first-run baseline recorded)
-  1  one or more previously-hashed sources changed -> triggers GitHub Issue
+  0  all sources unchanged / only trivial drift (or first-run baseline)
+  1  one or more sources changed meaningfully -> triggers GitHub Issue
   2  dependency or config error
 """
 
@@ -34,6 +41,12 @@ REPORT_FILE  = ROOT / "change-report.json"
 
 HEADERS = {"User-Agent": "StablecoinTracker/1.0 (+https://github.com)"}
 TIMEOUT = 30
+
+# A hash change only counts as a real change when the extracted-text length
+# also moves by at least MIN_DELTA characters OR PCT_DELTA of the baseline,
+# whichever is larger. This filters out trivial page churn.
+MIN_DELTA = 250
+PCT_DELTA = 0.03
 
 
 def fetch_text(url: str) -> str | None:
@@ -92,19 +105,36 @@ def main():
             continue
 
         new_hash  = sha256(text)
+        new_len   = len(text)
         stored    = hashes.get(slug, {})
         old_hash  = stored.get("hash")
+        fresh     = {"url": url, "hash": new_hash, "len": new_len, "lastChecked": today}
 
         if old_hash is None:
-            print(f"  -> baseline recorded ({new_hash[:12]}...)")
+            print(f"  -> baseline recorded ({new_hash[:12]}..., {new_len} chars)")
             first_runs.append(name)
-        elif old_hash != new_hash:
-            print(f"  -> CHANGED  was={old_hash[:12]}  now={new_hash[:12]}")
-            changed.append({"name": name, "slug": slug, "url": url})
-        else:
+            hashes[slug] = fresh
+        elif old_hash == new_hash:
             print(f"  -> unchanged ({new_hash[:12]}...)")
-
-        hashes[slug] = {"url": url, "hash": new_hash, "lastChecked": today}
+            hashes[slug] = fresh
+        elif "len" not in stored:
+            # legacy entry with no length baseline: record length now, don't flag
+            print(f"  -> re-baselined (legacy entry; recorded {new_len} chars)")
+            hashes[slug] = fresh
+        else:
+            delta     = abs(new_len - stored["len"])
+            threshold = max(MIN_DELTA, int(PCT_DELTA * stored["len"]))
+            if delta >= threshold:
+                print(f"  -> CHANGED  was={old_hash[:12]} now={new_hash[:12]}  "
+                      f"len {stored['len']}->{new_len} (delta {delta} >= {threshold})")
+                changed.append({"name": name, "slug": slug, "url": url})
+                hashes[slug] = fresh  # reset baseline to the new content
+            else:
+                print(f"  -> trivial drift  len {stored['len']}->{new_len} "
+                      f"(delta {delta} < {threshold}); baseline kept")
+                # keep old hash/len so slow drift accumulates; refresh lastChecked only
+                stored["lastChecked"] = today
+                hashes[slug] = stored
 
     # Always write updated hashes (captures lastChecked and any new baselines)
     HASHES_FILE.write_text(json.dumps(hashes, indent=2) + "\n")
