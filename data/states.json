@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-23",
+  "lastUpdated": "2026-08-24",
   "states": [
     {
       "name": "New York",
@@ -474,12 +474,12 @@
       "slug": "louisiana",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Louisiana Virtual Currency Business Act (dedicated virtual-currency license, Office of Financial Institutions)",
-      "detail": "Louisiana enacted the Virtual Currency Business Act, making it one of the few states with a dedicated virtual-currency licensing regime rather than relying solely on general money-transmission law. Engaging in virtual-currency business activity in Louisiana, including transmitting, exchanging, or custodying stablecoins for others, generally requires a virtual-currency license (or money transmitter license) from the Office of Financial Institutions. NOTE: verify current effective status and scope directly, as this entry is based on the enacting statute and has not been reconfirmed against current OFI guidance.",
-      "effective": "Virtual Currency Business Act enacted; confirm current effective date and scope with the Office of Financial Institutions",
-      "lastVerified": "needs-review",
-      "sourceText": "Louisiana Virtual Currency Business Act; Louisiana Office of Financial Institutions (VERIFY current status)",
-      "sourceUrl": "https://ofi.la.gov/"
+      "framework": "Louisiana Virtual Currency Businesses Act (La. Rev. Stat. §§ 6:1381–6:1394); dedicated standalone virtual-currency license via the Office of Financial Institutions",
+      "detail": "Louisiana runs one of the most developed state regimes: the Virtual Currency Businesses Act (VCBA), La. Rev. Stat. §§ 6:1381 to 6:1394, adopted in 2020, made Louisiana the second state after New York to create a dedicated, standalone licensing scheme for virtual-currency business activity. A license (or equivalent permission) from the Office of Financial Institutions (OFI), applied for through NMLS, is required to conduct virtual-currency business activity with Louisiana residents. Licensing thresholds were tightened in 2023: SB 185 / Act 331 rescinded the former de minimis exception (§ 6:1389), so a license is required regardless of transaction volume. The Act lists exceptions in § 6:1383(B) and (C) (for example, virtual currency regulated under Louisiana securities law and personal or academic use). Requirements include a business plan, FinCEN registration and BSA/AML compliance, control-person background checks, a surety bond, and minimum net worth of the greater of $100,000 or 3% of total assets. The VCBA sits alongside the traditional money-transmitter license, and OFI’s 2014 guidance already treated virtual-currency exchangers as requiring money-transmitter licensing.",
+      "effective": "VCBA licensing in force (license required to operate after June 30, 2023); de minimis exception removed by SB 185 / Act 331 (2023)",
+      "lastVerified": "2026-08-23",
+      "sourceText": "La. Rev. Stat. §§ 6:1381–6:1394 (Virtual Currency Businesses Act); SB 185 / Act 331 (2023); LA Office of Financial Institutions; corroborated by Bloomberg Law state survey",
+      "sourceUrl": "https://ofi.la.gov/non-depository/virtual-currency-business-activity"
     },
     {
       "name": "Montana",
