@@ -24,10 +24,10 @@
     --text-body: #9cb0a1;
     --text-dim: #647668;
 
-    /* green accent replaces gold */
-    --accent: #4fb488;
-    --accent-hi: #6ccda0;
-    --accent-dim: rgba(79,180,136,0.14);
+    /* warm coral accent */
+    --accent: #e08256;
+    --accent-hi: #ec9b74;
+    --accent-dim: rgba(224,130,86,0.14);
 
     --shadow-md: 0 6px 24px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.34);
     --shadow-lg: 0 18px 50px rgba(0,0,0,0.55), 0 6px 16px rgba(0,0,0,0.42);
@@ -47,8 +47,8 @@
   body {
     font-family: var(--sans);
     background:
-      radial-gradient(900px 460px at 82% -8%, rgba(79,180,136,0.09), transparent 60%),
-      radial-gradient(760px 420px at 0% 4%, rgba(60,138,82,0.06), transparent 62%),
+      radial-gradient(900px 460px at 82% -8%, rgba(224,130,86,0.09), transparent 60%),
+      radial-gradient(760px 420px at 0% 4%, rgba(60,138,82,0.05), transparent 62%),
       var(--bg);
     background-attachment: fixed;
     color: var(--text-body);
@@ -114,8 +114,8 @@
 
   .disclaimer {
     font-family: var(--sans); margin-top: 20px; padding: 14px 18px;
-    background: var(--accent-dim); border: 1px solid rgba(79,180,136,0.2);
-    border-radius: 12px; font-size: 12px; color: #a8c6b4; line-height: 1.6; max-width: 860px;
+    background: var(--accent-dim); border: 1px solid rgba(224,130,86,0.22);
+    border-radius: 12px; font-size: 12px; color: #d8b6a4; line-height: 1.6; max-width: 860px;
   }
 
   /* ---------- CONTROLS ---------- */
@@ -138,8 +138,8 @@
   .dot-excluded { background: var(--c-excluded); }
   .filter-btn:hover { border-color: var(--border-hi); color: var(--text); }
   .filter-btn.active {
-    background: var(--accent); color: #06130d; border-color: var(--accent);
-    font-weight: 600; box-shadow: 0 6px 18px rgba(79,180,136,0.22);
+    background: var(--accent); color: #2a1206; border-color: var(--accent);
+    font-weight: 600; box-shadow: 0 6px 18px rgba(224,130,86,0.24);
   }
   #search {
     font-family: var(--sans); font-size: 13px; padding: 9px 16px; border-radius: 10px;
@@ -147,7 +147,7 @@
     transition: border-color 0.18s ease, box-shadow 0.18s ease;
   }
   #search::placeholder { color: var(--text-dim); }
-  #search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(79,180,136,0.16); }
+  #search:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(224,130,86,0.18); }
 
   /* ---------- LEGEND ---------- */
   .legend {
@@ -258,8 +258,8 @@
     <a class="brand" href="#top" aria-label="The Stablecoin Atlas home">
       <span class="brand-mark">
         <svg width="27" height="27" viewBox="0 0 27 27" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
-          <circle cx="13.5" cy="13.5" r="12" fill="none" stroke="#4fb488" stroke-width="1.1" opacity="0.45"/>
-          <path d="M13.5 3 L16 11 L24 13.5 L16 16 L13.5 24 L11 16 L3 13.5 L11 11 Z" fill="#4fb488"/>
+          <circle cx="13.5" cy="13.5" r="12" fill="none" stroke="#e08256" stroke-width="1.1" opacity="0.45"/>
+          <path d="M13.5 3 L16 11 L24 13.5 L16 16 L13.5 24 L11 16 L3 13.5 L11 11 Z" fill="#e08256"/>
         </svg>
       </span>
       <span class="brand-name"><span class="the">The</span> Stablecoin Atlas</span>
