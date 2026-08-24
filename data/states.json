@@ -7,9 +7,9 @@
       "status": "live",
       "statusLabel": "Live Regime",
       "framework": "NYDFS BitLicense / Limited Purpose Trust Charter",
-      "detail": "Most coins commonly called 'stablecoins' count as Virtual Currency under New York's rules, which means issuing one requires a BitLicense or a New York-chartered trust company (the trust route also lets a company handle money transmission and fiduciary duties without extra licenses, which a BitLicense alone doesn't allow). Before issuing, a coin also needs DFS sign-off through self-certification, a spot on DFS's approved 'Greenlist,' or individual approval. Coins already on the Greenlist include Gemini Dollar, Ripple USD, and WisdomTree Dollar.",
-      "effective": "In force since Jun. 8, 2022 guidance",
-      "lastVerified": "2026-07-03",
+      "detail": "Most coins commonly called 'stablecoins' count as Virtual Currency under New York's rules, which means issuing one requires a BitLicense or a New York-chartered trust company (the trust route also lets a company handle money transmission and fiduciary duties without extra licenses, which a BitLicense alone doesn't allow). Before issuing, a coin also needs DFS sign-off through self-certification, a spot on DFS's approved 'Greenlist,' or individual approval. Coins already on the Greenlist include Gemini Dollar, Ripple USD, and WisdomTree Dollar. In June 2026, DFS proposed a new regulation building on this framework and updated its custody-structure guidance; the proposed rule is designed to take effect alongside the federal GENIUS Act, with a one-year transition period for existing New York-licensed stablecoin issuers.",
+      "effective": "BitLicense/LPTC regime in force (2022 stablecoin guidance); new DFS stablecoin regulation proposed June 2026, to take effect with the GENIUS Act",
+      "lastVerified": "2026-08-24",
       "sourceText": "NY Dept. of Financial Services, Virtual Currency Businesses",
       "sourceUrl": "https://www.dfs.ny.gov/virtual_currency_businesses"
     },
@@ -33,7 +33,7 @@
       "framework": "Money Services Modernization Act (Finance Code Ch. 152)",
       "detail": "Texas treats qualifying stablecoins as 'money,' which means issuing or transmitting them requires a money transmission license. To count, a stablecoin must be pegged to a currency like the dollar, fully backed by reserve assets, and redeemable for that currency on demand. Licensees must hold a minimum net worth that scales with their size, starting at $100,000. Texas also lets a licensee hold stablecoin itself as part of its required reserves, as long as it's the same stablecoin it owes to customers and is kept in proper custody.",
       "effective": "In force since Sept. 1, 2023",
-      "lastVerified": "2026-07-03",
+      "lastVerified": "2026-08-24",
       "sourceText": "Tex. Finance Code Ch. 152, enacted by S.B. 895 (2023)",
       "sourceUrl": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf"
     },
@@ -43,9 +43,9 @@
       "status": "live",
       "statusLabel": "Live Regime",
       "framework": "Payment Stablecoin Licensing (HB 175) + State Pilot (SB 1568)",
-      "detail": "Florida enacted a package of digital-asset laws signed by Governor DeSantis in late June 2026, all effective immediately. HB 175 requires a money services business to hold a license from the Office of Financial Regulation before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA, aligning the state framework with the federal GENIUS Act. SB 1568 establishes the Florida Stablecoin Pilot Program, allowing the Department of Financial Services to accept approved payment stablecoins for certain government fees. A companion law, HB 505, requires virtual-currency kiosk operators to register with the OFR.",
-      "effective": "HB 175 and SB 1568 signed by Gov. DeSantis, late Jun. 2026; effective immediately",
-      "lastVerified": "2026-07-03",
+      "detail": "Florida enacted a package of digital-asset laws signed by Governor DeSantis on June 27, 2026. HB 175 requires a money services business to hold a license from the Office of Financial Regulation before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA, aligning the state framework with the federal GENIUS Act; its licensing provisions take effect October 1, 2026. SB 1568 establishes the Florida Stablecoin Pilot Program, allowing the Department of Financial Services to accept approved payment stablecoins for certain government fees, and took effect on enactment. A companion law, HB 505, requires virtual-currency kiosk operators to register with the OFR. Florida separately already requires money-transmitter licensing that reaches virtual currency, so virtual-currency activity is licensable independent of the new stablecoin-issuer regime.",
+      "effective": "Signed June 27, 2026; HB 175 payment-stablecoin licensing effective Oct. 1, 2026; SB 1568 pilot effective on enactment",
+      "lastVerified": "2026-08-24",
       "sourceText": "Florida House/Senate, HB 175 and SB 1568 bill history",
       "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/175"
     },
@@ -237,7 +237,7 @@
       "framework": "Money Transmission Modernization Act (HB 1942, Ch. 19.1)",
       "detail": "Virginia's Money Transmission Modernization Act (HB 1942, enacted in 2025 as Acts of Assembly Chapter 214) takes effect July 1, 2026, replacing Chapter 19 of Title 6.2 with a new Chapter 19.1 administered by the State Corporation Commission's Bureau of Financial Institutions. Under Sec. 6.2-1922, 'money' does not include virtual currency, and because money transmission is defined in terms of money, payment instruments, and stored value, a business engaged solely in transmitting virtual currency, including a stablecoin, generally falls outside the licensing requirement. In practice the exclusion is narrower for stablecoins: activity that also moves fiat currency, such as redemption or on- and off-ramps, transmits 'money' and can still be captured. Federal GENIUS Act and FinCEN requirements apply regardless.",
       "effective": "MTMA (HB 1942, Acts ch. 214) effective July 1, 2026; virtual currency expressly excluded from 'money' (Sec. 6.2-1922, Ch. 19.1)",
-      "lastVerified": "2026-07-10",
+      "lastVerified": "2026-08-24",
       "sourceText": "Va. Code Sec. 6.2-1922 (Ch. 19.1, eff. Jul. 1, 2026; HB 1942 / Acts ch. 214); SCC Bureau of Financial Institutions",
       "sourceUrl": "https://law.lis.virginia.gov/vacode/title6.2/chapter19.1/section6.2-1922/"
     },
