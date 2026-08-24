@@ -568,14 +568,14 @@
     {
       "name": "Mississippi",
       "slug": "mississippi",
-      "status": "excluded",
-      "statusLabel": "VC Unsettled",
-      "framework": "Mississippi Money Transmission Modernization Act, enacted without the optional virtual-currency provisions",
-      "detail": "Mississippi adopted the CSBS Model Money Transmission Modernization Act but excluded the model's optional virtual-currency provisions, which would have expressly treated certain virtual-currency activity as money transmission. As a result, virtual currency is not expressly covered by statute, and whether virtual-currency-only activity requires a Mississippi money transmitter license is unsettled and should be confirmed against Department of Banking and Consumer Finance guidance.",
-      "effective": "MTMA adopted without the optional virtual-currency provisions; VC treatment unsettled",
-      "lastVerified": "needs-review",
-      "sourceText": "Mississippi MTMA (enacted without optional virtual-currency provisions); Cooley analysis",
-      "sourceUrl": "https://www.cooley.com/news/insight/2024/2024-08-20-us-states-adopt-model-money-transmission-act-but-harmonization-remains-elusive"
+      "status": "live",
+      "statusLabel": "Live Regime",
+      "framework": "Mississippi money transmission law (Miss. Code § 75-15-3); broad “monetary value” definition reaches virtual currency; VC kiosks expressly licensed under HB 1625 (2026)",
+      "detail": "Mississippi treats virtual-currency transmission as licensable money transmission. The statute defines “monetary value” as “a medium of exchange, whether or not redeemable in money” (Miss. Code § 75-15-3(f)) and defines “money transmission” to include receiving monetary value for transmission (§ 75-15-3(g)) — language broad enough to cover virtual currency — and in practice major exchanges such as Binance and Coinbase hold Mississippi money transmission licenses. Effective July 1, 2026, the Virtual Currency Kiosk Consumer Protection Act (HB 1625) expressly requires virtual-currency kiosk operators to be licensed as money transmitters and adds consumer protections: transaction limits ($1,000/day for new customers, $5,000 in the first 30 days, $7,500/day for existing customers), a 96-hour hold on a customer’s initial transaction, a 14-day fraud refund requirement, and 72-hour complaint reporting, administered by the Department of Banking and Consumer Finance under the Money Transmission Modernization Act.",
+      "effective": "Money transmission covers virtual currency via the broad “monetary value” definition; VC-kiosk operators licensed under HB 1625, effective July 1, 2026",
+      "lastVerified": "2026-08-23",
+      "sourceText": "Miss. Code § 75-15-3(f),(g); HB 1625 (2026) Virtual Currency Kiosk Consumer Protection Act; MS Dept. of Banking and Consumer Finance; corroborated by Bloomberg Law state survey",
+      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/mississippi/"
     },
     {
       "name": "West Virginia",
