@@ -224,6 +224,7 @@
   .card .src a { color: var(--accent); text-decoration: none; font-weight: 500; }
   .card .src a:hover { color: var(--accent-hi); }
   /* quick-read block */
+  .card-summary { font-family: var(--sans); font-size: 14.5px; color: var(--text); line-height: 1.55; margin: 2px 0 16px; }
   .quick-facts { display: grid; gap: 12px; margin: 2px 0 4px; }
   .qf-block { }
   .qf-label { font-family: var(--mono); font-size: 9.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--text-dim); margin-bottom: 4px; }
@@ -505,6 +506,7 @@ function renderDetail() {
         <h3>${s.name}</h3>
         <span class="status-tag ${statusClass(s.status)}">${s.statusLabel}</span>
       </div>
+      ${s.summary ? `<div class="card-summary">${s.summary}</div>` : ''}
       <div class="quick-facts">
         <div class="qf-block"><div class="qf-label">Regime</div><div class="qf-value strong">${s.framework}</div></div>
         <div class="qf-block"><div class="qf-label">Effective &amp; deadlines</div><div class="qf-value">${s.effective}</div></div>

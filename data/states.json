@@ -13,12 +13,13 @@
       "sourceText": "NY DFS Virtual Currency Businesses; proposed 23 NYCRR Part 202, Authorized Payment Stablecoin Issuers (July 2026)",
       "sourceUrl": "https://www.dfs.ny.gov/virtual_currency_businesses",
       "keyPoints": [
-        "Issue payment stablecoins only with DFS approval (as an Authorized Payment Stablecoin Issuer, or under a BitLicense or limited-purpose trust charter)",
-        "Hold GENIUS-Act-aligned reserves, separately identifiable and segregated per stablecoin brand",
-        "File monthly reserve-composition reports examined by a registered public accounting firm, plus an annual attestation",
-        "Publicly disclose a redemption policy",
-        "Existing DFS-approved issuers: reach full Part 202 compliance within 12 months of its effective date"
-      ]
+        "Get DFS approval before issuing a stablecoin (through the new issuer approval, a BitLicense, or a New York trust charter)",
+        "Back every coin fully with safe reserves, kept separate for each coin",
+        "Report reserves monthly, with an outside accounting firm checking them, plus a yearly sign-off",
+        "Publish clear rules for how customers can cash out their coins",
+        "Already licensed? You have 12 months to meet the new rules once they take effect"
+      ],
+      "summary": "New York requires state approval before anyone can issue a stablecoin, and it is rewriting its rules to line up with the new federal GENIUS Act. Firms already licensed in New York get a year to meet the updated requirements."
     },
     {
       "name": "California",
