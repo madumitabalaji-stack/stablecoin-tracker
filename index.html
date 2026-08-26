@@ -223,6 +223,26 @@
   .card .src { font-family: var(--mono); font-size: 10.5px; color: var(--text-dim); line-height: 1.5; }
   .card .src a { color: var(--accent); text-decoration: none; font-weight: 500; }
   .card .src a:hover { color: var(--accent-hi); }
+  /* quick-read block */
+  .quick-facts { display: grid; gap: 12px; margin: 2px 0 4px; }
+  .qf-block { }
+  .qf-label { font-family: var(--mono); font-size: 9.5px; font-weight: 600; text-transform: uppercase; letter-spacing: 0.09em; color: var(--text-dim); margin-bottom: 4px; }
+  .qf-value { font-family: var(--sans); font-size: 12.5px; color: var(--text-body); line-height: 1.5; }
+  .qf-value.strong { color: var(--text); font-weight: 600; }
+  .qf-list { margin: 3px 0 0; padding: 0; list-style: none; }
+  .qf-list li { font-family: var(--sans); font-size: 12.5px; color: var(--text-body); line-height: 1.45; padding-left: 15px; position: relative; margin-bottom: 6px; }
+  .qf-list li:last-child { margin-bottom: 0; }
+  .qf-list li::before { content: ""; position: absolute; left: 2px; top: 7px; width: 5px; height: 5px; border-radius: 50%; background: var(--accent); }
+  details.more { border-top: 1px solid var(--border); margin-top: 16px; }
+  details.more > summary { list-style: none; cursor: pointer; padding: 12px 0 0; font-family: var(--mono); font-size: 11px; font-weight: 600; letter-spacing: 0.04em; color: var(--accent); display: inline-flex; align-items: center; gap: 7px; user-select: none; }
+  details.more > summary::-webkit-details-marker { display: none; }
+  details.more > summary:hover { color: var(--accent-hi); }
+  details.more > summary::after { content: "\25BE"; font-size: 10px; transition: transform 0.2s ease; }
+  details.more[open] > summary::after { transform: rotate(180deg); }
+  details.more > summary .lbl-less { display: none; }
+  details.more[open] > summary .lbl-more { display: none; }
+  details.more[open] > summary .lbl-less { display: inline; }
+  details.more .detail { margin-top: 12px; margin-bottom: 0; }
   .verified { font-family: var(--mono); font-size: 10px; color: var(--text-dim); white-space: nowrap; flex-shrink: 0; }
   .verified-stale { color: var(--c-pending); font-weight: 500; }
   .placeholder { font-family: var(--sans); text-align: center; padding: 40px 26px; color: var(--text-dim); font-size: 12.5px; border: 1px dashed var(--border-hi); border-radius: 18px; background: rgba(255,255,255,0.012); }
@@ -485,9 +505,15 @@ function renderDetail() {
         <h3>${s.name}</h3>
         <span class="status-tag ${statusClass(s.status)}">${s.statusLabel}</span>
       </div>
-      <div class="framework">${s.framework}</div>
-      <div class="detail">${s.detail}</div>
-      <div class="effective">${s.effective}</div>
+      <div class="quick-facts">
+        <div class="qf-block"><div class="qf-label">Regime</div><div class="qf-value strong">${s.framework}</div></div>
+        <div class="qf-block"><div class="qf-label">Effective &amp; deadlines</div><div class="qf-value">${s.effective}</div></div>
+        ${Array.isArray(s.keyPoints) && s.keyPoints.length ? `<div class="qf-block"><div class="qf-label">What issuers must do</div><ul class="qf-list">${s.keyPoints.map(k => `<li>${k}</li>`).join('')}</ul></div>` : ''}
+      </div>
+      <details class="more">
+        <summary><span class="lbl-more">Read the full analysis</span><span class="lbl-less">Hide full analysis</span></summary>
+        <div class="detail">${s.detail}</div>
+      </details>
       <div class="card-footer">
         <div class="src">Source: <a href="${s.sourceUrl}" target="_blank">${s.sourceText}</a></div>
         ${formatVerified(s.lastVerified)}

@@ -11,7 +11,14 @@
       "effective": "BitLicense / Limited Purpose Trust Charter regime in force; proposed 23 NYCRR Part 202 to take effect on the GENIUS Act’s effective date, with a 12-month compliance transition for existing DFS-approved issuers",
       "lastVerified": "2026-08-26",
       "sourceText": "NY DFS Virtual Currency Businesses; proposed 23 NYCRR Part 202, Authorized Payment Stablecoin Issuers (July 2026)",
-      "sourceUrl": "https://www.dfs.ny.gov/virtual_currency_businesses"
+      "sourceUrl": "https://www.dfs.ny.gov/virtual_currency_businesses",
+      "keyPoints": [
+        "Issue payment stablecoins only with DFS approval (as an Authorized Payment Stablecoin Issuer, or under a BitLicense or limited-purpose trust charter)",
+        "Hold GENIUS-Act-aligned reserves, separately identifiable and segregated per stablecoin brand",
+        "File monthly reserve-composition reports examined by a registered public accounting firm, plus an annual attestation",
+        "Publicly disclose a redemption policy",
+        "Existing DFS-approved issuers: reach full Part 202 compliance within 12 months of its effective date"
+      ]
     },
     {
       "name": "California",
