@@ -363,6 +363,13 @@
         <p><strong>Preemption for permitted issuers:</strong> a federally-permitted payment stablecoin issuer (PPSI) is preempted from state money-transmitter licensing for its stablecoin activity, even where a license is otherwise required. Third parties that transmit or custody stablecoins for a fee still fall under state licensing where required.</p>
         <p>In short, a <strong>VC Excluded</strong> state is not one where stablecoins are unregulated: no state transmitter license is required to move virtual currency there, while payment-stablecoin issuance stays federally governed, and states like Georgia are building dedicated issuer regimes to qualify for the state pathway.</p>
       </section>
+      <section class="federal">
+        <div class="kicker">Model Law &middot; CSBS</div>
+        <h3>The MTMA</h3>
+        <p>The <strong>Money Transmission Modernization Act</strong> is a model law from the Conference of State Bank Supervisors that standardizes money-transmitter licensing. Roughly 31 states have adopted it in full or in part. Adoption mostly concerns general licensing standards, so it does not, by itself, tell you how a state treats stablecoins.</p>
+        <p>The exception is the Act's <em>optional virtual-currency provisions</em> (Title XIII): only <strong>Minnesota</strong> and <strong>North Dakota</strong> adopted them, expressly bringing virtual-currency business under licensing. Those two are flagged on their state cards.</p>
+        <p class="src">Source: <a href="https://www.csbs.org/csbs-money-transmission-modernization-act-mtma" target="_blank">CSBS &mdash; Money Transmission Modernization Act</a></p>
+      </section>
     </div>
   </div>
 
@@ -612,6 +619,7 @@ function renderDetail() {
       <div class="quick-facts">
         <div class="qf-block"><div class="qf-label">Regime</div><div class="qf-value strong">${s.framework}</div></div>
         <div class="qf-block"><div class="qf-label">Effective &amp; deadlines</div><div class="qf-value">${s.effective}</div></div>
+        ${s.mtma ? `<div class="qf-block"><div class="qf-label">Model law (MTMA)</div><div class="qf-value">${s.mtma}</div></div>` : ''}
         ${Array.isArray(s.keyPoints) && s.keyPoints.length ? `<div class="qf-block"><div class="qf-label">What issuers must do</div><ul class="qf-list">${s.keyPoints.map(k => `<li>${k}</li>`).join('')}</ul></div>` : ''}
       </div>
       <details class="more">
