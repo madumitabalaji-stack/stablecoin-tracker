@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "states": [
     {
       "name": "New York",
@@ -8,7 +8,7 @@
       "statusLabel": "Live Regime",
       "framework": "NYDFS BitLicense / Limited Purpose Trust Charter; proposed 23 NYCRR Part 202 (Authorized Payment Stablecoin Issuers)",
       "detail": "Most coins commonly called “stablecoins” count as Virtual Currency under New York’s rules, which means issuing one requires a BitLicense or a New York-chartered trust company (the trust route also lets a company handle money transmission and fiduciary duties without extra licenses, which a BitLicense alone doesn’t allow). Before issuing, a coin also needs DFS sign-off through self-certification, a spot on DFS’s approved “Greenlist,” or individual approval. Coins already on the Greenlist include Gemini Dollar, Ripple USD, and WisdomTree Dollar. In July 2026, DFS proposed a new regulation, 23 NYCRR Part 202 (“Authorized Payment Stablecoin Issuers”), that reaffirms and aligns New York’s payment-stablecoin regime with the federal GENIUS Act. Part 202 takes effect on the GENIUS Act’s own effective date; it ties reserve, redemption, and attestation duties to the GENIUS Act (segregated per-brand reserves, monthly reserve-composition reports examined by a registered public accounting firm, and an annual attestation), gives issuers already approved by DFS 12 months to reach full compliance, and withdraws the department’s June 8, 2022 stablecoin guidance as of its effective date.",
-      "effective": "In force now under the BitLicense / limited-purpose trust charter and DFS’s June 8, 2022 stablecoin guidance; proposed 23 NYCRR Part 202 takes effect on the GENIUS Act’s effective date (replacing the 2022 guidance), with a 12-month compliance transition for existing issuers.",
+      "effective": "In force now under the BitLicense / limited-purpose trust charter and DFS’s June 8, 2022 stablecoin guidance; proposed 23 NYCRR Part 202 takes effect on the GENIUS Act’s effective date (expected January 18, 2027) (replacing the 2022 guidance), with a 12-month compliance transition for existing issuers.",
       "lastVerified": "2026-08-26",
       "sourceText": "NY DFS Virtual Currency Businesses; proposed 23 NYCRR Part 202, Authorized Payment Stablecoin Issuers (July 2026)",
       "sourceUrl": "https://www.dfs.ny.gov/virtual_currency_businesses",
