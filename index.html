@@ -78,6 +78,18 @@
     color: var(--text-body); text-decoration: none; transition: color 0.15s ease;
   }
   .topnav a:hover { color: var(--accent-hi); }
+  .ref-toggle {
+    font-family: var(--mono); font-size: 11px; font-weight: 500;
+    letter-spacing: 0.04em; text-transform: uppercase;
+    color: var(--text-body); background: none; border: none; cursor: pointer;
+    padding: 0; display: inline-flex; align-items: center; gap: 6px;
+    transition: color 0.15s ease;
+  }
+  .ref-toggle:hover { color: var(--accent-hi); }
+  .ref-toggle .arr { font-size: 9px; transition: transform 0.2s ease; }
+  .ref-toggle[aria-expanded="true"] { color: var(--accent); }
+  .ref-toggle[aria-expanded="true"] .arr { transform: rotate(180deg); }
+  .reference[hidden] { display: none; }
   @media (max-width: 620px) { .topnav a.optional { display: none; } }
 
   /* ---------- HEADER ---------- */
@@ -288,6 +300,7 @@
       <span class="brand-name"><span class="the">The</span> Stablecoin Atlas</span>
     </a>
     <nav class="topnav">
+      <button id="ref-toggle" class="ref-toggle" aria-expanded="false" aria-controls="reference">Framework &amp; definitions <span class="arr">&#9662;</span></button>
       <a class="optional" href="https://substack.com/@theclaritybrief2" target="_blank">The Clarity Brief &#8599;</a>
       <a href="https://linkedin.com/in/madumitabalaji" target="_blank">LinkedIn &#8599;</a>
     </nav>
@@ -329,6 +342,7 @@
 
   <div class="chip-row" id="chips"></div>
 
+  <div id="reference" class="reference" hidden>
   <div class="framework-section">
     <div class="framework-head">
       <div class="kicker">The Federal Framework</div>
@@ -429,6 +443,7 @@
         <p class="src">Source: <a href="https://www.congress.gov/bill/119th-congress/senate-bill/1582/text" target="_blank">GENIUS Act &sect; 2(7)</a></p>
       </section>
     </div>
+  </div>
   </div>
 
   <div id="tooltip"></div>
@@ -701,6 +716,17 @@ filterBtns.forEach(btn => {
 
 searchInput.addEventListener('input', () => { paintMap(); renderChips(); });
 window.addEventListener('hashchange', applyHash);
+
+const refToggle = document.getElementById('ref-toggle');
+const refPanel  = document.getElementById('reference');
+if (refToggle && refPanel) {
+  refToggle.addEventListener('click', () => {
+    const open = refPanel.hasAttribute('hidden');
+    if (open) { refPanel.removeAttribute('hidden'); } else { refPanel.setAttribute('hidden', ''); }
+    refToggle.setAttribute('aria-expanded', String(open));
+    if (open) refPanel.scrollIntoView({ behavior: 'smooth', block: 'start' });
+  });
+}
 
 let lastUpdated = null;
 
