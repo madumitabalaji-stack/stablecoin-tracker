@@ -545,9 +545,17 @@
       "framework": "Oklahoma money transmission law (current 6 O.S. § 1512); Money Transmission Modernization Act (HB 3521) recodifies at 6 O.S. § 1551 et seq. effective Nov. 1, 2026, expressly adding fiat-backed stablecoins to the “money” definition",
       "detail": "Oklahoma requires a money-transmitter license for virtual-currency activity, and many virtual-currency exchanges already hold Oklahoma licenses under the current statute (6 O.S. § 1512). Two changes modernize and tighten the regime: SB 1083 (2025) requires digital-asset kiosk operators to hold a money-transmitter license, and the Money Transmission Modernization Act (HB 3521), which became law on May 13, 2026 and takes effect November 1, 2026, recodifies money transmission at 6 O.S. § 1551 et seq., requires a license for “virtual currency business activity,” and expressly includes fiat-backed, sovereign-pegged, fully reserve-backed stablecoins within the statutory definition of “money.” Applicants currently apply under the existing law and will be supervised under the new one. Payment-stablecoin issuance also remains federally governed by the GENIUS Act.",
       "effective": "VC money-transmitter licensing in force now; SB 1083 (2025) licenses digital-asset kiosks; MTMA (HB 3521) effective Nov. 1, 2026 expressly covers fiat-backed stablecoins",
-      "lastVerified": "2026-08-24",
+      "lastVerified": "2026-08-27",
       "sourceText": "6 O.S. § 1512 (current); HB 3521 Money Transmission Modernization Act (6 O.S. § 1551 et seq., eff. Nov. 1, 2026); SB 1083 (2025); OK Banking Dept.; corroborated by Bloomberg Law",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/oklahoma/"
+      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/oklahoma/",
+      "summary": "Oklahoma requires a state money-transmitter license to handle virtual currency for others, and many crypto exchanges already hold one. A modernized law taking effect November 1, 2026 rewrites the rules and, notably, writes fully-reserved fiat-backed stablecoins directly into the legal definition of “money.”",
+      "keyPoints": [
+        "Today: hold an Oklahoma money-transmitter license to transmit or exchange virtual currency for others (6 O.S. § 1512)",
+        "Crypto ATM / kiosk operators must be licensed too (SB 1083, 2025)",
+        "From November 1, 2026: comply with the modernized Money Transmission Modernization Act (6 O.S. § 1551 et seq.), which licenses “virtual currency business activity”",
+        "The new law names fully-reserved, fiat-backed stablecoins directly in its definition of “money,” so stablecoin activity is squarely licensable",
+        "Separate federal track: issuing a payment stablecoin is governed by the GENIUS Act"
+      ]
     },
     {
       "name": "Utah",
