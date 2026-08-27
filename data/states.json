@@ -50,12 +50,20 @@
       "slug": "florida",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Payment Stablecoin Licensing (HB 175) + State Pilot (SB 1568)",
-      "detail": "Florida enacted a package of digital-asset laws signed by Governor DeSantis on June 27, 2026. HB 175 requires a money services business to hold a license from the Office of Financial Regulation before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA, aligning the state framework with the federal GENIUS Act; its licensing provisions take effect October 1, 2026. SB 1568 establishes the Florida Stablecoin Pilot Program, allowing the Department of Financial Services to accept approved payment stablecoins for certain government fees, and took effect on enactment. A companion law, HB 505, requires virtual-currency kiosk operators to register with the OFR. Florida separately already requires money-transmitter licensing that reaches virtual currency, so virtual-currency activity is licensable independent of the new stablecoin-issuer regime.",
-      "effective": "Signed June 27, 2026; HB 175 payment-stablecoin licensing effective Oct. 1, 2026; SB 1568 pilot effective on enactment",
-      "lastVerified": "2026-08-24",
-      "sourceText": "Florida House/Senate, HB 175 and SB 1568 bill history",
-      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/175"
+      "framework": "Money services business licensing (Fla. Stat. ch. 560) reaching virtual currency now; Florida Payment Stablecoin Act (HB 175) adds a stablecoin-issuer license from Oct. 1, 2026; SB 1568 pilot; HB 505 kiosks",
+      "detail": "Florida regulates money services businesses under Chapter 560 of the Florida Statutes, administered by the Office of Financial Regulation (OFR). Virtual currency is treated as “monetary value,” so transmitting or exchanging it for others generally requires a Chapter 560 license — a view the OFR aligned with after Florida v. Espinoza. A 2022 amendment (CS/HB 273), effective January 1, 2023, added a statutory definition of “virtual currency” and eased the rules for direct two-party transactions, so a seller selling virtual currency straight to a buyer no longer needs a license, while third-party transmission remains licensable. On top of this, Florida enacted a package of stablecoin laws signed by Governor DeSantis on June 27, 2026. HB 175, the Florida Payment Stablecoin Act, requires a license from the OFR before issuing a payment stablecoin, with reserves backed one-to-one by cash or similarly safe assets and verified monthly by a CPA, aligning the state with the federal GENIUS Act; its licensing provisions take effect October 1, 2026. SB 1568 establishes a Stablecoin Pilot Program letting the Department of Financial Services accept approved payment stablecoins for certain government fees, effective on enactment. HB 505 requires virtual-currency kiosk operators to register with the OFR. Payment-stablecoin issuance also remains federally governed by the GENIUS Act.",
+      "effective": "Chapter 560 money-services licensing (reaching virtual currency; two-party VC sales exempt since Jan. 1, 2023) in force now; stablecoin package signed June 27, 2026 — HB 175 issuer licensing effective Oct. 1, 2026; SB 1568 pilot and HB 505 kiosks effective on enactment",
+      "lastVerified": "2026-08-27",
+      "sourceText": "Fla. Stat. ch. 560 (Money Services Businesses; virtual currency as monetary value; CS/HB 273 2022, eff. Jan. 1 2023); HB 175 Florida Payment Stablecoin Act (eff. Oct. 1, 2026); SB 1568 Stablecoin Pilot; HB 505 kiosks; FL Office of Financial Regulation",
+      "sourceUrl": "https://www.flsenate.gov/Session/Bill/2026/175",
+      "summary": "Florida already requires a state license to transmit or exchange virtual currency for others, though since 2023 a direct two-party sale (seller straight to buyer) is exempt. From October 1, 2026, a new law adds a dedicated license to *issue* a payment stablecoin, backed one-to-one by reserves checked monthly. Florida is also piloting acceptance of approved stablecoins for some state fees.",
+      "keyPoints": [
+        "Today: hold a Florida money-services (Chapter 560) license to transmit or exchange virtual currency for others, through the Office of Financial Regulation",
+        "Direct two-party sales of virtual currency (seller straight to buyer) have been exempt from licensing since January 1, 2023 (CS/HB 273)",
+        "From October 1, 2026: to *issue* a payment stablecoin, get the new OFR license under HB 175 — back reserves 1:1 with cash or safe assets, verified monthly by a CPA (aligned with the GENIUS Act)",
+        "Virtual-currency kiosk operators must register with the OFR (HB 505)",
+        "Florida is piloting acceptance of approved stablecoins for certain state fees (SB 1568)"
+      ]
     },
     {
       "name": "Wyoming",
