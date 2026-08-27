@@ -68,14 +68,22 @@
     {
       "name": "Wyoming",
       "slug": "wyoming",
-      "status": "live",
-      "statusLabel": "Live Regime + State Issuer",
-      "framework": "Wyoming Stable Token Act",
-      "detail": "The only state to both regulate and directly issue a stablecoin. The Wyoming Stable Token Commission's Frontier Stable Token (FRNT) can only be backed by cash, US Treasuries maturing within a year, or short-term Treasury repurchase agreements, per W.S. 40-31-106(a). A Trust Account must hold 100% of FRNT's notional value, plus a separate Liquidity Fund Account targeting another 2% as a buffer, with leftover investment earnings flowing quarterly to a state school foundation program. FRNT runs across eight blockchains and went live for public purchase on January 7, 2026, redeemable for $1.00.",
-      "effective": "Mainnet live since Aug. 18, 2025; public purchase since Jan. 7, 2026",
-      "lastVerified": "2026-07-03",
-      "sourceText": "Wyoming Stable Token Commission Factbook",
-      "sourceUrl": "https://stabletoken.wyo.gov/assets/media/factbook.pdf"
+      "status": "excluded",
+      "statusLabel": "VC Exempt + State Issuer",
+      "framework": "Money-transmitter exemption for virtual currency (W.S. 40-22-104); Special Purpose Depository Institution charter (W.S. 13-12-101 et seq.); Wyoming Stable Token Act (W.S. 40-31-101 et seq.), under which the state issues its own stablecoin",
+      "detail": "Wyoming is the most distinctive state regime, and it works in three layers. First, private activity is exempt: the Wyoming Money Transmitters Act exempts virtual currency from licensing, so buying, selling, issuing, or taking custody of payment instruments in the form of virtual currency, or receiving virtual currency for transmission, does not require a money-transmitter license (W.S. 40-22-104). Second, a chartered-bank route exists: Wyoming created the Special Purpose Depository Institution (SPDI), a state bank charter designed to custody and handle digital assets (W.S. 13-12-101 et seq.), used by digital-asset banks such as Kraken Bank and Custodia. Third, and uniquely in the United States, the state issues its own stablecoin. Under the Wyoming Stable Token Act (W.S. 40-31-101 et seq.), the Wyoming Stable Token Commission issues the Frontier Stable Token (FRNT, launched as WYST in August 2025 and later rebranded), redeemable for $1.00 and backed only by cash, US Treasuries maturing within a year, or short-term Treasury repurchase agreements (W.S. 40-31-106(a)); a trust account holds 100% of the token’s notional value, plus a separate liquidity fund targeting a further 2% buffer, with surplus earnings directed quarterly to a state school foundation program. FRNT reached mainnet on August 18, 2025 and opened to public purchase on January 7, 2026 across eight blockchains. Private payment-stablecoin issuance also remains federally governed by the GENIUS Act.",
+      "effective": "Virtual currency exempt from money-transmitter licensing (W.S. 40-22-104); SPDI charter available (W.S. 13-12-101 et seq.); state-issued FRNT on mainnet since Aug. 18, 2025 and open to public purchase since Jan. 7, 2026",
+      "lastVerified": "2026-08-27",
+      "sourceText": "W.S. 40-22-104 (Money Transmitters Act virtual-currency exemption); W.S. 13-12-101 et seq. (SPDI charter); Wyoming Stable Token Act, W.S. 40-31-101 et seq.; Wyoming Stable Token Commission",
+      "sourceUrl": "https://stabletoken.wyo.gov",
+      "summary": "Wyoming is deliberately crypto-friendly and distinctive. It does not require a money-transmitter license to buy, sell, custody, or transmit virtual currency, including stablecoins. Instead it built bespoke structures: a special digital-asset bank charter (SPDI) and, uniquely, its own state-issued stablecoin, the Frontier Stable Token (FRNT).",
+      "keyPoints": [
+        "No money-transmitter license is required to buy, sell, custody, or transmit virtual currency (including stablecoins) in Wyoming (W.S. 40-22-104)",
+        "Digital-asset banks can instead charter as a Special Purpose Depository Institution (SPDI) (W.S. 13-12-101 et seq.) — the route used by Kraken Bank and Custodia",
+        "Wyoming itself issues a stablecoin, the Frontier Stable Token (FRNT), redeemable at $1.00 and fully reserved in cash and short US Treasuries",
+        "FRNT has been open to public purchase since January 7, 2026, live across eight blockchains",
+        "Private payment-stablecoin issuance remains federally governed by the GENIUS Act"
+      ]
     },
     {
       "name": "Illinois",
