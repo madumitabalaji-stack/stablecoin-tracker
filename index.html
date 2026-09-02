@@ -618,6 +618,7 @@ function renderDetail() {
       ${s.summary ? `<div class="card-summary">${s.summary}</div>` : ''}
       <div class="quick-facts">
         <div class="qf-block"><div class="qf-label">Regime</div><div class="qf-value strong">${s.framework}</div></div>
+        ${s.regulator ? `<div class="qf-block"><div class="qf-label">Regulator</div><div class="qf-value">${s.regulator}</div></div>` : ''}
         <div class="qf-block"><div class="qf-label">Effective &amp; deadlines</div><div class="qf-value">${s.effective}</div></div>
         ${s.mtma ? `<div class="qf-block"><div class="qf-label">Model law (MTMA)</div><div class="qf-value">${s.mtma}</div></div>` : ''}
         ${Array.isArray(s.keyPoints) && s.keyPoints.length ? `<div class="qf-block"><div class="qf-label">What issuers must do</div><ul class="qf-list">${s.keyPoints.map(k => `<li>${k}</li>`).join('')}</ul></div>` : ''}
