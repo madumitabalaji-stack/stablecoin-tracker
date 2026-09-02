@@ -136,14 +136,21 @@
     {
       "name": "Georgia",
       "slug": "georgia",
-      "status": "pending",
-      "statusLabel": "Phasing In",
+      "status": "live",
+      "statusLabel": "Live Regime",
       "framework": "Georgia Payment Stablecoin Act (HB 1272)",
       "detail": "Georgia enacted the Georgia Payment Stablecoin Act (HB 1272) in 2026, a dedicated licensing regime for payment stablecoin issuers, but it is not yet in force. Under Section 4, and subject to appropriations by the General Assembly, it becomes effective on the earlier of January 18, 2027 or 120 days after the issuance of final federal GENIUS Act implementing regulations. The Act carves payment stablecoin issuance out of Georgia's existing money transmission laws and authorizes the Department of Banking and Finance to license issuers, on a framework the statute requires to be substantially similar to the GENIUS Act. Licensed issuers must back outstanding stablecoins one-to-one with liquid reserves held in trust for consumers and maintain redemption policies. Beginning July 18, 2028, it becomes unlawful to offer or sell a payment stablecoin in Georgia unless the issuer is a permitted, licensed, or federally qualified issuer. Separately, some virtual-currency money transmission already requires a license under O.C.G.A. Sec. 7-1-680 et seq.",
       "effective": "Enacted 2026; effective (subject to state appropriations) the earlier of Jan. 18, 2027 or 120 days after federal GENIUS Act final rules; issuer requirement from Jul. 18, 2028",
-      "lastVerified": "2026-07-09",
-      "sourceText": "HB 1272, Georgia Payment Stablecoin Act (as passed House and Senate)",
-      "sourceUrl": "https://www.legis.ga.gov/api/legislation/document/20252026/249038"
+      "lastVerified": "2026-09-02",
+      "sourceText": "“Issuance of payment stablecoin shall not be considered to be money transmission as defined by Code Section 7-1-680.… Subject to appropriations by the General Assembly, this Act shall become effective upon the earlier of: (1) January 18, 2027; or (2) 120 days after the issuance of final implementing regulations for the GENIUS Act.” (HB 1272)",
+      "sourceUrl": "https://www.legis.ga.gov/api/legislation/document/20252026/249038",
+      "keyPoints": [
+        "Today: transmitting or issuing a stablecoin requires a Georgia money transmitter license — “virtual currency” falls within the money-transmission definition (O.C.G.A. § 7-1-680), administered by the Department of Banking and Finance (recent enforcement: a Jan. 2026 cease-and-desist against a crypto-kiosk operator)",
+        "When the Georgia Payment Stablecoin Act takes effect (the earlier of Jan. 18, 2027 or 120 days after final GENIUS Act rules, subject to state appropriations): only a permitted payment stablecoin issuer may issue a payment stablecoin, licensed by the Department on a framework the statute requires to be “substantially similar to the GENIUS Act”",
+        "Once effective: issuing a payment stablecoin is no longer “money transmission” under § 7-1-680 — a permitted issuer needs no separate money-transmission license to issue, sell, or redeem (but still needs one for other money-transmission activity)",
+        "From July 18, 2028: it is unlawful to offer or sell a payment stablecoin in Georgia unless it is issued by a licensed, permitted, or state qualified payment stablecoin issuer"
+      ],
+      "summary": "Georgia has enacted a dedicated stablecoin-issuer licensing law — the Georgia Payment Stablecoin Act (HB 1272) — but it is not yet in force. Until it takes effect, issuing or transmitting a stablecoin in Georgia falls under the state's existing money-transmitter licensing. Once effective, stablecoin issuance moves to the new regime and is no longer treated as money transmission."
     },
     {
       "name": "North Carolina",
