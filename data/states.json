@@ -500,39 +500,39 @@
       "slug": "alabama",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Alabama Monetary Transmission Act (Ala. Code § 8-7A-2, § 8-7A-5); “monetary value” expressly includes virtual currency",
+      "framework": "Alabama Monetary Transmission Act (Ala. Code § 8-7A-2, § 8-7A-5). The definition of “monetary value” in § 8-7A-2 expressly includes virtual currency.",
       "regulator": "Alabama Securities Commission",
-      "detail": "Alabama requires a license to sell or issue payment instruments or stored value, or to receive money or monetary value for transmission, and defines “monetary value” as a medium of exchange including virtual or fiat currencies, whether or not redeemable in money (Ala. Code § 8-7A-2). Transmitting or exchanging virtual currency for others therefore requires a money-transmitter license from the State Banking Department. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
+      "detail": "Alabama requires a license to sell or issue payment instruments or stored value, or to receive money or monetary value for transmission (Ala. Code § 8-7A-5). The Alabama Monetary Transmission Act defines “monetary value” as “a medium of exchange, including virtual or fiat currencies, whether or not redeemable in money” (Ala. Code § 8-7A-2), so transmitting or exchanging virtual currency for others requires a money-transmitter license. The Act is administered by the Alabama Securities Commission.",
       "effective": "Money-transmitter license required; “monetary value” expressly covers virtual currency",
-      "lastVerified": "2026-08-24",
-      "sourceText": "Ala. Code § 8-7A-2, § 8-7A-5; Alabama State Banking Department; corroborated by Bloomberg Law state survey",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/alabama/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "“MONETARY VALUE. A medium of exchange, including virtual or fiat currencies, whether or not redeemable in money.” (Ala. Code § 8-7A-2)",
+      "sourceUrl": "https://asc.alabama.gov/statute/alabama-securities-act-title-8-section-7a/"
     },
     {
       "name": "Alaska",
       "slug": "alaska",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Alaska money services law (Alaska Stat. § 06.55.990(15)); Division of Banking requires a money-transmitter license plus a Limited Licensing Agreement for virtual currency",
+      "framework": "Alaska Uniform Money Services Act (AS 06.55; definitions at AS 06.55.990, license required at AS 06.55.101). Virtual-currency business activity requires a money-transmitter license; the earlier Limited Licensing Agreement approach was discontinued as of January 2023.",
       "regulator": "Alaska Division of Banking and Securities",
-      "detail": "Alaska requires virtual-currency businesses to be licensed. The Division of Banking and Securities states that companies dealing with fiat and virtual currencies must apply for a money-transmitter license and then enter into a Limited Licensing Agreement (LLA) with the State of Alaska. The money-services definition covers receiving money or monetary value for transmission (Alaska Stat. § 06.55.990(15)). Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
+      "detail": "Alaska requires virtual-currency business activity to be licensed as money transmission under the Alaska Uniform Money Services Act (AS 06.55). “Money services” and “monetary value” are defined in AS 06.55.990, and a license is required under AS 06.55.101. Previously the Division of Banking and Securities handled virtual-currency firms through a separate Limited Licensing Agreement, but that approach ended in January 2023: virtual-currency business activity now requires full money-transmitter licensure under AS 06.55 unless exempt. The Division of Banking and Securities administers the Act.",
       "effective": "Money-transmitter license plus Limited Licensing Agreement required for virtual-currency business",
-      "lastVerified": "2026-08-24",
-      "sourceText": "Alaska Stat. § 06.55.990(15); Alaska Division of Banking and Securities (MTL + Limited Licensing Agreement); corroborated by Bloomberg Law state survey",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/alaska/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "Alaska Uniform Money Services Act, AS 06.55 (definitions, AS 06.55.990; license required, AS 06.55.101).",
+      "sourceUrl": "https://www.akleg.gov/basis/statutes.asp#06.55"
     },
     {
       "name": "Arkansas",
       "slug": "arkansas",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Arkansas Uniform Money Services Act (A.C.A. § 23-55-102(12)(A)); money transmission expressly includes virtual currency",
+      "framework": "Arkansas Uniform Money Services Act (A.C.A. § 23-55-102). “Money transmission” expressly includes receiving virtual currency for transmission; Act 557 of 2025 added virtual-currency kiosk provisions.",
       "regulator": "Arkansas Securities Department",
-      "detail": "Arkansas’s definition of money transmission expressly includes virtual currency (A.C.A. § 23-55-102(12)(A)), and the statute permits licensed money transmitters to invest in virtual currency (A.C.A. § 23-55-701(b)), so virtual-currency transmission generally requires a money-transmitter license from the Securities Department. The Department has, however, issued no-action letters relieving specific digital-asset businesses from licensing (for example, In re Mythical, Inc. (2020) for in-game currency and In re River Financial, Inc. (2020) for selling its own bitcoin reserves). Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
+      "detail": "Arkansas’s Uniform Money Services Act defines “money transmission” to include “receiving money, virtual currency, or monetary value for transmission” (A.C.A. § 23-55-102), so transmitting virtual currency for others generally requires a money-transmitter license from the Arkansas Securities Department, which administers the Act. Act 557 of 2025 amended the statute to add definitions and consumer-protection requirements for virtual-currency kiosks. The Department has at times issued no-action letters relieving specific digital-asset businesses of licensure.",
       "effective": "Money transmission expressly includes virtual currency; licensing required subject to case-by-case no-action letters",
-      "lastVerified": "2026-08-24",
-      "sourceText": "A.C.A. § 23-55-102(12)(A), § 23-55-701(b); Arkansas Securities Department no-action letters; corroborated by Bloomberg Law state survey",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/arkansas/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "“‘Money transmission’ means selling or issuing payment instruments, stored value, or prepaid access, or receiving money, virtual currency, or monetary value for transmission…” (A.C.A. § 23-55-102)",
+      "sourceUrl": "https://arkleg.state.ar.us/Home/FTPDocument?path=/ACTS/2025R/Public/ACT557.pdf"
     },
     {
       "name": "Idaho",
@@ -544,7 +544,7 @@
       "detail": "Idaho considers virtual-currency exchanges to fall within the definition of money transmission and to require a money-transmitter license, per the Idaho Department of Finance. The Department regularly issues no-action letters relieving particular businesses (for example, digital-currency ATMs) from licensing, so treatment can be activity-specific. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
       "effective": "Department of Finance requires money-transmitter licensing for virtual-currency exchange; activity-specific no-action letters issued",
       "lastVerified": "2026-08-24",
-      "sourceText": "Idaho Department of Finance position on virtual-currency money transmission and no-action letters; corroborated by Bloomberg Law state survey",
+      "sourceText": "Idaho Department of Finance position on virtual-currency money transmission and no-action letters.",
       "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/idaho/"
     },
     {
@@ -557,7 +557,7 @@
       "detail": "Louisiana runs one of the most developed state regimes: the Virtual Currency Businesses Act (VCBA), La. Rev. Stat. §§ 6:1381 to 6:1394, adopted in 2020, made Louisiana the second state after New York to create a dedicated, standalone licensing scheme for virtual-currency business activity. A license (or equivalent permission) from the Office of Financial Institutions (OFI), applied for through NMLS, is required to conduct virtual-currency business activity with Louisiana residents. Licensing thresholds were tightened in 2023: SB 185 / Act 331 rescinded the former de minimis exception (§ 6:1389), so a license is required regardless of transaction volume. The Act lists exceptions in § 6:1383(B) and (C) (for example, virtual currency regulated under Louisiana securities law and personal or academic use). Requirements include a business plan, FinCEN registration and BSA/AML compliance, control-person background checks, a surety bond, and minimum net worth of the greater of $100,000 or 3% of total assets. The VCBA sits alongside the traditional money-transmitter license, and OFI’s 2014 guidance already treated virtual-currency exchangers as requiring money-transmitter licensing.",
       "effective": "VCBA licensing in force (license required to operate after June 30, 2023); de minimis exception removed by SB 185 / Act 331 (2023)",
       "lastVerified": "2026-08-23",
-      "sourceText": "La. Rev. Stat. §§ 6:1381–6:1394 (Virtual Currency Businesses Act); SB 185 / Act 331 (2023); LA Office of Financial Institutions; corroborated by Bloomberg Law state survey",
+      "sourceText": "La. Rev. Stat. §§ 6:1381–6:1394 (Virtual Currency Businesses Act); SB 185 / Act 331 (2023); LA Office of Financial Institutions.",
       "sourceUrl": "https://ofi.la.gov/non-depository/virtual-currency-business-activity"
     },
     {
@@ -570,7 +570,7 @@
       "detail": "Montana is unique in having no money-transmitter licensing regime at all: according to the Division of Banking and Financial Institutions, money transmitters do not need a license in Montana, so there is no state money-transmitter license requirement for transmitting or exchanging fiat or virtual currency, including stablecoins. Firms operating from Montana still register with FinCEN and comply with the federal Bank Secrecy Act, and payment-stablecoin issuance remains federally governed by the GENIUS Act.",
       "effective": "No state money-transmission licensing; federal FinCEN/BSA still applies",
       "lastVerified": "2026-08-24",
-      "sourceText": "Montana Division of Banking and Financial Institutions (no money-transmitter license required); corroborated by Bloomberg Law state survey",
+      "sourceText": "Montana Division of Banking and Financial Institutions (no money-transmitter license required).",
       "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/montana/"
     },
     {
@@ -583,7 +583,7 @@
       "detail": "South Dakota treats “monetary value” under SDCL 51A-17-1(13) as including virtual currency, per the Division of Banking’s 2019 guidance on virtual-currency transmission, so persons in the business of transmitting virtual currency must obtain a money-transmitter license. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
       "effective": "Money-transmitter license required; Division of Banking guidance (2019) treats “monetary value” as covering virtual currency",
       "lastVerified": "2026-08-24",
-      "sourceText": "SDCL 51A-17-1(13); SD Division of Banking, “Virtual Currency Transmission in South Dakota” (2019); corroborated by Bloomberg Law state survey",
+      "sourceText": "SDCL 51A-17-1(13); SD Division of Banking, “Virtual Currency Transmission in South Dakota” (2019).",
       "sourceUrl": "https://dlr.sd.gov/banking/money_transmitters/default.aspx"
     },
     {
@@ -610,7 +610,7 @@
       "detail": "Nebraska treats virtual currency as within money transmission: “monetary value” is defined as a medium of exchange, whether or not redeemable in money (Neb. Rev. Stat. § 8-2715), which encompasses digital currency, so money transmission involving virtual currency is licensable. Separately, the Nebraska Financial Innovation Act authorizes state-chartered “digital asset depository institutions,” which (effective Oct. 1, 2022) have the same exemption from money-transmission registration as other banks (Neb. Rev. Stat. § 8-2724) and can provide digital-asset custody and services under a dedicated charter with strong reserve and capital requirements. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
       "effective": "Money transmission covers virtual currency; digital-asset depository charter effective Oct. 1, 2022 (Nebraska Financial Innovation Act)",
       "lastVerified": "2026-08-24",
-      "sourceText": "Neb. Rev. Stat. § 8-2715, § 8-2724 (Nebraska Financial Innovation Act); NE Dept. of Banking and Finance; corroborated by Bloomberg Law state survey",
+      "sourceText": "Neb. Rev. Stat. § 8-2715, § 8-2724 (Nebraska Financial Innovation Act); NE Dept. of Banking and Finance.",
       "sourceUrl": "https://ndbf.nebraska.gov/about/legal/nebraska-financial-innovation-act"
     },
     {
@@ -644,7 +644,7 @@
       "detail": "Utah does not require a money-transmitter license for standalone virtual-currency transmission. The Money Transmitter Act expressly excludes “blockchain tokens” from the definition of money transmission (Utah Code § 7-25-102(9)(b)), and a 2019 amendment confirmed that cryptocurrency transactions are not money transmissions, so crypto firms are generally exempt. Because the exemption rests on an express statutory exclusion rather than regulator interpretation, it is comparatively durable. The one significant carve-back is virtual-currency kiosks (crypto ATMs): HB 72 (2026), effective May 6, 2026, requires kiosk operators to obtain money-transmitter licenses and adds consumer protections (transaction limits, fee caps, mandatory fraud warnings, and attorney-general enforcement), administered through the Utah Department of Commerce. Payment-stablecoin issuance remains federally governed by the GENIUS Act regardless of this state exemption.",
       "effective": "Express virtual-currency exclusion in the Money Transmitter Act; VC-kiosk operators licensed under HB 72 (2026), effective May 6, 2026",
       "lastVerified": "2026-08-23",
-      "sourceText": "Utah Code § 7-25-102(9)(b) (blockchain-token exclusion); HB 72 (2026) VC-kiosk licensing; Utah Dept. of Commerce; corroborated by Bloomberg Law state survey",
+      "sourceText": "Utah Code § 7-25-102(9)(b) (blockchain-token exclusion); HB 72 (2026) VC-kiosk licensing; Utah Dept. of Commerce.",
       "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/utah/"
     },
     {
@@ -652,39 +652,39 @@
       "slug": "new-mexico",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "New Mexico Uniform Money Services Act (NMSA 1978 § 58-32-101 et seq.); virtual currency licensed by regulator interpretation, not express statute",
+      "framework": "New Mexico Uniform Money Services Act (NMSA 1978 § 58-32-102 (definitions); § 58-32-201 (license required)). Virtual currency is reached by regulator interpretation of “monetary value,” not by an express virtual-currency statute.",
       "regulator": "New Mexico Financial Institutions Division (Regulation and Licensing Department)",
-      "detail": "New Mexico requires a money-transmitter license to deal in virtual currency, though it reaches that result by regulator interpretation rather than express statute. Virtual currency is not specifically named in the Uniform Money Services Act (see NMSA 1978 § 58-32-102), but the Regulation and Licensing Department’s Financial Institutions Division (FID) considers any business exchanging virtual currency for money or other monetary value to require licensing as a money transmitter, reading the Act’s broad “monetary value” (medium of exchange) language to cover it. Licensure carries a $300,000 minimum surety bond (or 1% of annual volume, up to $2,000,000) and a minimum net worth of $100,000 for one to four locations, rising to $500,000 for five or more locations or internet-based businesses. New Mexico is generally regarded as one of the more rigid states on virtual-currency licensing.",
+      "detail": "New Mexico requires a money-transmitter license to deal in virtual currency, reaching that result by regulator interpretation rather than express statute. The Uniform Money Services Act defines “money transmission” as receiving money or monetary value for transmission, and “monetary value” as “a medium of exchange, whether or not redeemable in money” (NMSA 1978 § 58-32-102). The Regulation and Licensing Department’s Financial Institutions Division (FID) has stated that any business exchanging virtual currency for money, monetary value, or stored value for New Mexico residents must be licensed as a money transmitter under § 58-32-201.",
       "effective": "Uniform Money Services Act in force; FID interprets it to require money-transmitter licensing for virtual-currency exchange/transmission",
-      "lastVerified": "2026-08-23",
-      "sourceText": "NM Uniform Money Services Act (NMSA 1978 § 58-32-102); NM RLD Financial Institutions Division licensing position; corroborated by Bloomberg Law state survey",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/new-mexico/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "“Monetary value” means a medium of exchange, whether or not redeemable in money (NMSA 1978 § 58-32-102); license required under § 58-32-201.",
+      "sourceUrl": "https://www.rld.nm.gov/financial-institutions/"
     },
     {
       "name": "Mississippi",
       "slug": "mississippi",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Mississippi money transmission law (Miss. Code § 75-15-3); broad “monetary value” definition reaches virtual currency; VC kiosks expressly licensed under HB 1625 (2026)",
+      "framework": "Mississippi money transmission law (Miss. Code § 75-15-3; broad “monetary value” definition) and the Mississippi Money Transmission Modernization Act. Virtual-currency kiosk operators are licensed as money transmitters under HB 1625 (2026), effective July 1, 2026.",
       "regulator": "Mississippi Department of Banking and Consumer Finance",
-      "detail": "Mississippi treats virtual-currency transmission as licensable money transmission. The statute defines “monetary value” as “a medium of exchange, whether or not redeemable in money” (Miss. Code § 75-15-3(f)) and defines “money transmission” to include receiving monetary value for transmission (§ 75-15-3(g)), language broad enough to cover virtual currency, and in practice major exchanges such as Binance and Coinbase hold Mississippi money transmission licenses. Effective July 1, 2026, the Virtual Currency Kiosk Consumer Protection Act (HB 1625) expressly requires virtual-currency kiosk operators to be licensed as money transmitters and adds consumer protections: transaction limits ($1,000/day for new customers, $5,000 in the first 30 days, $7,500/day for existing customers), a 96-hour hold on a customer’s initial transaction, a 14-day fraud refund requirement, and 72-hour complaint reporting, administered by the Department of Banking and Consumer Finance under the Money Transmission Modernization Act.",
+      "detail": "Mississippi treats virtual-currency transmission as licensable money transmission. The statute defines “monetary value” as “a medium of exchange, whether or not redeemable in money” (Miss. Code § 75-15-3), language broad enough to reach virtual currency, and major exchanges hold Mississippi money-transmitter licenses. HB 1625 (2026), the Mississippi Virtual Currency Kiosk Consumer Protection Act, makes this explicit for kiosks: a virtual-currency kiosk operator may not operate without a license under the Money Transmission Modernization Act and must comply with money-transmitter requirements, effective July 1, 2026, with the Department of Banking and Consumer Finance exercising authority over kiosk operators.",
       "effective": "Money transmission covers virtual currency via the broad “monetary value” definition; VC-kiosk operators licensed under HB 1625, effective July 1, 2026",
-      "lastVerified": "2026-08-23",
-      "sourceText": "Miss. Code § 75-15-3(f),(g); HB 1625 (2026) Virtual Currency Kiosk Consumer Protection Act; MS Dept. of Banking and Consumer Finance; corroborated by Bloomberg Law state survey",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/mississippi/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "HB 1625 (2026), Mississippi Virtual Currency Kiosk Consumer Protection Act: virtual-currency kiosk operators must be licensed under the Money Transmission Modernization Act, effective July 1, 2026; “monetary value” defined at Miss. Code § 75-15-3.",
+      "sourceUrl": "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1625SG.htm"
     },
     {
       "name": "West Virginia",
       "slug": "west-virginia",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "West Virginia money transmission statute (W. Va. Code § 32A-2-1 et seq., amended by HB 2585, 2019); virtual currency expressly within scope",
+      "framework": "West Virginia Money Transmission Modernization Act (W. Va. Code § 32A-2-1 et seq., as amended by HB 5353 (2026)). “Money transmission” expressly reaches virtual currency (control of virtual currency, virtual-currency kiosks, digital wallets, and exchange).",
       "regulator": "West Virginia Division of Financial Institutions",
-      "detail": "West Virginia expressly reaches virtual currency under its money-transmission statute. HB 2585 (2019) amended the money-transmission definitions, and W. Va. Code § 32A-2-1(6) treats “currency transmission” and “money transmission” as synonymous, both covering the transfer of “value that substitutes for money,” which the Division of Financial Institutions applies to virtual currency. Any person in the business of transmitting, exchanging, or administering virtual currency for others must therefore obtain a money transmitter license. Licensure carries a $1,000 registration fee plus $20 per authorized delegate, a $300,000 surety bond for transmission by wire, facsimile, or electronic means, and a minimum tangible net worth of $50,000 (plus $25,000 for each location beyond the principal office), alongside AML/KYC obligations. Notably, a participant in the West Virginia Fintech Regulatory Sandbox (W. Va. Code § 31A-8G-4(d), (e)) does not need a separate money transmitter license while in the sandbox.",
+      "detail": "West Virginia’s money transmission statute, W. Va. Code § 32A-2 (the Money Transmission Modernization Act), expressly reaches virtual currency. Section 32A-2-1 defines “control of virtual currency,” “digital wallet,” and “exchange” (which includes virtual currency), and the definition of “money transmission” includes “engaging in the business of owning or operating a virtual currency kiosk.” HB 5353 (2026) amended § 32A-2-1 and related sections to modernize licensing and bring virtual-currency activity, including kiosks, within money-transmission licensure. (The tracker’s prior citation to HB 2585 (2019) was incorrect; HB 2585 was a 2017 money-laundering measure.) The Division of Financial Institutions administers the Act.",
       "effective": "Money-transmission definition amended to reach virtual currency by HB 2585 (2019); licensing administered by the Division of Financial Institutions",
-      "lastVerified": "2026-08-23",
-      "sourceText": "W. Va. Code § 32A-2-1(6) (HB 2585, 2019); WV Division of Financial Institutions; corroborated by Bloomberg Law state survey",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/west-virginia/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "W. Va. Code § 32A-2-1 defines “control of virtual currency” and includes “engaging in the business of owning or operating a virtual currency kiosk” within money transmission (Money Transmission Modernization Act, as amended by HB 5353 (2026)).",
+      "sourceUrl": "https://code.wvlegislature.gov/32A-2-1/"
     },
     {
       "name": "Vermont",
@@ -709,7 +709,7 @@
       "detail": "The Wisconsin Department of Financial Institutions interprets its authority under Wis. Stat. § 217.03 (the Sellers of Checks law) as not extending to the transmission of virtual currency, so a virtual-currency-only business generally does not need a Wisconsin money-transmitter license. A dealer handling both virtual and fiat currency would still likely need a license for the fiat leg. This exclusion rests on regulator interpretation rather than an express statutory carve-out. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
       "effective": "DFI interpretation: authority does not extend to virtual-currency transmission (fiat leg still licensed)",
       "lastVerified": "2026-08-24",
-      "sourceText": "Wis. Stat. § 217.03 (Sellers of Checks); WI Department of Financial Institutions interpretation; corroborated by Bloomberg Law state survey",
+      "sourceText": "Wis. Stat. § 217.03 (Sellers of Checks); WI Department of Financial Institutions interpretation.",
       "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/wisconsin/"
     }
   ]
