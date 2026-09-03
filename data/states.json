@@ -539,13 +539,13 @@
       "slug": "idaho",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Idaho Money Transmitters Act; Department of Finance treats virtual-currency exchange as licensable money transmission",
+      "framework": "Idaho Money Transmitters Act (Idaho Code § 26-2902 (definitions), § 26-2903 (license required)). The Department of Finance treats virtual-currency exchange for fiat as licensable money transmission.",
       "regulator": "Idaho Department of Finance",
-      "detail": "Idaho considers virtual-currency exchanges to fall within the definition of money transmission and to require a money-transmitter license, per the Idaho Department of Finance. The Department regularly issues no-action letters relieving particular businesses (for example, digital-currency ATMs) from licensing, so treatment can be activity-specific. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
+      "detail": "Idaho requires a money-transmitter license to engage in the business of money transmission (Idaho Code § 26-2903), subject to the exemptions in § 26-2904. The Department of Finance takes the position that a virtual-currency exchanger who accepts fiat currency for later delivery in connection with a virtual-currency purchase must be licensed as a money transmitter, so virtual-currency exchange is generally licensable. The Department has at times issued no-action letters relieving particular businesses, such as certain digital-currency ATMs, from licensing, so treatment can be activity-specific. The Department of Finance administers the Act.",
       "effective": "Department of Finance requires money-transmitter licensing for virtual-currency exchange; activity-specific no-action letters issued",
-      "lastVerified": "2026-08-24",
-      "sourceText": "Idaho Department of Finance position on virtual-currency money transmission and no-action letters.",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/idaho/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "Idaho Money Transmitters Act: a license is required to engage in money transmission (Idaho Code § 26-2903); the Department of Finance treats virtual-currency exchange for fiat as licensable money transmission.",
+      "sourceUrl": "https://www.finance.idaho.gov/securities-bureau/money-transmitters/"
     },
     {
       "name": "Louisiana",
@@ -565,13 +565,13 @@
       "slug": "montana",
       "status": "excluded",
       "statusLabel": "No MT Regime",
-      "framework": "No Montana money-transmitter licensing statute; Montana does not license money transmitters (Division of Banking and Financial Institutions)",
+      "framework": "No Montana money-transmitter licensing statute: Montana does not license money transmitters. Affirmative digital-asset laws include SB 178 (2023) and SB 265 (2025).",
       "regulator": "None, no money transmitter licensing statute",
-      "detail": "Montana is unique in having no money-transmitter licensing regime at all: according to the Division of Banking and Financial Institutions, money transmitters do not need a license in Montana, so there is no state money-transmitter license requirement for transmitting or exchanging fiat or virtual currency, including stablecoins. Firms operating from Montana still register with FinCEN and comply with the federal Bank Secrecy Act, and payment-stablecoin issuance remains federally governed by the GENIUS Act.",
+      "detail": "Montana is the only state with no money-transmitter licensing regime: the Division of Banking and Financial Institutions does not license money transmitters, so there is no state money-transmitter license requirement for transmitting or exchanging fiat or virtual currency, including stablecoins. Montana has instead legislated affirmatively on digital assets: SB 178 (2023) addresses the treatment of digital assets and protects crypto mining, and SB 265 (2025), the Financial Freedom and Innovation Act, protects the right to use digital assets and self-hosted wallets and bars state use of a central bank digital currency. Firms operating from Montana remain subject to federal money-services-business registration with FinCEN under the Bank Secrecy Act.",
       "effective": "No state money-transmission licensing; federal FinCEN/BSA still applies",
-      "lastVerified": "2026-08-24",
-      "sourceText": "Montana Division of Banking and Financial Institutions (no money-transmitter license required).",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/montana/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "Montana has no money-transmitter licensing statute (Division of Banking and Financial Institutions); digital-asset laws include SB 178 (2023) and SB 265 (2025), the Financial Freedom and Innovation Act.",
+      "sourceUrl": "https://banking.mt.gov/"
     },
     {
       "name": "South Dakota",
@@ -639,13 +639,13 @@
       "slug": "utah",
       "status": "excluded",
       "statusLabel": "VC Excluded",
-      "framework": "Utah Money Transmitter Act expressly excludes blockchain tokens (Utah Code § 7-25-102(9)(b)); HB 72 (2026) carves virtual-currency kiosks back into licensing",
+      "framework": "Utah Money Transmitter Act (Utah Code § 7-25-102): the definition of “money transmission” excludes a blockchain token, so standalone virtual-currency transmission is not licensed. HB 72 (2026) carves virtual-currency kiosks back into licensing.",
       "regulator": "Utah Department of Financial Institutions",
-      "detail": "Utah does not require a money-transmitter license for standalone virtual-currency transmission. The Money Transmitter Act expressly excludes “blockchain tokens” from the definition of money transmission (Utah Code § 7-25-102(9)(b)), and a 2019 amendment confirmed that cryptocurrency transactions are not money transmissions, so crypto firms are generally exempt. Because the exemption rests on an express statutory exclusion rather than regulator interpretation, it is comparatively durable. The one significant carve-back is virtual-currency kiosks (crypto ATMs): HB 72 (2026), effective May 6, 2026, requires kiosk operators to obtain money-transmitter licenses and adds consumer protections (transaction limits, fee caps, mandatory fraud warnings, and attorney-general enforcement), administered through the Utah Department of Commerce. Payment-stablecoin issuance remains federally governed by the GENIUS Act regardless of this state exemption.",
+      "detail": "Utah does not require a money-transmitter license for standalone virtual-currency transmission. The Money Transmitter Act’s definition of “money transmission” expressly excludes a “blockchain token” (Utah Code § 7-25-102), a 2020 change confirming that ordinary cryptocurrency transactions are not money transmission, so crypto firms are generally exempt. HB 72 (2026) creates an exception: operating a virtual-currency kiosk in Utah requires a license under the Money Transmitter Act and constitutes money transmission regardless of whether the transactions involve blockchain tokens. The Department of Financial Institutions administers the Act through the Nationwide Multistate Licensing System (NMLS).",
       "effective": "Express virtual-currency exclusion in the Money Transmitter Act; VC-kiosk operators licensed under HB 72 (2026), effective May 6, 2026",
-      "lastVerified": "2026-08-23",
-      "sourceText": "Utah Code § 7-25-102(9)(b) (blockchain-token exclusion); HB 72 (2026) VC-kiosk licensing; Utah Dept. of Commerce.",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/utah/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "Utah Code § 7-25-102 (definition of “money transmission” excludes a blockchain token); HB 72 (2026) requires virtual-currency kiosk operators to be licensed under the Money Transmitter Act.",
+      "sourceUrl": "https://le.utah.gov/xcode/Title7/Chapter25/7-25-S102.html"
     },
     {
       "name": "New Mexico",
@@ -691,13 +691,13 @@
       "slug": "vermont",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Vermont money transmission law (8 V.S.A. ch. 79, incl. § 2577), amended 2024 to formally include virtual currency",
+      "framework": "Vermont money transmission law (8 V.S.A. ch. 79), amended by Act 110 (2023 Adj. Sess., effective July 1, 2024) to include virtual-currency business activity; virtual-currency kiosk operators are governed by 8 V.S.A. § 2577.",
       "regulator": "Vermont Department of Financial Regulation",
-      "detail": "Vermont amended its money-transmitter law in 2024 to formally include virtual currency: all persons engaged in virtual-currency business activity, including exchanging, storing, administering, buying or selling virtual currency as a business, or receiving virtual currency or control of it for transmission, and including kiosk operators (8 V.S.A. § 2577), must obtain a money-transmitter license from the Department of Financial Regulation unless an exemption applies. Licensees must maintain at least $100,000 net worth and hold controlled or stored virtual currency in identical type and amount to customer obligations. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
+      "detail": "Vermont overhauled its money-transmission law through Act 110 (2023 Adj. Sess.), effective July 1, 2024, adopting the Money Transmission Modernization Act and bringing virtual-currency business activity within licensing: persons exchanging, storing, or transmitting virtual currency, or receiving virtual currency or control of it for transmission, as a business must be licensed by the Department of Financial Regulation. Virtual-currency kiosk operators are separately regulated under 8 V.S.A. § 2577, which caps single-customer cash transactions (originally $1,000 per day, raised to $2,000 effective July 1, 2025) and bars new virtual-currency kiosks from operating in Vermont before July 1, 2026 unless the kiosk was licensed and operational on or before June 30, 2024. The Department of Financial Regulation administers the law.",
       "effective": "Money-transmitter law amended 2024 to formally include virtual-currency business activity (incl. kiosks, 8 V.S.A. § 2577)",
-      "lastVerified": "2026-08-24",
-      "sourceText": "8 V.S.A. ch. 79 (incl. § 2577), 2024 virtual-currency amendments; Vermont Department of Financial Regulation",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/vermont/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "Vermont adopted the Money Transmission Modernization Act via Act 110 (2023 Adj. Sess., eff. July 1, 2024), reaching virtual-currency business activity; virtual-currency kiosks governed by 8 V.S.A. § 2577.",
+      "sourceUrl": "https://legislature.vermont.gov/statutes/section/08/079/02577"
     },
     {
       "name": "Wisconsin",
