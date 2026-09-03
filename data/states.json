@@ -704,13 +704,13 @@
       "slug": "wisconsin",
       "status": "excluded",
       "statusLabel": "VC Excluded",
-      "framework": "Wisconsin Sellers of Checks law (Wis. Stat. § 217.03); DFI interprets its authority as not extending to virtual-currency transmission",
+      "framework": "Wisconsin Money Transmission Modernization Act (Wis. Stat. ch. 217), enacted by 2023 Wisconsin Act 267 (effective Jan. 1, 2025), replacing the former Seller of Checks law. General virtual-currency transmission is not licensed; virtual-currency kiosks are regulated under Wis. Stat. § 217.12.",
       "regulator": "Wisconsin Department of Financial Institutions",
-      "detail": "The Wisconsin Department of Financial Institutions interprets its authority under Wis. Stat. § 217.03 (the Sellers of Checks law) as not extending to the transmission of virtual currency, so a virtual-currency-only business generally does not need a Wisconsin money-transmitter license. A dealer handling both virtual and fiat currency would still likely need a license for the fiat leg. This exclusion rests on regulator interpretation rather than an express statutory carve-out. Payment-stablecoin issuance remains federally governed by the GENIUS Act.",
+      "detail": "Wisconsin does not license general virtual-currency or stablecoin transmission. 2023 Wisconsin Act 267 (signed April 4, 2024, effective January 1, 2025) repealed the former Seller of Checks law (the prior Wis. Stat. ch. 217) and replaced it with the Money Transmission Modernization Act, now codified at Wis. Stat. ch. 217. Wisconsin adopted the model act without its optional virtual-currency provisions, so transmitting virtual currency by itself generally does not require a Wisconsin money-transmitter license, though a business handling both virtual and fiat currency may need one for the fiat leg. The Act does expressly regulate virtual-currency kiosks under Wis. Stat. § 217.12, imposing antifraud, disclosure, and customer-identification requirements on kiosk operators. The Department of Financial Institutions administers the Act.",
       "effective": "DFI interpretation: authority does not extend to virtual-currency transmission (fiat leg still licensed)",
-      "lastVerified": "2026-08-24",
-      "sourceText": "Wis. Stat. § 217.03 (Sellers of Checks); WI Department of Financial Institutions interpretation.",
-      "sourceUrl": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/wisconsin/"
+      "lastVerified": "2026-09-02",
+      "sourceText": "2023 Wisconsin Act 267 replaced the Seller of Checks law with the Money Transmission Modernization Act (Wis. Stat. ch. 217, eff. Jan. 1, 2025); general virtual-currency transmission is not licensed, but virtual-currency kiosks are regulated under Wis. Stat. § 217.12.",
+      "sourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/217"
     }
   ]
 }
