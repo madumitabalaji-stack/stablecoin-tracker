@@ -33,7 +33,13 @@
       "effective": "In force since Jul. 1, 2026; DFPI license or complete application now required; enforcement active",
       "lastVerified": "2026-07-03",
       "sourceText": "AB 39, Financial Code Div. 1.25",
-      "sourceUrl": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB39"
+      "sourceUrl": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB39",
+      "summary": "California regulates digital-financial-asset (crypto) business activity under the Digital Financial Assets Law, licensed by the DFPI. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a DFPI license under the Digital Financial Assets Law (DFAL) before engaging in digital-financial-asset business activity with California residents.",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Texas",
@@ -46,7 +52,13 @@
       "effective": "In force since Sept. 1, 2023",
       "lastVerified": "2026-08-24",
       "sourceText": "Tex. Finance Code Ch. 152, enacted by S.B. 895 (2023)",
-      "sourceUrl": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf"
+      "sourceUrl": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf",
+      "summary": "Texas licenses money transmission under its Money Services Modernization Act, which the Department of Banking applies to virtual currency. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Texas money-transmission license from the Department of Banking before transmitting money or virtual currency for Texas customers (Money Services Modernization Act, Finance Code ch. 152).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Florida",
@@ -121,7 +133,13 @@
       "effective": "Signed Apr. 18, 2025; effective Aug. 6, 2025",
       "lastVerified": "2026-07-03",
       "sourceText": "Colorado General Assembly, HB 25-1201",
-      "sourceUrl": "https://leg.colorado.gov/bills/hb25-1201"
+      "sourceUrl": "https://leg.colorado.gov/bills/hb25-1201",
+      "summary": "Colorado licenses money transmission, including virtual-currency transmission, under its Money Transmission Modernization Act. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Colorado money-transmitter license from the Division of Banking before transmitting virtual currency for Colorado residents (Money Transmission Modernization Act, HB 25-1201).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Washington",
@@ -134,7 +152,13 @@
       "effective": "In force",
       "lastVerified": "2026-09-02",
       "sourceText": "Washington Uniform Money Services Act, RCW 19.230.010: “money transmission” includes virtual currency as equivalent value, so virtual-currency transmission requires a money-transmitter license.",
-      "sourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230.010"
+      "sourceUrl": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230.010",
+      "summary": "Washington writes virtual currency into its money-transmission definition, so virtual-currency transmission requires a money-transmitter license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Washington money-transmitter license from the Department of Financial Institutions before transmitting virtual currency for Washington customers (Uniform Money Services Act, RCW 19.230.010, where “money transmission” includes virtual currency).",
+        "Virtual-currency licensees face additional requirements such as like-kind reserve holdings and security controls.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Arizona",
@@ -147,7 +171,13 @@
       "effective": "Signed May 20, 2022",
       "lastVerified": "2026-07-03",
       "sourceText": "A.R.S. Title 6, Chapter 12 (SB 1580, Ch. 236, 2022)",
-      "sourceUrl": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm"
+      "sourceUrl": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm",
+      "summary": "In Arizona, virtual-currency money transmission requires a license under the Money Transmission Modernization Act. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Arizona money-transmitter license from the Department of Insurance and Financial Institutions (via NMLS) before transmitting virtual currency for Arizona residents (Money Transmission Modernization Act, SB 1580 (2022)).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Georgia",
@@ -180,7 +210,13 @@
       "effective": "Money Transmitters Act in force; virtual currency covered; kiosk bill (HB 920) pending, rules due Dec. 1, 2026",
       "lastVerified": "2026-07-09",
       "sourceText": "N.C. Gen. Stat. Ch. 53, Art. 16B (Money Transmitters Act); NC Office of the Commissioner of Banks",
-      "sourceUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_53/Article_16B.html"
+      "sourceUrl": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_53/Article_16B.html",
+      "summary": "North Carolina licenses virtual-currency transmission under its Money Transmitters Act. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a North Carolina money-transmitter license from the Office of the Commissioner of Banks before transmitting virtual currency for North Carolina residents (Money Transmitters Act, N.C. Gen. Stat. ch. 53, art. 16B).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Connecticut",
@@ -193,7 +229,13 @@
       "effective": "In force since Oct. 1, 2025",
       "lastVerified": "2026-07-09",
       "sourceText": "Conn. Public Act 25-66 (HB 7082); CT Dept. of Banking",
-      "sourceUrl": "https://www.cga.ct.gov/2025/SUM/PDF/2025SUM00066-R03HB-07082-SUM.PDF"
+      "sourceUrl": "https://www.cga.ct.gov/2025/SUM/PDF/2025SUM00066-R03HB-07082-SUM.PDF",
+      "summary": "Connecticut’s Money Transmission Act covers virtual currency, as revised by PA 25-66 (HB 7082), so virtual-currency transmission requires a license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Connecticut money-transmitter license from the Department of Banking before transmitting virtual currency for Connecticut residents (Money Transmission Act, virtual-currency revisions in PA 25-66 / HB 7082).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Nevada",
@@ -206,7 +248,12 @@
       "effective": "MTMA enacted via A.B. 21 (2023) at NRS Ch. 671; digital currency covered by FID guidance, not the optional Article XIII virtual-currency title",
       "lastVerified": "2026-07-14",
       "sourceText": "NRS Ch. 671, enacted by A.B. 21 (2023) adopting the CSBS Model MTMA without the optional virtual-currency title; digital currency covered by Nevada FID guidance",
-      "sourceUrl": "https://www.leg.state.nv.us/nrs/nrs-671.html"
+      "sourceUrl": "https://www.leg.state.nv.us/nrs/nrs-671.html",
+      "summary": "Nevada adopted the Money Transmission Modernization Act, and the Financial Institutions Division’s guidance treats virtual-currency activity as covered. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Nevada money-transmitter license under NRS ch. 671 (Money Transmission Modernization Act, A.B. 21 (2023)) before engaging in covered virtual-currency activity; the Financial Institutions Division applies the Act to virtual currency by guidance.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Maine",
@@ -219,7 +266,13 @@
       "effective": "Maine Money Transmission Modernization Act (LD 2112) in force since Aug. 9, 2024; virtual currency business activity covered",
       "lastVerified": "2026-09-02",
       "sourceText": "Maine Money Transmission Modernization Act, 32 M.R.S. ch. 80 (LD 2112, eff. Aug. 9, 2024); Maine adopted the virtual-currency business-activity provisions.",
-      "sourceUrl": "https://www.mainelegislature.org/legis/statutes/32/title32ch80.pdf"
+      "sourceUrl": "https://www.mainelegislature.org/legis/statutes/32/title32ch80.pdf",
+      "summary": "Maine licenses virtual-currency business activity under its Money Transmission Modernization Act, which adopted the model act’s virtual-currency provisions. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Maine license from the Bureau of Consumer Credit Protection before engaging in virtual-currency business activity, including exchanging, transferring, storing, or administering virtual currency (32 M.R.S. ch. 80; LD 2112).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "New Hampshire",
@@ -232,7 +285,13 @@
       "effective": "RSA 399-G:3, VII exempts persons dealing solely in convertible virtual currency from licensing (fiat-touching activity still licensed; RSA 358-A Consumer Protection Act still applies)",
       "lastVerified": "2026-09-02",
       "sourceText": "New Hampshire RSA 399-G:3 exempts persons dealing solely in convertible virtual currency from money-transmitter licensing (added by HB 436 (2017)); “convertible virtual currency” defined at RSA 399-G:1.",
-      "sourceUrl": "https://gc.nh.gov/rsa/html/XXXVI/399-G/399-G-mrg.htm"
+      "sourceUrl": "https://gc.nh.gov/rsa/html/XXXVI/399-G/399-G-mrg.htm",
+      "summary": "New Hampshire exempts persons dealing solely in convertible virtual currency from money-transmitter licensing. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No New Hampshire money-transmitter license is required for a business dealing solely in convertible virtual currency (RSA 399-G:3 exemption, added by HB 436 (2017)); such persons remain subject to certain state consumer-protection laws.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Rhode Island",
@@ -245,7 +304,13 @@
       "effective": "Currency Transmissions law (R.I. Gen. Laws Ch. 19-14) in force; applies to virtual currency; MTMA provisions added by H.B. 7282 (2024)",
       "lastVerified": "2026-07-10",
       "sourceText": "R.I. Gen. Laws Title 19, Ch. 19-14 (Currency Transmissions); H.B. 7282 (2024); R.I. Department of Business Regulation",
-      "sourceUrl": "https://webserver.rilegislature.gov/Statutes/TITLE19/19-14/19-14-6.htm"
+      "sourceUrl": "https://webserver.rilegislature.gov/Statutes/TITLE19/19-14/19-14-6.htm",
+      "summary": "Rhode Island’s Currency Transmissions law covers virtual currency, so virtual-currency transmission requires a license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Rhode Island currency-transmission license from the Department of Business Regulation before transmitting money or virtual currency for Rhode Island customers (Currency Transmissions law, R.I. Gen. Laws ch. 19-14).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "New Jersey",
@@ -258,7 +323,14 @@
       "effective": "Money Transmitters Act (N.J.S.A. 17:15C) in force but virtual-currency fit is awkward and unsettled; dedicated Digital Asset Business Act (A3454) pending, not enacted",
       "lastVerified": "2026-09-02",
       "sourceText": "New Jersey Money Transmitters Act, N.J.S.A. 17:15C-1 et seq.; New Jersey has not enacted an express virtual-currency statute, and the Digital Asset and Blockchain Technology Act (A3454) remains pending.",
-      "sourceUrl": "https://www.nj.gov/dobi/banklicensing/formontrans.html"
+      "sourceUrl": "https://www.nj.gov/dobi/banklicensing/formontrans.html",
+      "summary": "New Jersey’s virtual-currency treatment is unsettled: there is no enacted virtual-currency statute, and the proposed Digital Asset and Blockchain Technology Act remains pending. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "New Jersey has no enacted virtual-currency licensing statute; money transmission is licensed under the Money Transmitters Act (N.J.S.A. 17:15C-1 et seq.), and the Department of Banking and Insurance has historically treated some crypto firms as money transmitters.",
+        "The dedicated Digital Asset and Blockchain Technology Act (A3454) remains pending and is not law; treatment of pure virtual-currency activity is unsettled.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Delaware",
@@ -271,7 +343,13 @@
       "effective": "Sale of Checks Act (Ch. 23) in force and applied to virtual currency; SB 18 signed July 2026, effective the earlier of 1 year after enactment (~July 2027) or upon final regulations",
       "lastVerified": "2026-07-10",
       "sourceText": "5 Del. C. Ch. 23; Del. SB 18 (Money Transmission and Virtual Currency Modernization Act, enacted 2026); Office of the State Bank Commissioner",
-      "sourceUrl": "https://delcode.delaware.gov/title5/c023/index.html"
+      "sourceUrl": "https://delcode.delaware.gov/title5/c023/index.html",
+      "summary": "Delaware licenses money transmission and virtual-currency activity, updated by its Money Transmission and Virtual Currency Modernization Act (SB 18, 2026). Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Delaware license from the Office of the State Bank Commissioner before transmitting money or virtual currency (Sale of Checks and Transmission of Money Act, 5 Del. C. ch. 23, as modernized by SB 18 (2026)).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Maryland",
@@ -284,7 +362,13 @@
       "effective": "Money Transmission Act in force (OFR: crypto transmission licensed); digital-asset authority via SB 759 (eff. June 1, 2026); VC kiosk registration rule eff. Mar. 30, 2026",
       "lastVerified": "2026-07-10",
       "sourceText": "Maryland Money Transmission Act; SB 759 (2026); Office of the Commissioner of Financial Regulation",
-      "sourceUrl": "https://www.dllr.state.md.us/finance/industry/moneytran.shtml"
+      "sourceUrl": "https://www.dllr.state.md.us/finance/industry/moneytran.shtml",
+      "summary": "Maryland licenses money transmission, with digital-asset authority added by SB 759. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Maryland money-transmitter license from the Office of the Commissioner of Financial Regulation before transmitting money or virtual currency for Maryland customers (Maryland Money Transmission Act; digital-asset authority via SB 759).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Virginia",
@@ -297,7 +381,14 @@
       "effective": "MTMA (HB 1942, Acts ch. 214) effective July 1, 2026; virtual currency expressly excluded from 'money' (Sec. 6.2-1922, Ch. 19.1)",
       "lastVerified": "2026-08-24",
       "sourceText": "Va. Code Sec. 6.2-1922 (Ch. 19.1, eff. Jul. 1, 2026; HB 1942 / Acts ch. 214); SCC Bureau of Financial Institutions",
-      "sourceUrl": "https://law.lis.virginia.gov/vacode/title6.2/chapter19.1/section6.2-1922/"
+      "sourceUrl": "https://law.lis.virginia.gov/vacode/title6.2/chapter19.1/section6.2-1922/",
+      "summary": "Virginia adopted the Money Transmission Modernization Act, and virtual-currency-only transmission is generally outside state money-transmitter licensing. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Virginia licenses money transmission under the Money Transmission Modernization Act (HB 1942, Va. Code title 6.2, ch. 19.1); virtual-currency-only transmission is generally not licensed as money transmission.",
+        "A business that also transmits fiat currency may still need a money-transmitter license for that activity.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "South Carolina",
@@ -310,7 +401,13 @@
       "effective": "Uniform Money Services Act in force (Division: VC not 'monetary value'); S163 (2026) statutorily exempts crypto-to-crypto without legal tender, mining, nodes, and blockchain development from money-transmitter licensing",
       "lastVerified": "2026-07-15",
       "sourceText": "S.C. Code Title 35, Ch. 11 (Uniform Money Services Act); S.C. S163 (2026); Money Services Division",
-      "sourceUrl": "https://www.scstatehouse.gov/sess126_2025-2026/bills/163.htm"
+      "sourceUrl": "https://www.scstatehouse.gov/sess126_2025-2026/bills/163.htm",
+      "summary": "South Carolina adopted the Money Transmission Modernization Act, and S163 (2026) provides digital-asset exemptions, so virtual-currency activity is largely outside state money-transmitter licensing. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "South Carolina licenses money transmission under its Uniform Money Services Act (Title 35, Ch. 11, adopting the Money Transmission Modernization Act); S163 (2026) provides digital-asset exemptions, so covered virtual-currency activity is not licensed as money transmission.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Massachusetts",
@@ -323,7 +420,13 @@
       "effective": "MGL c. 169B (Ch. 312, Acts of 2024); licensing effective Jan. 1, 2026; Division treats transactional virtual currency including USDC as 'monetary value' (licensed)",
       "lastVerified": "2026-07-10",
       "sourceText": "Mass. Ch. 312, Acts of 2024 (MGL c. 169B, Sec. 1); Massachusetts Division of Banks FAQs",
-      "sourceUrl": "https://www.mass.gov/info-details/chapter-312-of-the-acts-of-2024-money-transmission-law"
+      "sourceUrl": "https://www.mass.gov/info-details/chapter-312-of-the-acts-of-2024-money-transmission-law",
+      "summary": "Massachusetts licenses money transmission under its money-transmission law (Chapter 312 of the Acts of 2024, MGL c. 169B), which the Division of Banks applies to virtual currency. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Massachusetts money-transmitter license from the Division of Banks before transmitting money or virtual currency for Massachusetts customers (MGL c. 169B, Chapter 312 of the Acts of 2024).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Pennsylvania",
@@ -336,7 +439,13 @@
       "effective": "Money Transmission Business Licensing Law as amended by Act 7 of 2025; effective 60 days after enactment (Aug. 26, 2025); virtual-currency transmission for a fee licensed by statute",
       "lastVerified": "2026-09-02",
       "sourceText": "Pennsylvania Money Transmission and Virtual Currency Transmission Business Licensing Law (7 Pa.C.S.), as amended by Act 7 of 2025 (eff. Aug. 26, 2025), requiring a license to transmit virtual currency for a fee.",
-      "sourceUrl": "https://www.palegis.us/statutes/unconsolidated/law-information?sessYr=2025&sessInd=0&actNum=0007."
+      "sourceUrl": "https://www.palegis.us/statutes/unconsolidated/law-information?sessYr=2025&sessInd=0&actNum=0007.",
+      "summary": "Pennsylvania now licenses virtual-currency transmission for a fee under Act 7 of 2025, on the same terms as other money transmitters. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Pennsylvania license from the Department of Banking and Securities before transmitting virtual currency for a fee, or facilitating virtual-currency transfers for a fee, for Pennsylvania customers (Money Transmission and Virtual Currency Transmission Business Licensing Law, 7 Pa.C.S., as amended by Act 7 of 2025).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "District of Columbia",
@@ -349,7 +458,13 @@
       "effective": "Money Transmissions Act (D.C. Code Sec. 26-1001 et seq.) in force; DISB treats virtual currency as money (per bulletin and U.S. v. Harmon); VC transmission/custody licensed",
       "lastVerified": "2026-07-10",
       "sourceText": "D.C. Code Title 26, Ch. 10 (Sec. 26-1001 et seq.); DISB cryptocurrency & money transmission bulletin",
-      "sourceUrl": "https://code.dccouncil.gov/us/dc/council/code/titles/26/chapters/10"
+      "sourceUrl": "https://code.dccouncil.gov/us/dc/council/code/titles/26/chapters/10",
+      "summary": "The District of Columbia licenses money transmission, which its regulator applies to virtual-currency activity. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a DC money-transmitter license from the Department of Insurance, Securities and Banking before transmitting money or virtual currency for DC customers (Money Transmissions Act, D.C. Code § 26-1001 et seq.).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Ohio",
@@ -362,7 +477,13 @@
       "effective": "Interpretive Guidance 2022-01, effective Aug. 31, 2022",
       "lastVerified": "2026-09-02",
       "sourceText": "Ohio Money Transmitters Act, R.C. ch. 1315 (R.C. 1315.01); Division of Financial Institutions Interpretive Guidance 2022-01 (eff. Aug. 31, 2022) treats cryptocurrency businesses, including kiosks, as money transmitters that must be licensed.",
-      "sourceUrl": "https://codes.ohio.gov/ohio-revised-code/section-1315.01"
+      "sourceUrl": "https://codes.ohio.gov/ohio-revised-code/section-1315.01",
+      "summary": "Ohio’s Division of Financial Institutions treats cryptocurrency businesses, including kiosks, as money transmitters that must be licensed. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Ohio money-transmitter license (R.C. ch. 1315) before buying, selling, or transmitting cryptocurrency for Ohio customers; the Division treats crypto as money or its equivalent (Interpretive Guidance 2022-01).",
+        "Bitcoin ATM / kiosk operators are covered and must be licensed.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Michigan",
@@ -375,7 +496,14 @@
       "effective": "Act 250 of 2006 (no crypto-specific amendment)",
       "lastVerified": "2026-09-02",
       "sourceText": "Michigan Money Transmission Services Act, MCL 487.1003: “money” is a government-authorized medium of exchange, so virtual currency is not “money” and standalone virtual-currency transmission is outside the Act.",
-      "sourceUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-487-1003"
+      "sourceUrl": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-487-1003",
+      "summary": "Michigan’s Money Transmission Services Act does not treat virtual currency as “money,” so standalone crypto transmission is outside the Act, though businesses holding customer fiat funds may still need a license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Michigan money-transmitter license is required for pure virtual-currency transmission, because “money” means government-issued currency (MCL 487.1003) and virtual currency is not “money.”",
+        "DIFS treats businesses that hold customer fiat funds in connection with crypto (including e-wallet balances) as money transmission requiring a license, and major exchanges hold Michigan licenses.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Tennessee",
@@ -388,7 +516,13 @@
       "effective": "TDFI Virtual Currency Guidance",
       "lastVerified": "2026-09-02",
       "sourceText": "Tennessee Money Transmitter Act, Tenn. Code Ann. title 45, ch. 7; TDFI Virtual Currency Guidance: pure virtual-currency transmission is not money transmission, but exchanging virtual currency for sovereign currency may require licensing.",
-      "sourceUrl": "https://www.tn.gov/tdfi/mortgage-consumer-lending/money-transmitter/virtual-currency-guidance-.html"
+      "sourceUrl": "https://www.tn.gov/tdfi/mortgage-consumer-lending/money-transmitter/virtual-currency-guidance-.html",
+      "summary": "In Tennessee, holding or transmitting pure virtual currency is not money transmission, but exchanging virtual currency for sovereign currency may require a license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Tennessee money-transmitter license is required to hold or transmit pure virtual currency (TDFI guidance; crypto is not “money” under the Tennessee Money Transmitter Act, Tenn. Code Ann. title 45, ch. 7).",
+        "A company that exchanges, administers, or maintains virtual currency for sovereign currency may need a license, because that involves transmitting sovereign currency.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Minnesota",
@@ -402,7 +536,13 @@
       "lastVerified": "2026-09-02",
       "sourceText": "Minnesota Money Transmission Modernization Act, Minn. Stat. ch. 53B (SF 2744, 2023; SF 4097, 2024); Minnesota adopted the virtual-currency business-activity provisions (§§ 53B.69 to 53B.75).",
       "sourceUrl": "https://www.revisor.mn.gov/statutes/cite/53B",
-      "mtma": "One of only two states to adopt the MTMA’s optional virtual-currency provisions (Title XIII), which expressly bring virtual-currency business under money-transmitter licensing (eff. Aug. 1, 2023)"
+      "mtma": "One of only two states to adopt the MTMA’s optional virtual-currency provisions (Title XIII), which expressly bring virtual-currency business under money-transmitter licensing (eff. Aug. 1, 2023)",
+      "summary": "Minnesota licenses virtual-currency business activity under its Money Transmission Modernization Act, one of only three states to adopt the model act’s virtual-currency provisions. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Minnesota license from the Department of Commerce before engaging in virtual-currency business activity for Minnesota residents (Minn. Stat. ch. 53B, §§ 53B.69 to 53B.75).",
+        "Virtual-currency kiosk operators face additional requirements added in 2024 (SF 4097).",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Missouri",
@@ -415,7 +555,14 @@
       "effective": "No VC-specific guidance issued",
       "lastVerified": "2026-09-02",
       "sourceText": "Missouri Money Transmission Modernization Act of 2024, Mo. Rev. Stat. §§ 361.900 to 361.1035 (SB 1359 (2024), repealing the Sale of Checks Law); virtual-currency kiosk operators are licensed as money transmitters, general virtual-currency transmission is not.",
-      "sourceUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=361.900"
+      "sourceUrl": "https://revisor.mo.gov/main/OneSection.aspx?section=361.900",
+      "summary": "Missouri does not license general virtual-currency transmission, but virtual-currency kiosk operators must be licensed as money transmitters under its 2024 Money Transmission Modernization Act. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Missouri money-transmitter license is required for general virtual-currency transmission (Money Transmission Modernization Act of 2024, Mo. Rev. Stat. §§ 361.900 to 361.1035; Missouri did not adopt the general virtual-currency provisions).",
+        "Virtual-currency kiosk operators must be licensed as money transmitters under §§ 361.900 to 361.1035; a business handling fiat currency may also need a license for the fiat leg.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Oregon",
@@ -428,7 +575,13 @@
       "effective": "Under ORS 717 (money transmission license required)",
       "lastVerified": "2026-09-02",
       "sourceText": "Oregon money transmission law, ORS 717.200 (“money” includes value that substitutes for currency) and ORS 717.205 (license required); the Division of Financial Regulation applies this to virtual-currency transmission.",
-      "sourceUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors717.html"
+      "sourceUrl": "https://www.oregonlegislature.gov/bills_laws/ors/ors717.html",
+      "summary": "Oregon’s money-transmission law defines “money” to include value that substitutes for currency, which the Division of Financial Regulation applies to virtual currency. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Oregon money-transmitter license from the Division of Financial Regulation before selling, issuing, or transmitting virtual currency for Oregon customers (ORS 717.205; “money” includes value that substitutes for currency, ORS 717.200).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Indiana",
@@ -441,7 +594,14 @@
       "effective": "Per DFI money transmitter licensing FAQ (NMLS)",
       "lastVerified": "2026-09-02",
       "sourceText": "Indiana Money Transmission Modernization Act, Ind. Code § 28-8-4.1 (license required, § 28-8-4.1-501); Indiana did not adopt the virtual-currency provisions, and the Department of Financial Institutions treats a strict buy/sell currency exchange as not requiring a license.",
-      "sourceUrl": "https://www.in.gov/dfi/files/MTMA-Licensing-Guidance.pdf"
+      "sourceUrl": "https://www.in.gov/dfi/files/MTMA-Licensing-Guidance.pdf",
+      "summary": "Indiana does not license virtual-currency transmission: it adopted the Money Transmission Modernization Act without the model act’s virtual-currency provisions. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Indiana money-transmitter license is required for virtual-currency transmission (Ind. Code § 28-8-4.1; Indiana did not adopt the virtual-currency provisions); the Department of Financial Institutions treats a strict buy/sell currency exchange as not requiring a license.",
+        "A business that also transmits fiat currency may still need a money-transmitter license for that activity.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Iowa",
@@ -454,7 +614,13 @@
       "effective": "Per Division of Banking guidance (VC = monetary value)",
       "lastVerified": "2026-09-02",
       "sourceText": "Iowa Uniform Money Services Act, Iowa Code § 533C.102 (money transmission includes receiving “monetary value”); the Division of Banking treats virtual currency as monetary value, so receiving it for transmission requires a license (§ 533C.301; October 2024 kiosk guidance).",
-      "sourceUrl": "https://www.legis.iowa.gov/docs/code/533C.102.pdf"
+      "sourceUrl": "https://www.legis.iowa.gov/docs/code/533C.102.pdf",
+      "summary": "Iowa’s Division of Banking treats virtual currency as “monetary value,” so receiving it for transmission requires a money-transmitter license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Iowa money-transmitter license (Iowa Code § 533C.301) before receiving virtual currency for transmission; the Division of Banking treats virtual currency as “monetary value” (§ 533C.102).",
+        "Virtual-currency kiosk operators are money transmitters unless they can independently verify customer identity and wallet ownership for every transaction (October 2024 guidance).",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Kansas",
@@ -467,7 +633,13 @@
       "effective": "OSBC Cryptocurrency Guidance MT 2014-01",
       "lastVerified": "2026-09-02",
       "sourceText": "Kansas Money Transmitter Act, K.S.A. 9-508; OSBC Guidance MT 2014-01 (updated Jan. 2, 2025): decentralized cryptocurrency is not “money” or “monetary value,” so crypto-only transmission is not licensed, but crypto-to-sovereign-currency exchange through a third party is.",
-      "sourceUrl": "https://www.osbckansas.gov/cml/mt_2014_01.pdf"
+      "sourceUrl": "https://www.osbckansas.gov/cml/mt_2014_01.pdf",
+      "summary": "Kansas does not license crypto-only transmission, but exchanging cryptocurrency for sovereign currency through a third party is money transmission requiring a license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Kansas license is required to transmit cryptocurrency only, to exchange one cryptocurrency for another, or to transfer crypto between accounts (OSBC Guidance MT 2014-01; crypto is not “money” or “monetary value” under K.S.A. 9-508).",
+        "Exchanging cryptocurrency for sovereign currency through a third-party exchanger is money transmission and requires a license from the Office of the State Bank Commissioner.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Kentucky",
@@ -480,7 +652,13 @@
       "effective": "Under Kentucky money transmission statute",
       "lastVerified": "2026-09-02",
       "sourceText": "Kentucky Money Transmitters Act, KRS 286.11-005; the Department applies the Act to virtual-currency transmission (2022 guidance). HB 701 (2025) added KRS 286.11-007(8), exempting blockchain software development, crypto-to-crypto exchange, and node operation from money transmission, and created a digital-asset framework in KRS ch. 369.",
-      "sourceUrl": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb701/bill.pdf"
+      "sourceUrl": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb701/bill.pdf",
+      "summary": "Kentucky licenses virtual-currency transmission under its Money Transmitters Act, while HB 701 (2025) exempts self-custody, mining, crypto-to-crypto exchange, and node operation. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Kentucky money-transmitter license from the Department of Financial Institutions (via NMLS) before transmitting virtual-currency value for Kentucky customers, such as fiat on/off-ramp exchange (KRS 286.11; 2022 guidance).",
+        "No license is required for blockchain software development, crypto-to-crypto exchange, or node operation (KRS 286.11-007(8), added by HB 701 (2025)); self-custody, mining, and staking are protected.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Hawaii",
@@ -493,7 +671,13 @@
       "effective": "DCIL concluded June 30, 2024; no state money-transmitter license required for digital-currency activity as of July 1, 2024",
       "lastVerified": "2026-08-24",
       "sourceText": "Hawaii DCCA/DFI release concluding the Digital Currency Innovation Lab (effective July 1, 2024); Haw. Rev. Stat. ch. 489D",
-      "sourceUrl": "https://cca.hawaii.gov/dfi/news-releases/release-hawaii-digital-currency-innovation-lab-to-conclude/"
+      "sourceUrl": "https://cca.hawaii.gov/dfi/news-releases/release-hawaii-digital-currency-innovation-lab-to-conclude/",
+      "summary": "Hawaii no longer requires a state money-transmitter license for digital-currency activity: under its Money Transmitters Modernization Act (effective July 1, 2024), virtual-currency business is outside state money-transmission licensing. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Hawaii money-transmitter license is required for digital-currency or virtual-currency activity (Money Transmitters Modernization Act, Haw. Rev. Stat. ch. 489D, effective July 1, 2024, which ended the prior Digital Currency Innovation Lab approach).",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Alabama",
@@ -506,7 +690,13 @@
       "effective": "Money-transmitter license required; “monetary value” expressly covers virtual currency",
       "lastVerified": "2026-09-02",
       "sourceText": "“MONETARY VALUE. A medium of exchange, including virtual or fiat currencies, whether or not redeemable in money.” (Ala. Code § 8-7A-2)",
-      "sourceUrl": "https://asc.alabama.gov/statute/alabama-securities-act-title-8-section-7a/"
+      "sourceUrl": "https://asc.alabama.gov/statute/alabama-securities-act-title-8-section-7a/",
+      "summary": "In Alabama, transmitting or exchanging virtual currency for others requires a state money-transmitter license, because “monetary value” expressly includes virtual currency. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Alabama money-transmitter license from the Alabama Securities Commission (via NMLS) before transmitting or exchanging virtual currency for Alabama residents; “monetary value” includes virtual currency (Ala. Code § 8-7A-2) and a license is required under § 8-7A-5.",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Alaska",
@@ -519,7 +709,13 @@
       "effective": "Money-transmitter license plus Limited Licensing Agreement required for virtual-currency business",
       "lastVerified": "2026-09-02",
       "sourceText": "Alaska Uniform Money Services Act, AS 06.55 (definitions, AS 06.55.990; license required, AS 06.55.101).",
-      "sourceUrl": "https://www.akleg.gov/basis/statutes.asp#06.55"
+      "sourceUrl": "https://www.akleg.gov/basis/statutes.asp#06.55",
+      "summary": "In Alaska, virtual-currency business activity requires a money-transmitter license under the Uniform Money Services Act; the earlier Limited Licensing Agreement approach ended in January 2023. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Alaska money-transmitter license from the Division of Banking and Securities before engaging in virtual-currency business activity (AS 06.55; license required at AS 06.55.101).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Arkansas",
@@ -532,7 +728,13 @@
       "effective": "Money transmission expressly includes virtual currency; licensing required subject to case-by-case no-action letters",
       "lastVerified": "2026-09-02",
       "sourceText": "“‘Money transmission’ means selling or issuing payment instruments, stored value, or prepaid access, or receiving money, virtual currency, or monetary value for transmission…” (A.C.A. § 23-55-102)",
-      "sourceUrl": "https://arkleg.state.ar.us/Home/FTPDocument?path=/ACTS/2025R/Public/ACT557.pdf"
+      "sourceUrl": "https://arkleg.state.ar.us/Home/FTPDocument?path=/ACTS/2025R/Public/ACT557.pdf",
+      "summary": "In Arkansas, “money transmission” expressly includes receiving virtual currency for transmission, so it requires a state money-transmitter license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Arkansas money-transmitter license from the Securities Department before transmitting virtual currency for Arkansas residents (“money transmission” includes virtual currency, A.C.A. § 23-55-102).",
+        "Virtual-currency kiosk operators are covered by the kiosk provisions added by Act 557 (2025).",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Idaho",
@@ -545,7 +747,13 @@
       "effective": "Department of Finance requires money-transmitter licensing for virtual-currency exchange; activity-specific no-action letters issued",
       "lastVerified": "2026-09-02",
       "sourceText": "Idaho Money Transmitters Act: a license is required to engage in money transmission (Idaho Code § 26-2903); the Department of Finance treats virtual-currency exchange for fiat as licensable money transmission.",
-      "sourceUrl": "https://www.finance.idaho.gov/securities-bureau/money-transmitters/"
+      "sourceUrl": "https://www.finance.idaho.gov/securities-bureau/money-transmitters/",
+      "summary": "Idaho’s Department of Finance treats virtual-currency exchange for fiat as licensable money transmission. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain an Idaho money-transmitter license from the Department of Finance before exchanging virtual currency for fiat for Idaho customers (Idaho Money Transmitters Act, Idaho Code § 26-2903).",
+        "Treatment can be activity-specific; the Department has issued no-action letters for some businesses (for example, certain crypto ATMs).",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Louisiana",
@@ -558,7 +766,13 @@
       "effective": "VCBA licensing in force (license required to operate after June 30, 2023); de minimis exception removed by SB 185 / Act 331 (2023)",
       "lastVerified": "2026-08-23",
       "sourceText": "La. Rev. Stat. §§ 6:1381–6:1394 (Virtual Currency Businesses Act); SB 185 / Act 331 (2023); LA Office of Financial Institutions.",
-      "sourceUrl": "https://ofi.la.gov/non-depository/virtual-currency-business-activity"
+      "sourceUrl": "https://ofi.la.gov/non-depository/virtual-currency-business-activity",
+      "summary": "Louisiana has a dedicated Virtual Currency Businesses Act with a standalone virtual-currency license through the Office of Financial Institutions. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Louisiana virtual-currency license from the Office of Financial Institutions before engaging in virtual-currency business activity (Virtual Currency Businesses Act, La. R.S. §§ 6:1381 to 6:1394).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Montana",
@@ -571,7 +785,14 @@
       "effective": "No state money-transmission licensing; federal FinCEN/BSA still applies",
       "lastVerified": "2026-09-02",
       "sourceText": "Montana has no money-transmitter licensing statute (Division of Banking and Financial Institutions); digital-asset laws include SB 178 (2023) and SB 265 (2025), the Financial Freedom and Innovation Act.",
-      "sourceUrl": "https://banking.mt.gov/"
+      "sourceUrl": "https://banking.mt.gov/",
+      "summary": "Montana has no money-transmitter licensing regime at all, so no state license is required to transmit fiat or virtual currency. Issuing a payment stablecoin is still governed federally by the GENIUS Act.",
+      "keyPoints": [
+        "No Montana money-transmitter license exists or is required for transmitting or exchanging fiat or virtual currency (Montana has no money-transmitter licensing statute).",
+        "Montana’s digital-asset laws (SB 178 (2023); SB 265 (2025)) protect the use of digital assets and self-hosted wallets rather than imposing licensing.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "South Dakota",
@@ -584,7 +805,13 @@
       "effective": "Money-transmitter license required; Division of Banking guidance (2019) treats “monetary value” as covering virtual currency",
       "lastVerified": "2026-09-02",
       "sourceText": "South Dakota SDCL 51A-17-1(13) defines “monetary value” broadly; the Division of Banking’s May 25, 2019 guidance treats virtual currency as “monetary value,” so receiving crypto for transmission requires compliance.",
-      "sourceUrl": "https://dlr.sd.gov/banking/legal/documents/11_002_virtual_currency_transmission_in_sd.pdf"
+      "sourceUrl": "https://dlr.sd.gov/banking/legal/documents/11_002_virtual_currency_transmission_in_sd.pdf",
+      "summary": "South Dakota’s Division of Banking treats virtual currency as “monetary value,” so receiving crypto for transmission requires compliance with the money-transmission law. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a South Dakota money-transmitter license from the Division of Banking before receiving virtual currency for transmission for South Dakota customers (SDCL ch. 51A-17; “monetary value” includes virtual currency per the Division’s 2019 guidance).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "North Dakota",
@@ -598,7 +825,13 @@
       "lastVerified": "2026-08-24",
       "sourceText": "N.D.C.C. ch. 13-09.1 (Money Transmission Modernization Act, SB 2119, 2023); ND Department of Financial Institutions",
       "sourceUrl": "https://www.nd.gov/dfi/news/north-dakota-enacts-money-transmission-modernization-act",
-      "mtma": "One of only two states to adopt the MTMA’s optional virtual-currency provisions (Title XIII), which expressly bring virtual-currency business under money-transmitter licensing (SB 2119, eff. Aug. 1, 2023)"
+      "mtma": "One of only two states to adopt the MTMA’s optional virtual-currency provisions (Title XIII), which expressly bring virtual-currency business under money-transmitter licensing (SB 2119, eff. Aug. 1, 2023)",
+      "summary": "North Dakota licenses virtual-currency business activity under its Money Transmission Modernization Act, one of only three states to adopt the model act’s virtual-currency provisions. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a North Dakota license from the Department of Financial Institutions before engaging in virtual-currency business activity for North Dakota residents (Money Transmission Modernization Act, N.D.C.C. ch. 13-09.1, SB 2119 (2023)).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Nebraska",
@@ -611,7 +844,13 @@
       "effective": "Money transmission covers virtual currency; digital-asset depository charter effective Oct. 1, 2022 (Nebraska Financial Innovation Act)",
       "lastVerified": "2026-08-24",
       "sourceText": "Neb. Rev. Stat. § 8-2715, § 8-2724 (Nebraska Financial Innovation Act); NE Dept. of Banking and Finance.",
-      "sourceUrl": "https://ndbf.nebraska.gov/about/legal/nebraska-financial-innovation-act"
+      "sourceUrl": "https://ndbf.nebraska.gov/about/legal/nebraska-financial-innovation-act",
+      "summary": "Nebraska’s money-transmission law covers virtual currency, and its Financial Innovation Act authorizes state-chartered digital-asset depository institutions. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Nebraska money-transmitter license from the Department of Banking and Finance before transmitting virtual currency for Nebraska customers (Neb. Rev. Stat. § 8-2715).",
+        "State-chartered digital-asset depository institutions under the Nebraska Financial Innovation Act are separately chartered and exempt from money-transmitter licensing (§ 8-2724).",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Oklahoma",
@@ -645,7 +884,14 @@
       "effective": "Express virtual-currency exclusion in the Money Transmitter Act; VC-kiosk operators licensed under HB 72 (2026), effective May 6, 2026",
       "lastVerified": "2026-09-02",
       "sourceText": "Utah Code § 7-25-102 (definition of “money transmission” excludes a blockchain token); HB 72 (2026) requires virtual-currency kiosk operators to be licensed under the Money Transmitter Act.",
-      "sourceUrl": "https://le.utah.gov/xcode/Title7/Chapter25/7-25-S102.html"
+      "sourceUrl": "https://le.utah.gov/xcode/Title7/Chapter25/7-25-S102.html",
+      "summary": "Utah excludes “blockchain tokens” from money transmission, so standalone virtual-currency transmission is not licensed, but virtual-currency kiosk operators must be licensed under HB 72 (2026). Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Utah money-transmitter license is required for standalone virtual-currency transmission (“money transmission” excludes a blockchain token, Utah Code § 7-25-102).",
+        "Operating a virtual-currency kiosk requires a license under the Money Transmitter Act and is money transmission regardless of blockchain tokens (HB 72 (2026)), administered by the Department of Financial Institutions via NMLS.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "New Mexico",
@@ -658,7 +904,13 @@
       "effective": "Uniform Money Services Act in force; FID interprets it to require money-transmitter licensing for virtual-currency exchange/transmission",
       "lastVerified": "2026-09-02",
       "sourceText": "“Monetary value” means a medium of exchange, whether or not redeemable in money (NMSA 1978 § 58-32-102); license required under § 58-32-201.",
-      "sourceUrl": "https://www.rld.nm.gov/financial-institutions/"
+      "sourceUrl": "https://www.rld.nm.gov/financial-institutions/",
+      "summary": "New Mexico requires a money-transmitter license for virtual-currency dealing, reaching that result by regulator interpretation of “monetary value.” Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a New Mexico money-transmitter license from the Financial Institutions Division before exchanging virtual currency for money or other value for New Mexico residents (Uniform Money Services Act, NMSA 1978 § 58-32-201; § 58-32-102 “monetary value”).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Mississippi",
@@ -671,7 +923,13 @@
       "effective": "Money transmission covers virtual currency via the broad “monetary value” definition; VC-kiosk operators licensed under HB 1625, effective July 1, 2026",
       "lastVerified": "2026-09-02",
       "sourceText": "HB 1625 (2026), Mississippi Virtual Currency Kiosk Consumer Protection Act: virtual-currency kiosk operators must be licensed under the Money Transmission Modernization Act, effective July 1, 2026; “monetary value” defined at Miss. Code § 75-15-3.",
-      "sourceUrl": "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1625SG.htm"
+      "sourceUrl": "https://billstatus.ls.state.ms.us/documents/2026/html/HB/1600-1699/HB1625SG.htm",
+      "summary": "Mississippi treats virtual-currency transmission as licensable money transmission, and virtual-currency kiosk operators are licensed under HB 1625 (2026). Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Mississippi money-transmitter license from the Department of Banking and Consumer Finance before transmitting virtual currency for Mississippi customers (“monetary value” reaches virtual currency, Miss. Code § 75-15-3).",
+        "Virtual-currency kiosk operators must be licensed under the Money Transmission Modernization Act, effective July 1, 2026 (HB 1625 (2026)).",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "West Virginia",
@@ -684,7 +942,13 @@
       "effective": "Money-transmission definition amended to reach virtual currency by HB 2585 (2019); licensing administered by the Division of Financial Institutions",
       "lastVerified": "2026-09-02",
       "sourceText": "W. Va. Code § 32A-2-1 defines “control of virtual currency” and includes “engaging in the business of owning or operating a virtual currency kiosk” within money transmission (Money Transmission Modernization Act, as amended by HB 5353 (2026)).",
-      "sourceUrl": "https://code.wvlegislature.gov/32A-2-1/"
+      "sourceUrl": "https://code.wvlegislature.gov/32A-2-1/",
+      "summary": "West Virginia’s Money Transmission Modernization Act expressly reaches virtual currency (control of virtual currency, kiosks, digital wallets, exchange). Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a West Virginia money-transmitter license from the Division of Financial Institutions before transmitting virtual currency for West Virginia customers (Money Transmission Modernization Act, W. Va. Code § 32A-2-1 et seq., as amended by HB 5353 (2026)).",
+        "Meet the licensing law’s prudential requirements (surety bond or net worth, permissible investments or reserve holdings) and comply with AML, reporting, and consumer-disclosure obligations.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Vermont",
@@ -697,7 +961,13 @@
       "effective": "Money-transmitter law amended 2024 to formally include virtual-currency business activity (incl. kiosks, 8 V.S.A. § 2577)",
       "lastVerified": "2026-09-02",
       "sourceText": "Vermont adopted the Money Transmission Modernization Act via Act 110 (2023 Adj. Sess., eff. July 1, 2024), reaching virtual-currency business activity; virtual-currency kiosks governed by 8 V.S.A. § 2577.",
-      "sourceUrl": "https://legislature.vermont.gov/statutes/section/08/079/02577"
+      "sourceUrl": "https://legislature.vermont.gov/statutes/section/08/079/02577",
+      "summary": "Vermont licenses virtual-currency business activity under its Money Transmission Modernization Act (Act 110), with kiosk-specific rules in 8 V.S.A. § 2577. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "Obtain a Vermont license from the Department of Financial Regulation before engaging in virtual-currency business activity for Vermont customers (8 V.S.A. ch. 79, Act 110 (2023 Adj. Sess.)).",
+        "Virtual-currency kiosk operators face caps and a moratorium on new kiosks before July 1, 2026 (8 V.S.A. § 2577).",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     },
     {
       "name": "Wisconsin",
@@ -710,7 +980,14 @@
       "effective": "DFI interpretation: authority does not extend to virtual-currency transmission (fiat leg still licensed)",
       "lastVerified": "2026-09-02",
       "sourceText": "2023 Wisconsin Act 267 replaced the Seller of Checks law with the Money Transmission Modernization Act (Wis. Stat. ch. 217, eff. Jan. 1, 2025); general virtual-currency transmission is not licensed, but virtual-currency kiosks are regulated under Wis. Stat. § 217.12.",
-      "sourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/217"
+      "sourceUrl": "https://docs.legis.wisconsin.gov/statutes/statutes/217",
+      "summary": "Wisconsin does not license general virtual-currency transmission, but virtual-currency kiosks are regulated under its 2023 Money Transmission Modernization Act. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "keyPoints": [
+        "No Wisconsin money-transmitter license is required for general virtual-currency transmission (Money Transmission Modernization Act, Wis. Stat. ch. 217; Wisconsin did not adopt the optional virtual-currency provisions).",
+        "Virtual-currency kiosk operators are regulated under Wis. Stat. § 217.12 (antifraud, disclosure, customer identification); a business handling fiat may need a license for the fiat leg.",
+        "Federal FinCEN money-services-business registration and a Bank Secrecy Act / AML program still apply to virtual-currency businesses regardless of state licensing.",
+        "To issue a payment stablecoin, be a permitted payment stablecoin issuer under the federal GENIUS Act (federally regulated, or a state-qualified issuer), separate from state money-transmission licensing."
+      ]
     }
   ]
 }
