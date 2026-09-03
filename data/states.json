@@ -474,13 +474,13 @@
       "slug": "kentucky",
       "status": "live",
       "statusLabel": "Live Regime",
-      "framework": "Kentucky Money Transmitters Act (KRS ch. 286.11; license required at KRS 286.11-005). The Department of Financial Institutions applies the Act to virtual-currency transmission.",
+      "framework": "Kentucky Money Transmitters Act (KRS ch. 286.11; license required at KRS 286.11-005). The Department of Financial Institutions applies the Act to virtual-currency transmission (2022 guidance); HB 701 (2025) exempts blockchain software development, crypto-to-crypto exchange, and node operation from money transmission (KRS 286.11-007(8)).",
       "regulator": "Kentucky Department of Financial Institutions",
-      "detail": "Kentucky requires a license to engage in money transmission under the Kentucky Money Transmitters Act (KRS ch. 286.11; KRS 286.11-005), administered by the Department of Financial Institutions. In September 2022 the Department issued guidance applying the Act to virtual currency: a transaction involving virtual currency is covered where monetary value is transmitted, delivered, or instructed to be delivered by any means, so businesses transmitting virtual-currency value for Kentucky customers must be licensed. Licensing runs through NMLS.",
+      "detail": "Kentucky requires a license to engage in money transmission under the Kentucky Money Transmitters Act (KRS ch. 286.11; KRS 286.11-005), administered by the Department of Financial Institutions. In September 2022 the Department issued guidance applying the Act to virtual currency: a transaction involving virtual currency is covered where monetary value is transmitted, delivered, or instructed to be delivered by any means, so businesses transmitting virtual-currency value for Kentucky customers (for example, fiat on/off-ramp exchange) must be licensed. In 2025, HB 701 (An Act relating to blockchain digital assets, enacted March 2025) created a statutory framework for digital assets in new sections of KRS ch. 369, protecting self-custody, home and business digital-asset mining, node operation, and staking, and amended the money-transmitter exemptions at KRS 286.11-007 to provide that the subtitle does not apply to any individual or business that develops or deploys software on a blockchain protocol (even if it effectuates a crypto-to-crypto exchange), exchanges digital assets for other digital assets, or operates a node (KRS 286.11-007(8)). HB 701 also confirmed, through KRS 292.340, that staking is not the offer or sale of a security. Licensing runs through NMLS.",
       "effective": "Under Kentucky money transmission statute",
       "lastVerified": "2026-09-02",
-      "sourceText": "Kentucky Money Transmitters Act, KRS 286.11-005 (license required); the Department of Financial Institutions applies the Act to virtual-currency transmission (September 2022 guidance).",
-      "sourceUrl": "https://apps.legislature.ky.gov/law/statutes/statute.aspx?id=14946"
+      "sourceText": "Kentucky Money Transmitters Act, KRS 286.11-005; the Department applies the Act to virtual-currency transmission (2022 guidance). HB 701 (2025) added KRS 286.11-007(8), exempting blockchain software development, crypto-to-crypto exchange, and node operation from money transmission, and created a digital-asset framework in KRS ch. 369.",
+      "sourceUrl": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb701/bill.pdf"
     },
     {
       "name": "Hawaii",
