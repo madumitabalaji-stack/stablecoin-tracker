@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>State Stablecoin Atlas — Stablecoin Regulation Tracker</title>
+<title>State Stablecoin Atlas: Stablecoin Regulation Tracker</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600&family=Spectral:wght@400;500;600&display=swap" rel="stylesheet">
@@ -621,8 +621,8 @@ function renderDetail() {
         ${s.regulator ? `<div class="qf-block"><div class="qf-label">Regulator</div><div class="qf-value">${s.regulator}</div></div>` : ''}
         <div class="qf-block"><div class="qf-label">Effective &amp; deadlines</div><div class="qf-value">${s.effective}</div></div>
         ${s.mtma ? `<div class="qf-block"><div class="qf-label">Model law (MTMA)</div><div class="qf-value">${s.mtma}</div></div>` : ''}
-        ${Array.isArray(s.keyPoints) && s.keyPoints.length ? `<div class="qf-block"><div class="qf-label">What issuers must do</div><ul class="qf-list">${s.keyPoints.map(k => `<li>${k}</li>`).join('')}</ul></div>` : ''}
       </div>
+      ${Array.isArray(s.keyPoints) && s.keyPoints.length ? `<details class="more"><summary><span class="lbl-more">What issuers must do</span><span class="lbl-less">Hide what issuers must do</span></summary><ul class="qf-list">${s.keyPoints.map(k => `<li>${k}</li>`).join('')}</ul></details>` : ''}
       <details class="more">
         <summary><span class="lbl-more">Read the full analysis</span><span class="lbl-less">Hide full analysis</span></summary>
         <div class="detail">${s.detail}</div>
