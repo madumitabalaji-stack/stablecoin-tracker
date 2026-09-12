@@ -116,7 +116,7 @@
   .ref-toggle {
     font-family: var(--mono); font-size: 11px; font-weight: 500;
     letter-spacing: 0.04em; text-transform: uppercase;
-    color: var(--text-body); background: none; border: none; cursor: pointer;
+    color: var(--text-body); background: none; border: none; cursor: pointer; text-decoration: none;
     padding: 0; display: inline-flex; align-items: center; gap: 6px;
     transition: color 0.15s ease;
   }
@@ -404,7 +404,7 @@
       <span class="brand-name">State Stablecoin Atlas</span>
     </a>
     <nav class="topnav">
-      <button id="table-jump" class="ref-toggle" type="button">Data table</button>
+      <a href="table.html" target="_blank" rel="noopener" class="ref-toggle">Data table <span class="arr" style="font-size:9px;">&#8599;</span></a>
       <button id="ref-toggle" class="ref-toggle" aria-expanded="false" aria-controls="reference">Framework &amp; definitions <span class="arr">&#9662;</span></button>
       <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle theme"><span class="ti">&#9790;</span></button>
     </nav>
@@ -434,11 +434,6 @@
 
   <div class="legend" id="legend"></div>
 
-  <div class="view-toggle" id="view-toggle" role="tablist" aria-label="View mode">
-    <button type="button" data-view="map" class="active" role="tab" aria-selected="true">Map</button>
-    <button type="button" data-view="table" role="tab" aria-selected="false">Table</button>
-  </div>
-
   <div class="map-layout">
     <div class="map-card">
       <div id="map-holder" aria-live="polite"></div>
@@ -448,8 +443,6 @@
       <div class="placeholder">Select a state on the map to see its licensing regime.</div>
     </div>
   </div>
-
-  <div id="table-view" class="table-view" hidden></div>
 
   <div class="chip-row" id="chips"></div>
 
@@ -914,13 +907,6 @@ window.addEventListener('hashchange', applyHash);
 
 document.querySelectorAll('#view-toggle button').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
 document.querySelectorAll('.dl-csv-btn').forEach(b => b.addEventListener('click', downloadCsv));
-
-const tableJump = document.getElementById('table-jump');
-if (tableJump) tableJump.addEventListener('click', () => {
-  setView('table');
-  const vt = document.getElementById('view-toggle');
-  if (vt) vt.scrollIntoView({ behavior: 'smooth', block: 'start' });
-});
 
 const notifyForm = document.getElementById('notify-form');
 if (notifyForm) notifyForm.addEventListener('submit', e => {

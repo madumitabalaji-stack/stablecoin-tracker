@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Table: State Stablecoin Atlas</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=IBM+Plex+Mono:wght@400;500;600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --display: 'EB Garamond', Georgia, 'Times New Roman', serif;
+    --serif: 'EB Garamond', Georgia, 'Times New Roman', serif;
+    --sans: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+    --mono: 'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, monospace;
+    --bg: #f4f5f8; --bg-elev: #ffffff; --bg-elev2: #ffffff;
+    --border: #e6e8ef; --border-hi: #d2d6e0;
+    --text: #10131c; --text-body: #4a5163; --text-dim: #8a91a2;
+    --accent: #6d4bf6; --accent-hi: #5836e2; --accent-dim: rgba(109,75,246,0.10); --accent-contrast: #ffffff;
+    --shadow-md: 0 4px 16px rgba(16,19,28,0.06), 0 1px 3px rgba(16,19,28,0.07);
+    --c-live: #17935a; --c-pending: #d68207; --c-guidance: #2f6bd6; --c-excluded: #7a8394;
+  }
+  :root[data-theme="dark"] {
+    --bg: #0d1017; --bg-elev: #161a22; --bg-elev2: #1d222c;
+    --border: #262c38; --border-hi: #363d4c;
+    --text: #eef2f8; --text-body: #a6afbf; --text-dim: #6a7382;
+    --accent: #9b83ff; --accent-hi: #b3a1ff; --accent-dim: rgba(155,131,255,0.16); --accent-contrast: #17102e;
+    --shadow-md: 0 6px 24px rgba(0,0,0,0.4), 0 2px 8px rgba(0,0,0,0.34);
+    --c-live: #3fa564; --c-pending: #c79433; --c-guidance: #6a8fe0; --c-excluded: #6b7484;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: var(--sans); background: var(--bg); color: var(--text-body); -webkit-font-smoothing: antialiased; }
+  .wrap { max-width: 1120px; margin: 0 auto; padding: 22px 26px 60px; }
+  .topbar { display: flex; align-items: center; justify-content: space-between; gap: 16px; margin-bottom: 22px; flex-wrap: wrap; }
+  .brand { display: inline-flex; align-items: baseline; gap: 10px; text-decoration: none; }
+  .brand-name { font-family: var(--display); font-weight: 600; font-size: 20px; color: var(--text); }
+  .back-link { font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--accent); text-decoration: none; }
+  .back-link:hover { color: var(--accent-hi); text-decoration: underline; }
+  .topnav { display: inline-flex; align-items: center; gap: 12px; }
+  .theme-toggle { font-size: 15px; line-height: 1; color: var(--text-dim); background: var(--bg-elev); border: 1px solid var(--border); border-radius: 9px; padding: 8px 10px; cursor: pointer; transition: transform 0.2s, border-color 0.2s, color 0.2s; }
+  .theme-toggle:hover { color: var(--accent); border-color: var(--border-hi); transform: rotate(18deg); }
+  .eyebrow { font-family: var(--sans); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  h1 { font-family: var(--display); font-weight: 600; font-size: 30px; color: var(--text); line-height: 1.12; margin: 4px 0 8px; }
+  .sub { font-family: var(--sans); font-size: 14px; line-height: 1.55; color: var(--text-body); max-width: 70ch; }
+  .controls { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin: 22px 0 12px; flex-wrap: wrap; }
+  .filter-group { display: flex; gap: 8px; flex-wrap: wrap; }
+  .filter-btn { font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--text-body); background: var(--bg-elev); border: 1px solid var(--border); border-radius: 999px; padding: 7px 14px; cursor: pointer; display: inline-flex; align-items: center; gap: 7px; }
+  .filter-btn.active { background: var(--accent); color: var(--accent-contrast); border-color: var(--accent); }
+  .filter-btn .dot { width: 8px; height: 8px; border-radius: 50%; display: inline-block; }
+  .dot-live { background: var(--c-live); } .dot-pending { background: var(--c-pending); } .dot-guidance { background: var(--c-guidance); } .dot-excluded { background: var(--c-excluded); }
+  #search { font-family: var(--sans); font-size: 13px; padding: 9px 13px; border: 1px solid var(--border-hi); border-radius: 9px; background: var(--bg-elev); color: var(--text); min-width: 200px; }
+  #search:focus { outline: none; border-color: var(--accent); }
+  .count { font-family: var(--sans); font-size: 12px; color: var(--text-dim); margin-bottom: 12px; }
+  .table-wrap { border: 1px solid var(--border); border-radius: 14px; overflow: auto; background: var(--bg-elev); box-shadow: var(--shadow-md); }
+  table.data-table { width: 100%; border-collapse: collapse; font-size: 13px; min-width: 760px; }
+  .data-table thead th { position: sticky; top: 0; background: var(--bg-elev2); text-align: left; font-size: 11px; letter-spacing: 0.06em; text-transform: uppercase; color: var(--text-dim); font-weight: 600; padding: 13px 16px; border-bottom: 1px solid var(--border); cursor: pointer; white-space: nowrap; user-select: none; }
+  .data-table thead th:hover { color: var(--text); }
+  .data-table thead th .sort-ind { color: var(--accent); margin-left: 5px; font-size: 9px; }
+  .data-table tbody td { padding: 13px 16px; border-bottom: 1px solid var(--border); color: var(--text-body); vertical-align: top; }
+  .data-table tbody tr:last-child td { border-bottom: 0; }
+  .data-table tbody tr { cursor: pointer; }
+  .data-table tbody tr:hover { background: var(--accent-dim); }
+  .t-state { font-weight: 600; color: var(--text); white-space: nowrap; }
+  .t-status { white-space: nowrap; }
+  .t-status .dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 7px; vertical-align: middle; }
+  .t-fw { color: var(--text-dim); font-size: 12px; max-width: 420px; }
+  .table-empty { padding: 28px; text-align: center; color: var(--text-dim); font-size: 13px; }
+  .foot { font-family: var(--sans); font-size: 11.5px; color: var(--text-dim); margin-top: 18px; line-height: 1.6; }
+  .foot a { color: var(--accent); text-decoration: none; }
+  .foot a:hover { text-decoration: underline; }
+  @media (max-width: 560px) { .wrap { padding: 18px 16px 48px; } h1 { font-size: 25px; } }
+</style>
+<script>(function(){try{var t=localStorage.getItem('ssa-theme')||(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body>
+<div class="wrap">
+  <div class="topbar">
+    <a class="brand" href="index.html">
+      <span class="brand-name">State Stablecoin Atlas</span>
+      <span class="back-link">&#8592; Back to map</span>
+    </a>
+    <nav class="topnav">
+      <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle theme"><span class="ti">&#9790;</span></button>
+    </nav>
+  </div>
+
+  <div class="eyebrow">State Regulation &middot; Comparison Table</div>
+  <h1>Every U.S. state, side by side.</h1>
+  <p class="sub">All fifty states and DC, sortable and filterable: status, regulator, and licensing framework, verified against primary sources. Click any row to open its full detail on the map.</p>
+
+  <div class="controls">
+    <div class="filter-group" id="filters">
+      <button class="filter-btn active" data-filter="all">All States</button>
+      <button class="filter-btn" data-filter="live"><span class="dot dot-live"></span>Live Regime</button>
+      <button class="filter-btn" data-filter="pending"><span class="dot dot-pending"></span>Pending / Phasing In</button>
+      <button class="filter-btn" data-filter="guidance"><span class="dot dot-guidance"></span>Guidance-Based</button>
+      <button class="filter-btn" data-filter="excluded"><span class="dot dot-excluded"></span>VC Excluded / Unsettled</button>
+    </div>
+    <input type="text" id="search" placeholder="Search states...">
+  </div>
+
+  <div class="count" id="count"></div>
+  <div class="table-wrap" id="table-wrap"></div>
+
+  <div class="foot">
+    Independent research project for informational purposes only; not legal advice. Full analysis and primary-source links on the <a href="index.html">map</a>. Machine-readable CSV, JSON, and PDF exports are available there too.
+  </div>
+</div>
+
+<script>
+const searchInput = document.getElementById('search');
+const filterBtns = document.querySelectorAll('.filter-btn');
+let states = [];
+let activeFilter = 'all';
+let sortKey = 'name', sortDir = 1;
+const STATUS_VAR = { live: '--c-live', pending: '--c-pending', guidance: '--c-guidance', excluded: '--c-excluded' };
+const STATUS_RANK = { live: 0, pending: 1, guidance: 2, excluded: 3 };
+const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+
+function matchesFilter(s) { return activeFilter === 'all' || s.status === activeFilter; }
+function matchesQuery(s, q) {
+  if (!q) return true;
+  return [s.name, s.regulator, s.framework, s.statusLabel].some(v => (v || '').toString().toLowerCase().includes(q));
+}
+function sortVal(s, key) {
+  if (key === 'status') return STATUS_RANK[s.status] ?? 9;
+  return (s[key] || '').toString().toLowerCase();
+}
+
+function render() {
+  const wrap = document.getElementById('table-wrap');
+  const query = searchInput.value.trim().toLowerCase();
+  const rows = states.filter(s => matchesFilter(s) && matchesQuery(s, query))
+    .sort((a, b) => { const x = sortVal(a, sortKey), y = sortVal(b, sortKey); return (x < y ? -1 : x > y ? 1 : 0) * sortDir; });
+  document.getElementById('count').textContent = rows.length + ' of ' + states.length + ' shown';
+  const cols = [['name', 'State'], ['status', 'Status'], ['regulator', 'Regulator'], ['framework', 'Framework']];
+  const ind = k => sortKey === k ? '<span class="sort-ind">' + (sortDir > 0 ? '▲' : '▼') + '</span>' : '';
+  const head = cols.map(([k, l]) => '<th data-key="' + k + '">' + l + ind(k) + '</th>').join('');
+  const body = rows.map(s => {
+    const v = STATUS_VAR[s.status] || '--c-guidance';
+    return '<tr data-slug="' + esc(s.slug) + '">' +
+      '<td class="t-state">' + esc(s.name) + '</td>' +
+      '<td class="t-status"><span class="dot" style="background:var(' + v + ')"></span>' + esc(s.statusLabel) + '</td>' +
+      '<td>' + esc(s.regulator) + '</td>' +
+      '<td class="t-fw">' + esc(s.framework) + '</td>' +
+    '</tr>';
+  }).join('');
+  wrap.innerHTML = rows.length
+    ? '<table class="data-table"><thead><tr>' + head + '</tr></thead><tbody>' + body + '</tbody></table>'
+    : '<div class="table-empty">No states match the current filter.</div>';
+  wrap.querySelectorAll('th[data-key]').forEach(th => th.addEventListener('click', () => {
+    const k = th.dataset.key;
+    if (sortKey === k) sortDir *= -1; else { sortKey = k; sortDir = 1; }
+    render();
+  }));
+  wrap.querySelectorAll('tr[data-slug]').forEach(tr => tr.addEventListener('click', () => {
+    window.location.href = 'index.html#' + tr.dataset.slug;
+  }));
+}
+
+filterBtns.forEach(btn => btn.addEventListener('click', () => {
+  filterBtns.forEach(b => b.classList.remove('active'));
+  btn.classList.add('active');
+  activeFilter = btn.dataset.filter;
+  render();
+}));
+searchInput.addEventListener('input', render);
+
+const themeToggle = document.getElementById('theme-toggle');
+function syncThemeIcon() {
+  const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const ic = themeToggle.querySelector('.ti');
+  if (ic) ic.innerHTML = dark ? '&#9728;' : '&#9790;';
+}
+syncThemeIcon();
+themeToggle.addEventListener('click', () => {
+  const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+  const next = dark ? 'light' : 'dark';
+  document.documentElement.setAttribute('data-theme', next);
+  try { localStorage.setItem('ssa-theme', next); } catch (e) {}
+  syncThemeIcon();
+});
+
+(async () => {
+  try {
+    const r = await fetch('data/states.json?v=' + Date.now(), { cache: 'no-cache' });
+    const data = await r.json();
+    states = data.states || [];
+    render();
+  } catch (e) {
+    document.getElementById('table-wrap').innerHTML = '<div class="table-empty">Could not load state data. If viewing locally, run: <code>python3 -m http.server</code></div>';
+  }
+})();
+</script>
+</body>
+</html>
