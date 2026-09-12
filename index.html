@@ -335,6 +335,22 @@
   footer a { color: var(--accent); text-decoration: none; }
   footer a:hover { color: var(--accent-hi); }
   .footer-links { display: inline-block; margin-top: 10px; text-transform: uppercase; letter-spacing: 0.05em; }
+  /* Recent Updates */
+  .updates { margin: 44px 0 8px; }
+  .updates-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 18px; margin-bottom: 18px; flex-wrap: wrap; }
+  .updates-head .kicker { font-family: var(--sans); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .updates-head h2 { font-family: var(--display); font-weight: 600; font-size: 27px; color: var(--text); line-height: 1.12; margin-top: 4px; }
+  .updates-sub { font-family: var(--sans); font-size: 13.5px; line-height: 1.5; color: var(--text-dim); max-width: 46ch; }
+  .updates-list { border-top: 1px solid var(--border); }
+  .update-item { display: grid; grid-template-columns: 118px 1fr; gap: 22px; padding: 17px 4px; border-bottom: 1px solid var(--border); animation: fadeUp 0.4s ease both; }
+  .update-date { font-family: var(--mono); font-size: 11.5px; letter-spacing: 0.01em; color: var(--text-dim); padding-top: 3px; white-space: nowrap; }
+  .update-body { min-width: 0; }
+  .update-scope { display: inline-block; font-family: var(--sans); font-size: 10.5px; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--accent); background: var(--accent-dim); border-radius: 999px; padding: 3px 10px; margin-bottom: 8px; }
+  .update-title { font-family: var(--display); font-size: 18.5px; font-weight: 600; color: var(--text); line-height: 1.25; margin-bottom: 4px; }
+  .update-detail { font-family: var(--sans); font-size: 13.5px; line-height: 1.55; color: var(--text-body); }
+  .update-link { display: inline-block; margin-top: 7px; font-family: var(--sans); font-size: 12.5px; font-weight: 600; color: var(--accent); text-decoration: none; }
+  .update-link:hover { color: var(--accent-hi); text-decoration: underline; }
+  @media (max-width: 560px) { .update-item { grid-template-columns: 1fr; gap: 7px; } .update-date { padding-top: 0; } }
 </style>
 <script>(function(){try{var t=localStorage.getItem('ssa-theme')||(window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
 </head>
@@ -386,6 +402,17 @@
   </div>
 
   <div class="chip-row" id="chips"></div>
+
+  <section class="updates" id="updates">
+    <div class="updates-head">
+      <div>
+        <div class="kicker">Recent Updates</div>
+        <h2>What changed, and when</h2>
+      </div>
+      <p class="updates-sub">A running record of verifications and reclassifications, drawn from automated source monitoring and primary-source review.</p>
+    </div>
+    <div class="updates-list" id="updates-list"></div>
+  </section>
 
   <div id="reference" class="reference" hidden>
   <div class="framework-section">
@@ -844,6 +871,30 @@ async function loadMap() {
   }
 }
 
+async function renderUpdates() {
+  const host = document.getElementById('updates-list');
+  if (!host) return;
+  const esc = s => String(s == null ? '' : s).replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+  try {
+    const r = await fetch('data/changelog.json?v=' + Date.now(), { cache: 'no-cache' });
+    const data = await r.json();
+    host.innerHTML = (data.updates || []).map(u => {
+      const d = new Date(u.date + 'T00:00:00');
+      const ds = isNaN(d) ? esc(u.date) : d.toLocaleDateString('en-US', { month: 'short', day: 'numeric', year: 'numeric' });
+      const link = u.slug ? '<a class="update-link" href="#' + esc(u.slug) + '">View ' + esc(u.scope) + ' &#8594;</a>' : '';
+      return '<div class="update-item">' +
+        '<div class="update-date">' + ds + '</div>' +
+        '<div class="update-body">' +
+          '<span class="update-scope">' + esc(u.scope) + '</span>' +
+          '<div class="update-title">' + esc(u.title) + '</div>' +
+          '<div class="update-detail">' + esc(u.detail) + '</div>' +
+          link +
+        '</div>' +
+      '</div>';
+    }).join('');
+  } catch { host.innerHTML = ''; }
+}
+
 async function loadData() {
   try {
     const r    = await fetch('data/states.json?v=' + Date.now(), { cache: 'no-cache' });
@@ -862,7 +913,7 @@ async function loadData() {
   }
 }
 
-(async () => { await loadMap(); await loadData(); setInterval(loadData, 5 * 60 * 1000); })();
+(async () => { await loadMap(); await loadData(); renderUpdates(); setInterval(loadData, 5 * 60 * 1000); })();
 </script>
 
 </body>

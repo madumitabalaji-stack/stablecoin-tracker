@@ -1,0 +1,89 @@
+{
+  "note": "Substantive updates to the Atlas, most recent first. Each entry records a real verification or reclassification against primary sources.",
+  "updates": [
+    {
+      "date": "2026-09-02",
+      "scope": "All 51 jurisdictions",
+      "slug": "",
+      "title": "Full primary-source verification pass complete",
+      "detail": "Every state and DC verified against enrolled statutes and regulator guidance, with a pincite recorded for each: bill number, public act, and codified citation. Secondary sources removed."
+    },
+    {
+      "date": "2026-09-02",
+      "scope": "Georgia",
+      "slug": "georgia",
+      "title": "Reclassified to a live licensing regime",
+      "detail": "Verified against HB 1272. Georgia moved to Live, with a two-tier detail covering transmission licensing and its emerging issuer pathway."
+    },
+    {
+      "date": "2026-09-02",
+      "scope": "Illinois",
+      "slug": "illinois",
+      "title": "Verified against DACPA, DAKA and SB 3412; Digital Asset Tax Act added",
+      "detail": "Confirmed the Digital Assets and Consumer Protection Act (Public Act 104-0428) reaches stablecoins under Section (4)(B), added the kiosk caps in the Digital Asset Kiosk Act, and recorded the SB 3412 money-transmission changes."
+    },
+    {
+      "date": "2026-09-02",
+      "scope": "Kentucky",
+      "slug": "kentucky",
+      "title": "Added HB 701 (2025) blockchain carve-outs",
+      "detail": "Recorded the digital-asset carve-outs at KRS 286.11-007(8) and KRS chapter 369."
+    },
+    {
+      "date": "2026-09-02",
+      "scope": "Wisconsin",
+      "slug": "wisconsin",
+      "title": "Updated to 2023 Act 267 (new MTMA)",
+      "detail": "Money transmission now sits under Wis. Stat. ch. 217. The DFI interpretation keeps virtual-currency transmission outside licensing, so Wisconsin stays VC Excluded."
+    },
+    {
+      "date": "2026-09-02",
+      "scope": "All 51 jurisdictions",
+      "slug": "",
+      "title": "Regulator named for every jurisdiction",
+      "detail": "Each state card now identifies the specific agency that administers money-transmission and virtual-currency licensing."
+    },
+    {
+      "date": "2026-09-02",
+      "scope": "All 51 jurisdictions",
+      "slug": "",
+      "title": "Consistent summary and issuer checklist added",
+      "detail": "Every entry now carries a plain-language summary and a 'What issuers must do' key-points layer."
+    },
+    {
+      "date": "2026-08-27",
+      "scope": "Wyoming",
+      "slug": "wyoming",
+      "title": "Stable Token Act primary-sourced",
+      "detail": "Verified the Wyoming Stable Token Act (SF0127 / Enrolled Act 85, W.S. 40-31-101 to 109) and the digital-asset taxonomy at W.S. 34-29-101 that anchors the virtual-currency exemption."
+    },
+    {
+      "date": "2026-08-27",
+      "scope": "Oklahoma",
+      "slug": "oklahoma",
+      "title": "Reconciled to HB 3521 enrolled text",
+      "detail": "Corrected the current-law citation to the Financial Transaction Reporting Act (6 O.S. 1511 et seq.) and added kiosk rules from 6 O.S. 1520.1."
+    },
+    {
+      "date": "2026-08-27",
+      "scope": "Florida",
+      "slug": "florida",
+      "title": "Current and incoming law separated",
+      "detail": "Split the current two-party-exemption regime (ch. 560) from the incoming HB 175 issuer license."
+    },
+    {
+      "date": "2026-08-27",
+      "scope": "Federal",
+      "slug": "",
+      "title": "Treasury Section 3 NPRM added; GENIUS effective date noted",
+      "detail": "Added the Section 3 prohibitions NPRM and the expected GENIUS Act effective date of January 18, 2027."
+    },
+    {
+      "date": "2026-08-26",
+      "scope": "New York",
+      "slug": "new-york",
+      "title": "Current DFS regime clarified",
+      "detail": "Confirmed the 2022 DFS guidance as the current regime, with proposed Part 202 as its successor."
+    }
+  ]
+}
