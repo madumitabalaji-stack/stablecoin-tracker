@@ -404,6 +404,7 @@
       <span class="brand-name">State Stablecoin Atlas</span>
     </a>
     <nav class="topnav">
+      <button id="table-jump" class="ref-toggle" type="button">Data table</button>
       <button id="ref-toggle" class="ref-toggle" aria-expanded="false" aria-controls="reference">Framework &amp; definitions <span class="arr">&#9662;</span></button>
       <button id="theme-toggle" class="theme-toggle" aria-label="Toggle light or dark theme" title="Toggle theme"><span class="ti">&#9790;</span></button>
     </nav>
@@ -463,7 +464,17 @@
     <div class="updates-list" id="updates-list"></div>
   </section>
 
-  <div class="reach reach-solo">
+  <div class="reach">
+    <div class="reach-card">
+      <div class="kicker">Open Data</div>
+      <h2>Download the dataset</h2>
+      <p>Every jurisdiction as machine-readable data: status, regulator, framework, effective dates, and primary-source links. Take it as CSV, JSON, or a print-ready PDF. Free to use with attribution.</p>
+      <div class="dl-buttons">
+        <button type="button" class="dl-btn dl-csv-btn">&#8595;&nbsp; CSV</button>
+        <a class="dl-btn" href="data/states.json" download="state-stablecoin-atlas.json">&#8595;&nbsp; JSON</a>
+        <a class="dl-btn" href="data/state-stablecoin-atlas.pdf" download>&#8595;&nbsp; PDF</a>
+      </div>
+    </div>
     <div class="reach-card">
       <div class="kicker">Stay Current</div>
       <h2>Get notified when a state changes</h2>
@@ -480,10 +491,11 @@
   <div class="ref-download">
     <div class="kicker">Open Data</div>
     <h3>Download the dataset</h3>
-    <p>Every jurisdiction as machine-readable data: status, regulator, framework, effective dates, and primary-source links. Free to use with attribution.</p>
+    <p>Every jurisdiction as machine-readable data: status, regulator, framework, effective dates, and primary-source links. Take it as CSV, JSON, or a print-ready PDF. Free to use with attribution.</p>
     <div class="dl-buttons">
-      <button type="button" class="dl-btn" id="dl-csv">&#8595;&nbsp; CSV</button>
-      <a class="dl-btn" id="dl-json" href="data/states.json" download="state-stablecoin-atlas.json">&#8595;&nbsp; JSON</a>
+      <button type="button" class="dl-btn dl-csv-btn">&#8595;&nbsp; CSV</button>
+      <a class="dl-btn" href="data/states.json" download="state-stablecoin-atlas.json">&#8595;&nbsp; JSON</a>
+      <a class="dl-btn" href="data/state-stablecoin-atlas.pdf" download>&#8595;&nbsp; PDF</a>
     </div>
   </div>
   <div class="framework-section">
@@ -901,8 +913,14 @@ searchInput.addEventListener('input', () => { paintMap(); renderChips(); if (cur
 window.addEventListener('hashchange', applyHash);
 
 document.querySelectorAll('#view-toggle button').forEach(b => b.addEventListener('click', () => setView(b.dataset.view)));
-const dlCsvBtn = document.getElementById('dl-csv');
-if (dlCsvBtn) dlCsvBtn.addEventListener('click', downloadCsv);
+document.querySelectorAll('.dl-csv-btn').forEach(b => b.addEventListener('click', downloadCsv));
+
+const tableJump = document.getElementById('table-jump');
+if (tableJump) tableJump.addEventListener('click', () => {
+  setView('table');
+  const vt = document.getElementById('view-toggle');
+  if (vt) vt.scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
 
 const notifyForm = document.getElementById('notify-form');
 if (notifyForm) notifyForm.addEventListener('submit', e => {
