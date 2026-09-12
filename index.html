@@ -375,6 +375,11 @@
   /* Data + notify */
   .reach { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; margin: 44px 0 8px; }
   @media (max-width: 720px) { .reach { grid-template-columns: 1fr; } }
+  .reach.reach-solo { grid-template-columns: 1fr; max-width: 560px; }
+  .ref-download { margin: 20px 0 26px; padding-bottom: 24px; border-bottom: 1px solid var(--border); }
+  .ref-download .kicker { font-family: var(--sans); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .ref-download h3 { font-family: var(--display); font-weight: 600; font-size: 21px; color: var(--text); margin: 5px 0 8px; }
+  .ref-download p { font-family: var(--sans); font-size: 13px; line-height: 1.55; color: var(--text-body); margin-bottom: 15px; max-width: 62ch; }
   .reach-card { border: 1px solid var(--border); border-radius: 14px; background: var(--bg-elev); padding: 22px 24px; box-shadow: var(--shadow-md); }
   .reach-card .kicker { font-family: var(--sans); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
   .reach-card h2 { font-family: var(--display); font-weight: 600; font-size: 22px; color: var(--text); margin: 5px 0 9px; line-height: 1.15; }
@@ -458,16 +463,7 @@
     <div class="updates-list" id="updates-list"></div>
   </section>
 
-  <div class="reach">
-    <div class="reach-card">
-      <div class="kicker">Open Data</div>
-      <h2>Download the dataset</h2>
-      <p>Every jurisdiction as machine-readable data: status, regulator, framework, effective dates, and primary-source links. Free to use with attribution.</p>
-      <div class="dl-buttons">
-        <button type="button" class="dl-btn" id="dl-csv">&#8595;&nbsp; CSV</button>
-        <a class="dl-btn" id="dl-json" href="data/states.json" download="state-stablecoin-atlas.json">&#8595;&nbsp; JSON</a>
-      </div>
-    </div>
+  <div class="reach reach-solo">
     <div class="reach-card">
       <div class="kicker">Stay Current</div>
       <h2>Get notified when a state changes</h2>
@@ -481,6 +477,15 @@
   </div>
 
   <div id="reference" class="reference" hidden>
+  <div class="ref-download">
+    <div class="kicker">Open Data</div>
+    <h3>Download the dataset</h3>
+    <p>Every jurisdiction as machine-readable data: status, regulator, framework, effective dates, and primary-source links. Free to use with attribution.</p>
+    <div class="dl-buttons">
+      <button type="button" class="dl-btn" id="dl-csv">&#8595;&nbsp; CSV</button>
+      <a class="dl-btn" id="dl-json" href="data/states.json" download="state-stablecoin-atlas.json">&#8595;&nbsp; JSON</a>
+    </div>
+  </div>
   <div class="framework-section">
     <div class="framework-head">
       <div class="kicker">The Federal Framework</div>
@@ -983,7 +988,7 @@ function renderTable() {
   const query = searchInput.value.trim().toLowerCase();
   const rows = states.filter(s => matchesFilter(s) && matchesQuery(s, query))
     .sort((a, b) => { const x = sortVal(a, sortKey), y = sortVal(b, sortKey); return (x < y ? -1 : x > y ? 1 : 0) * sortDir; });
-  const cols = [['name', 'State'], ['status', 'Status'], ['regulator', 'Regulator'], ['framework', 'Framework'], ['lastVerified', 'Last verified']];
+  const cols = [['name', 'State'], ['status', 'Status'], ['regulator', 'Regulator'], ['framework', 'Framework']];
   const ind = k => sortKey === k ? '<span class="sort-ind">' + (sortDir > 0 ? '▲' : '▼') + '</span>' : '';
   const head = cols.map(([k, l]) => '<th data-key="' + k + '">' + l + ind(k) + '</th>').join('');
   const body = rows.map(s => {
@@ -993,7 +998,6 @@ function renderTable() {
       '<td class="t-status"><span class="dot" style="background:' + dot + '"></span>' + escHtml(s.statusLabel) + '</td>' +
       '<td>' + escHtml(s.regulator) + '</td>' +
       '<td class="t-fw">' + escHtml(s.framework) + '</td>' +
-      '<td class="t-date">' + escHtml(s.lastVerified || '') + '</td>' +
     '</tr>';
   }).join('');
   host.innerHTML = rows.length
