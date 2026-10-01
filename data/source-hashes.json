@@ -3,25 +3,25 @@
     "url": "https://www.dfs.ny.gov/virtual_currency_businesses",
     "hash": "cdbe01bbba22ef10e2d73ebdba26ed661da71f0a6b6b157e7535fdcf4bb81565",
     "len": 25027,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "california": {
     "url": "https://leginfo.legislature.ca.gov/faces/billNavClient.xhtml?bill_id=202320240AB39",
     "hash": "21cfb898dc62608450b1dd2f161282b2d16b33ad4011217fc6f692adfe4aaf0d",
     "len": 102723,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "texas": {
     "url": "https://tcss.legis.texas.gov/resources/FI/pdf/FI.152.pdf",
     "hash": "c1132f6a76a86f1312b6e15d24997672e0ebc3e4b60b8693b5a5e14d37a8e417",
     "len": 141937,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "florida": {
     "url": "https://www.flsenate.gov/Session/Bill/2026/175",
     "hash": "6d98a26fb3556edbafe867e8da8b7d187aadb919e2f6588a1f154fbbe562d6a2",
     "len": 8409,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "wyoming": {
     "url": "https://stabletoken.wyo.gov/assets/media/factbook.pdf",
@@ -41,184 +41,184 @@
     "lastChecked": "2026-09-01"
   },
   "washington": {
-    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230",
-    "hash": "2f3cbfaa0cf19dfdd501ff7df7b06cad00429254f615bc061c8cdb34faf3a19c",
-    "len": 2824,
-    "lastChecked": "2026-09-01"
+    "url": "https://app.leg.wa.gov/rcw/default.aspx?cite=19.230.010",
+    "hash": "69afee38c4148fcc1015a5dacb434c4116b47d1d39498aac6d9d8e519024d215",
+    "len": 8843,
+    "lastChecked": "2026-10-01"
   },
   "arizona": {
     "url": "https://www.azleg.gov/viewdocument/?docName=https://www.azleg.gov/ars/6/01201.htm",
     "hash": "d0044608e9e6ef5d1239b8c8c61006682cdd727ceeb9627a399bf2007901fbfd",
     "len": 15826,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "georgia": {
     "url": "https://www.legis.ga.gov/api/legislation/document/20252026/249038",
     "hash": "0b567ab7df73820a5632cd923aacf5f42f86c7003d924cdd8a1df33ab4c4c6d3",
     "len": 143832,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "north-carolina": {
     "url": "https://www.ncleg.gov/EnactedLegislation/Statutes/HTML/ByArticle/Chapter_53/Article_16B.html",
     "hash": "5fd580feb11315d4113a846935b9679ad3b8139e7034efd636c8c401b60fb6fe",
     "len": 51926,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "nevada": {
     "url": "https://www.leg.state.nv.us/nrs/nrs-671.html",
     "hash": "b6c30a4b5521df7a2e7e9b5b2bff60b27eea53044c6c970ed8d7edee13cb8bfb",
     "len": 137331,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "maine": {
-    "url": "https://www.maine.gov/pfr/consumercredit/",
-    "hash": "cec3375615f04ea442cfe2971ea85702c8f6a1e9137901bdf8918dc045109a0f",
-    "len": 149,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.mainelegislature.org/legis/statutes/32/title32ch80.pdf",
+    "hash": "5a6b38bb0fb31903e11564313ce0a24bb62bb5a17982105b2e7711b7d85cb310",
+    "len": 48763,
+    "lastChecked": "2026-10-01"
   },
   "new-hampshire": {
     "url": "https://gc.nh.gov/rsa/html/XXXVI/399-G/399-G-mrg.htm",
-    "hash": "8bc05dcee497e740e840d15b1de7bbefd1a9a9b238c8ddac656dce0f05755531",
-    "len": 92409,
-    "lastChecked": "2026-09-01"
+    "hash": "511d398560d9f24268730c099fb9ca1b07c1596660bef9a27a8e94525e57fc78",
+    "len": 95454,
+    "lastChecked": "2026-10-01"
   },
   "rhode-island": {
-    "url": "https://webserver.rilegislature.gov/Statutes/TITLE19/19-14/19-14-6.htm",
-    "hash": "b43610faf61e4355215a6cb0a106d525130185abec33197c0ccd95fee1ab0238",
-    "len": 3871,
-    "lastChecked": "2026-09-01"
+    "url": "https://webserver.rilegislature.gov/Statutes/TITLE19/19-14.3/INDEX.htm",
+    "hash": "5a7c633dd4ccf600985f7b33a793fc8c522fb6aebe79437f7f3568c2a8419d94",
+    "len": 1196,
+    "lastChecked": "2026-10-01"
   },
   "new-jersey": {
     "url": "https://www.nj.gov/dobi/banklicensing/formontrans.html",
     "hash": "f475896a2e7fb89666a6fbab5ba4591e66b9e2df4e6fe28e8cd488a18790458b",
     "len": 4910,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "delaware": {
-    "url": "https://delcode.delaware.gov/title5/c023/index.html",
-    "hash": "63a7b18449aed1615f5f80c573ed9f0429bc540084147d1342fc7fa8310d7dd8",
-    "len": 1018,
-    "lastChecked": "2026-09-01"
+    "url": "https://legis.delaware.gov/BillDetail/143117",
+    "hash": "8b9ac3f25f69542333f448292faea904677d58a5fe159cfa78becb9918d3d592",
+    "len": 3763,
+    "lastChecked": "2026-10-01"
   },
   "maryland": {
     "url": "https://www.dllr.state.md.us/finance/industry/moneytran.shtml",
     "hash": "7ed098df0fe9da5605f518ad8e25133f7e502056a708f04ef595aff81ccc1f1c",
     "len": 3382,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "virginia": {
     "url": "https://law.lis.virginia.gov/vacode/title6.2/chapter19.1/section6.2-1922/",
     "hash": "397679e896e6360d70ff1f4a193ed5140efea6e0a083c5a30b0cb6e68da5fb3f",
     "len": 12870,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "south-carolina": {
     "url": "https://www.scstatehouse.gov/sess126_2025-2026/bills/163.htm",
     "hash": "140b55006ac725d47b6291880bbdcb9f48caca3b1f6365b6463959385bc0360e",
     "len": 11256,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "massachusetts": {
     "url": "https://www.mass.gov/info-details/chapter-312-of-the-acts-of-2024-money-transmission-law",
     "hash": "5e4c49056c709ad321bf91cc9223d9aa87ceab76385602066b230b945d328391",
     "len": 11673,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "pennsylvania": {
-    "url": "https://www.pa.gov/agencies/dobs/non-bank-licensees",
-    "hash": "9e3ca8a02eb9c6b276918a7df33307d2d0b4897ceae5b99032c0888251e27b73",
-    "len": 9774,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.palegis.us/statutes/unconsolidated/law-information?sessYr=2025&sessInd=0&actNum=0007.",
+    "hash": "6bdad8ba6e6388535e2e36bb61b0f9fcf1eb09c2a7bbf415e9c9675f2ec212ee",
+    "len": 941,
+    "lastChecked": "2026-10-01"
   },
   "district-of-columbia": {
     "url": "https://code.dccouncil.gov/us/dc/council/code/titles/26/chapters/10",
     "hash": "8a01e04ce471ebb69aa572a3791c1c9fda12fda941de1b9cc8447f339e8167f5",
     "len": 138,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "missouri": {
     "url": "https://finance.mo.gov/",
     "hash": "c01e4da1ef87486905bc055daf273b40caaf8a606dd8b2841d383cf3075efaa3",
     "len": 1486,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "oregon": {
-    "url": "https://dfr.oregon.gov/business/licensing/financial/pages/money-transmitters.aspx",
-    "hash": "10e308e0c1c9fe72ad392511efa5d135cb3c5a8c3692160121f617c59a4451d2",
-    "len": 3801,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.oregonlegislature.gov/bills_laws/ors/ors717.html",
+    "hash": "4346472a92e839ab0ec6babb417fa968662f8b7d25f5fe4d05332c1644dbb3e2",
+    "len": 52447,
+    "lastChecked": "2026-10-01"
   },
   "indiana": {
-    "url": "https://www.in.gov/dfi/",
-    "hash": "76f226eee9a21f9ce81673ee42ca36f2342ead46ef95a5c9831660979e06b565",
-    "len": 2554,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.in.gov/dfi/files/MTMA-Licensing-Guidance.pdf",
+    "hash": "f8c1d9738e9b2402fad6d4e33d0a92d6e592fd141ae90cecd6565ac33d238f39",
+    "len": 6961,
+    "lastChecked": "2026-10-01"
   },
   "iowa": {
-    "url": "https://idob.iowa.gov/media/169/download?inline=",
-    "hash": "27fbc3271a1555508600ed79674247eaf97d4a46839dd458eee61fdc2e66092f",
-    "len": 5880,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.legis.iowa.gov/docs/code/533C.102.pdf",
+    "hash": "caae6702ea08dc4ba273191f46ac50b1ccc73b31b760587c410f327aa2cace3f",
+    "len": 10746,
+    "lastChecked": "2026-10-01"
   },
   "kansas": {
     "url": "https://www.osbckansas.gov/cml/mt_2014_01.pdf",
     "hash": "99cc593b408405ef8054eecfea455f7d318433538321206cafe88dee1153b9c1",
     "len": 14405,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "kentucky": {
-    "url": "https://kfi.ky.gov/",
-    "hash": "6d989502d1167ad9d5fd3e7c3bf05afc8b0f5d40981e3432d00feff5498f7977",
-    "len": 1379,
-    "lastChecked": "2026-09-01"
+    "url": "https://apps.legislature.ky.gov/recorddocuments/bill/25RS/hb701/bill.pdf",
+    "hash": "e730b45e52ccebd754c51a825bf036d8f1a06a835ddff63204e6d543da8bd9a6",
+    "len": 10170,
+    "lastChecked": "2026-10-01"
   },
   "hawaii": {
     "url": "https://cca.hawaii.gov/dfi/news-releases/release-hawaii-digital-currency-innovation-lab-to-conclude/",
     "hash": "ea5768c8aa0e7f69a7a879bbc0912096b2c5d675aac9ee4c446366e67912e423",
     "len": 4225,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "alabama": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/alabama/",
-    "hash": "75f98fea8166d9f0c01c6d4495ac10c98e63cc98e65caf51d6a5f1ac7845dfa0",
-    "len": 6635,
-    "lastChecked": "2026-09-01"
+    "url": "https://asc.alabama.gov/statute/alabama-securities-act-title-8-section-7a/",
+    "hash": "737352507868d6260836aac3f6de4927b022141f7386176fa2e3e2ecf8408ded",
+    "len": 37756,
+    "lastChecked": "2026-10-01"
   },
   "alaska": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/alaska/",
-    "hash": "181b44139c09498d5c0de3170dbd8aa75f7722d1a0ef2b03c4b3ca0c4455c3df",
-    "len": 8509,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.akleg.gov/basis/statutes.asp#06.55",
+    "hash": "06924224e71f75434b9df59b282099f1596ec6ebc1cb634eb375e6403f8e0dcf",
+    "len": 2003,
+    "lastChecked": "2026-10-01"
   },
   "arkansas": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/arkansas/",
-    "hash": "e22c1864e4deb56f32a080aebef2d61a0586fdad7a939bebf52839a657773ff1",
-    "len": 5896,
-    "lastChecked": "2026-09-01"
+    "url": "https://arkleg.state.ar.us/Home/FTPDocument?path=/ACTS/2025R/Public/ACT557.pdf",
+    "hash": "a6826bf3cf9fa5d6dd655d56421a1581da9d1c2f5190c7d55be6cb0b35eafabb",
+    "len": 53318,
+    "lastChecked": "2026-10-01"
   },
   "idaho": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/idaho/",
-    "hash": "182064bef8314b685e8258239a85f9f26e364d6271c17cf44c128d16b9ec9d51",
-    "len": 7144,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.finance.idaho.gov/securities-bureau/money-transmitters/",
+    "hash": "ca5923fae608a8acf4605ace8d487ca1af6ef2349acc860c7e7046ab2eec48e2",
+    "len": 4299,
+    "lastChecked": "2026-10-01"
   },
   "louisiana": {
     "url": "https://ofi.la.gov/non-depository/virtual-currency-business-activity",
     "hash": "ac1ba9ef4e92d36643d454970811658692bd7be17077e4db7b03f2537ac10602",
     "len": 8219,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "montana": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/montana/",
-    "hash": "c9fe4acfb64fcd0f841458a9731fd7bfbfcd2d4bdc35df1a7c6eba8568cb1874",
-    "len": 579,
-    "lastChecked": "2026-09-01"
+    "url": "https://banking.mt.gov/",
+    "hash": "83bd04bdb9c3fba6e356d27bc23e2caa1f88d0af4a833e35bd4a25f337912379",
+    "len": 11400,
+    "lastChecked": "2026-10-01"
   },
   "south-dakota": {
-    "url": "https://dlr.sd.gov/banking/money_transmitters/default.aspx",
-    "hash": "5d4ccfc6192dc72a5a25050af37c465c85c93108021b1798e1909a018d02b8e9",
-    "len": 3247,
-    "lastChecked": "2026-09-01"
+    "url": "https://dlr.sd.gov/banking/legal/documents/11_002_virtual_currency_transmission_in_sd.pdf",
+    "hash": "8d431398822cd25ccc8715846836eee9a28ab7b063feea246a69b5d924203eec",
+    "len": 1913,
+    "lastChecked": "2026-10-01"
   },
   "north-dakota": {
     "url": "https://www.cooley.com/news/insight/2023/2023-09-12-model-money-transmission-modernization-act-12-states-take-action",
@@ -229,19 +229,19 @@
     "url": "https://ndbf.nebraska.gov/about/legal/nebraska-financial-innovation-act",
     "hash": "3ec128d2caef2de1f64a3bd49d9399e5fbfd8ac56a8c0aeed7be7092ccb508a0",
     "len": 3222,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "oklahoma": {
     "url": "https://www.oklegislature.gov/cf_pdf/2025-26%20ENR/hB/HB3521%20ENR.PDF",
     "hash": "631a5449b6222b1e46fe34500a9b321a6f1498ec70671905a655912651501bb4",
     "len": 195722,
-    "lastChecked": "2026-09-01"
+    "lastChecked": "2026-10-01"
   },
   "new-mexico": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/new-mexico/",
-    "hash": "e7b833718319191a1ab2c54e634ff2b47c778ea9e05fbfeb1c6585be902397c5",
-    "len": 7414,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.rld.nm.gov/financial-institutions/",
+    "hash": "d105ab8c23c229c492a26dc6abf4a46441cd13bc8b91fb1a38efbc583629cecf",
+    "len": 4131,
+    "lastChecked": "2026-10-01"
   },
   "mississippi": {
     "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/mississippi/",
@@ -250,22 +250,22 @@
     "lastChecked": "2026-09-01"
   },
   "west-virginia": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/west-virginia/",
-    "hash": "39b46a61d79d87b076709c544dfcfcc929dfd02088813fe01db3317d9fc27571",
-    "len": 8806,
-    "lastChecked": "2026-09-01"
+    "url": "https://code.wvlegislature.gov/32A-2-1/",
+    "hash": "483ed9d3be18af22d76354c0fdf8e1a26653765ded224fb34abc9845efee7f5b",
+    "len": 26732,
+    "lastChecked": "2026-10-01"
   },
   "vermont": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/vermont/",
-    "hash": "cb0122d3c948c88328227322e011d2edd85c033da2e8ccbaf425d55db6423bf5",
-    "len": 7102,
-    "lastChecked": "2026-09-01"
+    "url": "https://legislature.vermont.gov/statutes/section/08/079/02577",
+    "hash": "512e38052ccd4cc3a8a98fd2f4fa8c3968ed3fd99296b740a8fb0f6b488d4f9c",
+    "len": 11120,
+    "lastChecked": "2026-10-01"
   },
   "wisconsin": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/wisconsin/",
-    "hash": "2edec11cd6c9665d3dda644d1cef5a602624cc0c06b46cad221fc3e03c0eb887",
-    "len": 4807,
-    "lastChecked": "2026-09-01"
+    "url": "https://docs.legis.wisconsin.gov/statutes/statutes/217",
+    "hash": "d538173fae184f0609f6dd422402be82fc0c5e9001e21f1674d4ebf1980875cc",
+    "len": 11636,
+    "lastChecked": "2026-10-01"
   },
   "tennessee": {
     "url": "https://www.tn.gov/tdfi/mortgage-consumer-lending/money-transmitter/virtual-currency-guidance-.html",
@@ -274,15 +274,27 @@
     "lastChecked": "2026-09-01"
   },
   "minnesota": {
-    "url": "https://mn.gov/commerce/money/industry/money-services-business",
-    "hash": "ba90cb3095ba2fe2de41f7667a2257bd8cb05844662ffaa7e9631de6b1fc3664",
-    "len": 190,
-    "lastChecked": "2026-09-01"
+    "url": "https://www.revisor.mn.gov/statutes/cite/53B",
+    "hash": "7679b0864bc43130e021b085b449f2729b282eb917be887cfd0ca0d406e04a15",
+    "len": 4552,
+    "lastChecked": "2026-10-01"
   },
   "utah": {
-    "url": "https://moneytransmitterlaw.com/cryptocurrency-state-laws/utah/",
-    "hash": "d2bf3e19d531cbc04b562657e2dff7ba4a72146275bf2c23a2e1f2806b364748",
-    "len": 3005,
-    "lastChecked": "2026-09-01"
+    "url": "https://le.utah.gov/xcode/Title7/Chapter25/7-25-S102.html",
+    "hash": "502d6b8bfdaad3d6498219d36a23eb29d81802971e7c753af4541f472ce1e253",
+    "len": 26,
+    "lastChecked": "2026-10-01"
+  },
+  "ohio": {
+    "url": "https://codes.ohio.gov/ohio-revised-code/section-1315.01",
+    "hash": "362ec37b1515ee45d03d18fa4e6fee0569e6fcb958cafd429bdfdf3f9d9a323a",
+    "len": 2859,
+    "lastChecked": "2026-10-01"
+  },
+  "michigan": {
+    "url": "https://www.legislature.mi.gov/Laws/MCL?objectName=MCL-487-1003",
+    "hash": "b5377a6f4564f5440f3989d604de0e58b950360d2591a0039efb85628888167e",
+    "len": 3777,
+    "lastChecked": "2026-10-01"
   }
 }
