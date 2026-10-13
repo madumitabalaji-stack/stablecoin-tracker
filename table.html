@@ -39,7 +39,8 @@
   .topnav { display: inline-flex; align-items: center; gap: 12px; }
   .theme-toggle { font-size: 15px; line-height: 1; color: var(--text-dim); background: var(--bg-elev); border: 1px solid var(--border); border-radius: 9px; padding: 8px 10px; cursor: pointer; transition: transform 0.2s, border-color 0.2s, color 0.2s; }
   .theme-toggle:hover { color: var(--accent); border-color: var(--border-hi); transform: rotate(18deg); }
-  .eyebrow { font-family: var(--sans); font-size: 12px; letter-spacing: 0.14em; text-transform: uppercase; color: var(--accent); font-weight: 600; }
+  .verified-badge { display: inline-flex; align-items: center; gap: 7px; font-family: var(--sans); font-size: 12.5px; font-weight: 600; letter-spacing: 0.01em; color: var(--accent); background: var(--accent-dim); border: 1px solid var(--accent-dim); padding: 6px 13px 6px 11px; border-radius: 999px; margin-bottom: 6px; }
+  .verified-badge svg { width: 14px; height: 14px; flex: none; }
   h1 { font-family: var(--display); font-weight: 600; font-size: 30px; color: var(--text); line-height: 1.12; margin: 4px 0 8px; }
   .sub { font-family: var(--sans); font-size: 14px; line-height: 1.55; color: var(--text-body); max-width: 70ch; }
   .controls { display: flex; align-items: center; justify-content: space-between; gap: 14px; margin: 22px 0 12px; flex-wrap: wrap; }
@@ -84,7 +85,7 @@
     </nav>
   </div>
 
-  <div class="eyebrow">State Regulation &middot; Comparison Table</div>
+  <div class="verified-badge"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 6 9 17l-5-5"/></svg>Verified against primary sources</div>
   <h1>Every U.S. state, side by side.</h1>
   <p class="sub">All fifty states and DC, sortable and filterable: status, regulator, and licensing framework, verified against primary sources. Click any row to open its full detail on the map.</p>
 
