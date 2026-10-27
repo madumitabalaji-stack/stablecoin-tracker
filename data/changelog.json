@@ -2,6 +2,69 @@
   "note": "Substantive updates to the Atlas, most recent first. Each entry records a real verification or reclassification against primary sources.",
   "updates": [
     {
+      "date": "2026-10-27",
+      "scope": "All 51 jurisdictions",
+      "slug": "",
+      "title": "2026-10-27 primary-source re-verification and citation corrections",
+      "detail": "Re-verified flagged entries against enrolled statutes, codified sections, and administering regulators. Corrected citation errors in Maine, Nebraska, and New Jersey; refined Florida, Iowa, Louisiana, Colorado, and Wisconsin. Confirmed New York's proposed 23 NYCRR Part 202 and New Mexico's Uniform Money Services Act coverage of virtual currency."
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Maine",
+      "slug": "maine",
+      "title": "Corrected statutory chapter: ch. 79-A, not ch. 80",
+      "detail": "The Maine Money Transmission Modernization Act is codified at 32 M.R.S. ch. 79-A, \u00a7 6067 et seq. (short title confirmed at \u00a7 6067), enacted by LD 2112 / PL 2023, c. 662. Chapter 80 is the separate Check Cashers / Virtual Currency Kiosks chapter. Fixed the chapter cite and added the PL session-law cite."
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Nebraska",
+      "slug": "nebraska",
+      "title": "Corrected Financial Innovation Act citation to \u00a7\u00a7 8-3001 to 8-3031",
+      "detail": "The Nebraska Financial Innovation Act is Neb. Rev. Stat. \u00a7\u00a7 8-3001 to 8-3031 (LB 649, 2021; \u00a7 8-3001 short title confirmed), not \u00a7 8-2724. Section 8-2724 is 'Authorized delegate; authorized; procedures' in the Money Transmitters Act. Relabeled the NFIA cite and the depository-exemption reference; kept \u00a7 8-2715 as the money-transmission/virtual-currency cite."
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "New Jersey",
+      "slug": "new-jersey",
+      "title": "Corrected pending digital-asset bill: A2249, not A3454",
+      "detail": "The Digital Asset and Blockchain Technology Act is A2249 (2024-2025 session), companion S1304 (prior-session A2371/S1756), confirmed pending on the NJ Legislature site. A3454 in this session is an unrelated 'Entrepreneur Learner's Permit Pilot Program' bill. Corrected the bill number."
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Florida",
+      "slug": "florida",
+      "title": "Added chapter-law and codified-section cites",
+      "detail": "Confirmed against the codified statute: the Payment Stablecoin Act is Ch. 2026-176, codified at Fla. Stat. \u00a7\u00a7 560.501-560.504 (\u00a7 560.504 ties one-to-one reserve requirements to the GENIUS Act, Pub. L. 119-27). The stablecoin provisions are effective Oct. 1, 2026 (the act's general effective date is June 26, 2026)."
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Iowa",
+      "slug": "iowa",
+      "title": "Corrected act name to Uniform Money Transmission Modernization Act",
+      "detail": "Iowa Code \u00a7 533C.101 states the chapter 'may be cited as the Uniform Money Transmission Modernization Act.' Corrected from 'Uniform Money Services Act.'"
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Louisiana",
+      "slug": "louisiana",
+      "title": "Added original enactment: Act 341 of 2020",
+      "detail": "Act 341 of 2020 enacted Chapter 21 of Title 6 (R.S. 6:1381 through 1394), the Virtual Currency Businesses Act, later amended by SB 185 / Act 331 (2023). Added the original enactment and the Title 6 chapter reference."
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Colorado",
+      "slug": "colorado",
+      "title": "Corrected short title to Model Money Transmission Modernization Act",
+      "detail": "HB 25-1201's official title is the 'Model Money Transmission Modernization Act' (Governor signed Apr. 18, 2025). Added 'Model' and the signing date."
+    },
+    {
+      "date": "2026-10-27",
+      "scope": "Wisconsin",
+      "slug": "wisconsin",
+      "title": "Corrected short title to Model Money Transmission Modernization Law",
+      "detail": "Wis. Stat. \u00a7 217.01 states the chapter's short title is the 'Model Money Transmission Modernization Law' (2023 Wisconsin Act 267). Corrected from 'Money Transmission Modernization Act.'"
+    },
+    {
       "date": "2026-09-02",
       "scope": "All 51 jurisdictions",
       "slug": "",
