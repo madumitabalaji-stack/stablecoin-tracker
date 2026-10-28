@@ -1,5 +1,5 @@
 {
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-10-28",
   "states": [
     {
       "name": "New York",
@@ -637,7 +637,7 @@
       "lastVerified": "2026-09-02",
       "sourceText": "Kansas Money Transmitter Act, K.S.A. 9-508; OSBC Guidance MT 2014-01 (updated Jan. 2, 2025): decentralized cryptocurrency is not \u201cmoney\u201d or \u201cmonetary value,\u201d so crypto-only transmission is not licensed, but crypto-to-sovereign-currency exchange through a third party is.",
       "sourceUrl": "https://www.osbckansas.gov/cml/mt_2014_01.pdf",
-      "summary": "Kansas does not license crypto-only transmission, but exchanging cryptocurrency for sovereign currency through a third party is money transmission requiring a license. Issuing a payment stablecoin is separately governed by the federal GENIUS Act.",
+      "summary": "In Kansas, moving cryptocurrency on its own is not licensed. But using a third party to convert cryptocurrency into government-issued (sovereign) currency counts as money transmission and does require a license. Payment stablecoins are governed separately, under the federal GENIUS Act.",
       "keyPoints": [
         "No Kansas license is required to transmit cryptocurrency only, to exchange one cryptocurrency for another, or to transfer crypto between accounts (OSBC Guidance MT 2014-01; crypto is not \u201cmoney\u201d or \u201cmonetary value\u201d under K.S.A. 9-508).",
         "Exchanging cryptocurrency for sovereign currency through a third-party exchanger is money transmission and requires a license from the Office of the State Bank Commissioner.",
